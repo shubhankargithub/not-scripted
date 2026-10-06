@@ -105,16 +105,14 @@ function LeadCluster() {
   return (
     <section aria-label="Top stories">
       <SectionHead title="Top Stories" href="/top-stories" kicker="The desk's lead package" accent="#c21f17" />
-      <div className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1.45fr)_minmax(0,1fr)]">
-        <div>
-          <LeadStory article={lead} />
-          {side.length ? (
-            <div className="mt-6 grid gap-6 border-t border-rule pt-5 sm:grid-cols-2">
-              {side.map((a) => (
-                <TopStoryCard key={a.id} article={a} />
-              ))}
-            </div>
-          ) : null}
+      <div className="mt-4">
+        <LeadStory article={lead} />
+      </div>
+      <div className="mt-7 grid gap-8 border-t border-rule pt-6 lg:grid-cols-[minmax(0,2.1fr)_minmax(0,1fr)]">
+        <div className="grid gap-6 sm:grid-cols-2">
+          {side.map((a) => (
+            <TopStoryCard key={a.id} article={a} />
+          ))}
         </div>
 
         <aside className="lg:border-l lg:border-rule lg:pl-6">

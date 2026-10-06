@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { PHOTOS } from "@/content/photos";
+﻿import { PHOTOS } from "@/content/photos";
 import type { ArticlePhoto } from "@/content/types";
 import { ArticleArt } from "./ArticleArt";
 
@@ -117,32 +116,23 @@ export function PhotoFigure({ slug, category }: { slug: string; category: string
             {photo.author.split("(")[0].trim()}
             <span className="sr-only">
               {" "}
-              (opens the file page on Wikimedia Commons in a new tab)
+              (opens the source page in a new tab)
             </span>
-          </a>{" "}
-          via{" "}
-          <a
-            href="https://commons.wikimedia.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline decoration-rule-2 underline-offset-4 hover:text-brand"
-          >
-            Wikimedia Commons
           </a>
           ,{" "}
-          {photo.licenseUrl ? (
-            <a
-              href={photo.licenseUrl}
-              target="_blank"
-              rel="noopener noreferrer license"
-              className="underline decoration-rule-2 underline-offset-4 hover:text-brand"
-            >
-              {photo.license}
-            </a>
+          <a
+            href={photo.licenseUrl || "https://creativecommons.org/licenses/"}
+            target="_blank"
+            rel="noopener noreferrer license"
+            className="underline decoration-rule-2 underline-offset-4 hover:text-brand"
+          >
+            {photo.license}
+          </a>
+          {photo.tier === "subject" ? (
+            ". Photograph of the subject reported."
           ) : (
-            <span>{photo.license}</span>
+            ". Freely-licensed photograph of the subject in general, not of the specific event reported."
           )}
-          . Illustrative photograph of the subject, not of the specific event reported.
         </span>
       </figcaption>
     </figure>
@@ -150,21 +140,25 @@ export function PhotoFigure({ slug, category }: { slug: string; category: string
 }
 
 export function PhotoCreditStrip() {
-  const n = Object.keys(PHOTOS).length;
-  if (!n) return null;
+  const all = Object.values(PHOTOS);
+  const subject = all.filter((p) => p.tier === "subject").length;
+  const illustrative = all.length - subject;
+  if (!all.length) return null;
   return (
-    <p className="mt-3 font-ui text-[0.78rem] leading-relaxed text-ink-3">
-      {n} of this archive&rsquo;s stories carry a freely-licensed photograph. Every image is credited to its
-      photographer with the licence it is published under, and linked to its file page on Wikimedia
-      Commons. Where no licensed photograph of a subject exists, the story shows original artwork
-      instead of substituting an unrelated stock image.{" "}
-      <Link
-        href="/editorial-standards"
-        className="underline decoration-rule-2 underline-offset-4 hover:text-brand"
-      >
-        See our editorial standards
-      </Link>
-      .
-    </p>
+    <div className="mt-3 border border-rule bg-paper-2/60 p-4">
+      <p className="label-ui text-ink-4">Photography on this site</p>
+      <p className="mt-2 font-ui text-[0.85rem] leading-relaxed text-ink-2">
+        {all.length} of this archive&rsquo;s stories carry a real photograph. Every image is published under a
+        licence that permits it, credited to its photographer, and linked to its source page. Nothing here
+        uses another publication&rsquo;s news photography.
+      </p>
+      <p className="mt-2 font-ui text-[0.82rem] leading-relaxed text-ink-3">
+        <span className="font-semibold text-ink-2">{subject}</span> of these photographs the actual subject
+        reported. The remaining <span className="font-semibold text-ink-2">{illustrative}</span> are
+        freely-licensed photographs of the general subject &mdash; the kind of thing a reader would
+        recognise &mdash; and are captioned as illustrative rather than as pictures of the event. Where
+        neither exists, the story shows original vector artwork instead of an unrelated stock image.
+      </p>
+    </div>
   );
 }

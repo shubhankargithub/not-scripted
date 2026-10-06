@@ -4,6 +4,7 @@ import { ARTICLE_TYPES } from "@/content/types";
 import { SOURCE_TYPE_LABELS } from "@/content/taxonomy";
 import { SITE } from "@/lib/site";
 import { PageIntro } from "@/components/ui";
+import { PhotoCreditStrip } from "@/components/Media";
 
 export const metadata: Metadata = {
   title: "Editorial Standards",
@@ -76,10 +77,11 @@ const RULES: { n: string; title: string; body: string[] }[] = [
     n: "08",
     title: "Photographs are licensed, credited, and never pretend to be the event",
     body: [
-      "Illustrative photography on this site comes from Wikimedia Commons and is published under a licence that permits it: CC0, CC BY or CC BY-SA. Nothing here uses another publication's news photography, and nothing here uses a photograph of a named person from a press agency.",
-      "Every image is credited to its photographer, carries its licence, and links to its file page. The photographer gets the attribution; the licence gets honoured.",
-      "Captions describe the subject, never the event. Most images on this site are not pictures of the specific thing the story reports, and we say so in the caption rather than letting a photograph imply otherwise. Where no freely-licensed photograph of a subject exists, the story shows original generated vector artwork instead of substituting an unrelated stock image. A visible gap is more honest than a picture that quietly misleads.",
-      "This is a deliberate trade-off and it is visible: a large share of stories carry artwork rather than photography, because freely-licensed photography of Indian news events simply does not exist at the moment.",
+      "Photography on this site is published under a licence that permits it: CC0, Public Domain Mark, CC BY or CC BY-SA. It is sourced from Wikimedia Commons and from Openverse, which aggregates Creative Commons material from Flickr and other archives. Nothing here uses another publication's news photography, and nothing here uses a photograph of a named living person from a press agency.",
+      "Every image is credited to its photographer, carries its licence, and links to its source page. The photographer gets the attribution; the licence gets honoured. The complete register is at /sources.",
+      "Captions describe the subject, never the event. Where the photograph is of the actual thing reported, the caption says so. Where it is a freely-licensed photograph of the general subject rather than the specific event, the caption says that too, in those words. A reader should never have to guess which they are looking at.",
+      "Where neither exists, the story shows original generated vector artwork rather than substituting an unrelated stock image. A visible gap is more honest than a picture that quietly misleads.",
+      "This is a real constraint and it shapes the archive. Freely-licensed photography of Indian news events barely exists, so a large share of these images illustrate their subject rather than depict their event, and we do not pretend otherwise.",
     ],
   },
   {
@@ -134,6 +136,7 @@ export default function StandardsPage() {
         </div>
 
         <aside className="space-y-8">
+          <PhotoCreditStrip />
           <section aria-labelledby="quick-type-table" className="border border-rule p-5">
             <h2 id="quick-type-table" className="label-ui border-b border-ink pb-2 text-ink-4">
               Type quick reference

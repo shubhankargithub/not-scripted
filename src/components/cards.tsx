@@ -26,7 +26,7 @@ function Frame({
 export function LeadStory({ article }: { article: CardRef }) {
   return (
     <article className="group border-t-[3px] border-ink pt-3" style={{ boxShadow: "0 3px 0 -2px #14181d" }}>
-      <div className="grid gap-5 lg:grid-cols-[1.15fr_1fr] lg:gap-8">
+      <div className="grid gap-5 lg:grid-cols-[1.25fr_1fr] lg:items-start lg:gap-8">
         <Link href={href(article)} className="block">
           <Frame article={article} ratio="wide" className="aspect-[16/10] w-full border border-rule" />
         </Link>

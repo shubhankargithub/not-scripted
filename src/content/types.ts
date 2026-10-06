@@ -98,6 +98,14 @@ export interface ArticlePhoto {
   licenseUrl: string;
   sourceUrl: string;
   sourceTitle: string;
+  /**
+   * How closely the photograph matches the story.
+   *
+   * - `subject`     the picture is of the actual thing the story reports.
+   * - `illustrative` a real, freely-licensed photograph of the general subject,
+   *   not of the specific event. The caption says so.
+   */
+  tier: "subject" | "illustrative" | "illustrative-weak";
 }
 
 export interface Author {
