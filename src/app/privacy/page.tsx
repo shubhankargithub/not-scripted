@@ -3,13 +3,14 @@ import Link from "next/link";
 import { countArticles, countSources } from "@/lib/articles";
 import { SITE } from "@/lib/site";
 import { PageIntro } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Privacy",
   description:
     "How NOT SCRIPTED handles information about readers. This site is statically generated, has no accounts, no login, no cookies and no user database, and collects nothing.",
-  alternates: { canonical: "/privacy" },
-};
+  path: "/privacy",
+});
 
 const NOT_COLLECTED: string[] = [
   "Account details. There is no sign-up, no login and no profile. Nobody using this site has an account with us, because there is nowhere to create one.",

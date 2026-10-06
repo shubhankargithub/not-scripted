@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/lib/site";
 import { PageIntro, SectionHead, Dot } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Contact the Desk",
   description:
     "How to reach the NOT SCRIPTED newsroom in Bengaluru: the desk address, what to send, and where to write for tips, corrections, letters and commercial enquiries.",
-  alternates: { canonical: "/contact" },
-};
+  path: "/contact",
+});
 
 const DESKS: { label: string; email: string; note: string }[] = [
   {

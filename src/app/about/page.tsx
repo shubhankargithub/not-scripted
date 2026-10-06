@@ -6,13 +6,14 @@ import { ARTICLE_TYPES } from "@/content/types";
 import { SITE } from "@/lib/site";
 import { formatDate } from "@/lib/format";
 import { PageIntro, SectionHead } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "About NOT SCRIPTED",
   description:
     "NOT SCRIPTED is an independent digital newsroom in Bengaluru that publishes type-labelled journalism and records the source of every fact. Here is what that means in practice.",
-  alternates: { canonical: "/about" },
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   const all = getAllArticles();

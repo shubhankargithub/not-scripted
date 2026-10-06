@@ -21,12 +21,13 @@ import { LeadStory, OpinionCard, RankedRow, ThumbCard, TopStoryCard, WideRow, hr
 import { CategoryRail, ArchiveTeaser, SectionIndex, WideList } from "@/components/rails";
 import { CatLabel, Dot, LiveTag, SectionHead, TypeBadge } from "@/components/ui";
 import { Media } from "@/components/Media";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: `${SITE.name} â€” ${SITE.tagline}`,
+export const metadata: Metadata = pageMeta({
+  title: `${SITE.name} — ${SITE.tagline}`,
   description: SITE.description,
-  alternates: { canonical: "/" },
-};
+  path: "/",
+});
 
 function BreakingPanel() {
   const items = toCards(getBreaking(5));

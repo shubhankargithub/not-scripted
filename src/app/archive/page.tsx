@@ -18,13 +18,14 @@ import { TYPE_META } from "@/content/taxonomy";
 import { ARTICLE_TYPES } from "@/content/types";
 import { formatDate, formatDateShort, monthLabel } from "@/lib/format";
 import { PageIntro, SectionHead, TypeBadge, Dot } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "The Archive",
   description:
     "The complete NOT SCRIPTED archive: every story, searchable and filterable by month, year, desk, article type and the published source each fact was established against.",
-  alternates: { canonical: "/archive" },
-};
+  path: "/archive",
+});
 
 export default function ArchivePage() {
   const records = buildArchiveIndex();
@@ -43,7 +44,7 @@ export default function ArchivePage() {
         dek="Everything NOT SCRIPTED has published, searchable end to end. Filter by desk, article type, month, year, topic, or by the outlet a fact was established against. Every record below carries its own publication date and source list."
         meta={[
           { label: "Stories", value: `${records.length}` },
-          { label: "Date range", value: `${formatDate(earliestPublishedAt())} â€” ${formatDate(all[0].publishedAt)}` },
+          { label: "Date range", value: `${formatDate(earliestPublishedAt())} — ${formatDate(all[0].publishedAt)}` },
           { label: "Source references", value: `${countSources()}` },
           { label: "Distinct sources", value: `${sourceFacets.length}` },
           { label: "Distinct hosts", value: `${hosts.size}` },
@@ -69,7 +70,7 @@ export default function ArchivePage() {
           />
         </div>
         <p className="mt-3 max-w-[76ch] font-ui text-[0.95rem] leading-relaxed text-ink-3">
-          Coverage by month. Older entries are archived reference summaries â€” shorter by design, and always
+          Coverage by month. Older entries are archived reference summaries — shorter by design, and always
           labelled as retrospective. The most recent months carry the fullest long-form reporting.
         </p>
 
@@ -196,7 +197,7 @@ export default function ArchivePage() {
         />
         <p className="mt-3 max-w-[76ch] font-ui text-[0.95rem] leading-relaxed text-ink-3">
           This archive does not publish on the basis of anonymous assertion. Below are the publications and
-          institutions behind the reporting â€” official government releases first, then wire services, then
+          institutions behind the reporting — official government releases first, then wire services, then
           established publications. Click any source to see every NOT SCRIPTED story that used it.
         </p>
         <ul className="mt-4 flex flex-wrap gap-1.5">

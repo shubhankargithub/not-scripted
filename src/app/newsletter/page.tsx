@@ -5,13 +5,14 @@ import { CATEGORY_MAP } from "@/content/taxonomy";
 import { SITE } from "@/lib/site";
 import { formatDateShort } from "@/lib/format";
 import { PageIntro, SectionHead, Dot, TypeBadge } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "The Daily Briefing",
   description:
     "The NOT SCRIPTED daily briefing: one lead story, what the sources actually said, and the links, once a morning. Free, and carrying no advertising.",
-  alternates: { canonical: "/newsletter" },
-};
+  path: "/newsletter",
+});
 
 const CONTENTS: { label: string; body: string }[] = [
   {

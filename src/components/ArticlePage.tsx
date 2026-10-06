@@ -2,8 +2,15 @@
 import type { Article, Block } from "@/content/types";
 import { CATEGORY_MAP, SOURCE_TYPE_LABELS, TYPE_META, getAuthorFor, readingTime, getRelated } from "@/lib/articles";
 import { formatDate, formatDateTime, formatDateShort, formatTime, timeAgo } from "@/lib/format";
+import {
+  articleAuthorNode,
+  breadcrumbNode,
+  newsArticleNode,
+  webPageNode,
+} from "@/lib/seo";
 import { Media, PhotoFigure } from "./Media";
 import { InstagramShare } from "./InstagramShare";
+import { SeoJsonLd } from "./SeoJsonLd";
 import { CatLabel, Dot, TypeBadge } from "./ui";
 import { href } from "./cards";
 
@@ -84,34 +91,27 @@ export function ArticlePageBody({ article }: { article: Article }) {
   const typeMeta = TYPE_META[article.type];
   const related = getRelated(article, 4);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    headline: article.headline,
-    description: article.dek,
-    datePublished: article.publishedAt,
-    dateModified: article.updatedAt ?? article.publishedAt,
-    articleSection: cat?.name ?? article.category,
-    keywords: article.tags.join(", "),
-    publisher: {
-      "@type": "Organization",
-      name: "NOT SCRIPTED",
-      url: "https://notscripted.in",
-    },
-    citation: article.sources.map((s) => ({
-      "@type": "CreativeWork",
-      name: s.name,
-      url: s.url,
-    })),
-    isBasedOn: article.sources.map((s) => s.url),
-  };
+  const sectionName = cat?.name ?? article.category;
+  const articlePath = `/article/${article.slug}`;
+
+  const jsonLd = [
+    newsArticleNode(article, author, sectionName),
+    articleAuthorNode(article, author),
+    breadcrumbNode([
+      { name: "Home", path: "/" },
+      { name: sectionName, path: `/section/${article.category}` },
+      { name: article.headline, path: articlePath },
+    ]),
+    webPageNode({
+      path: articlePath,
+      name: article.headline,
+      description: article.dek,
+    }),
+  ];
 
   return (
     <article className="mx-auto max-w-[1400px] px-4 py-6 sm:px-6 sm:py-8">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <SeoJsonLd nodes={jsonLd} />
 
       <InstagramShare
         slug={article.slug}

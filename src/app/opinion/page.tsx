@@ -2,12 +2,13 @@
 import type { Metadata } from "next";
 import { ListingView } from "@/components/ListingView";
 import { getDeskConfig } from "@/lib/listings";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Opinion & Analysis",
   description: "Clearly labelled analysis and argument from NOT SCRIPTED columnists. Not straight news, and not the view of the editors as a whole.",
-  alternates: { canonical: "/opinion" },
-};
+  path: "/opinion",
+});
 
 export default function Page() {
   const cfg = getDeskConfig("/opinion")!;

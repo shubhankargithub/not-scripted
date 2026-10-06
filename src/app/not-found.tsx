@@ -1,5 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CATEGORY_MAP } from "@/content/taxonomy";
+
+/**
+ * The root layout advertises `index, follow`, which would otherwise be inherited
+ * here and contradict the `noindex` Next emits for a 404. A missing URL has no
+ * canonical of its own either, so the inherited homepage canonical is suppressed.
+ */
+export const metadata: Metadata = {
+  title: "Page not found",
+  description: "That page is not part of the NOT SCRIPTED archive.",
+  robots: { index: false, follow: true },
+};
 
 const ROUTES: { label: string; href: string; note: string }[] = [
   { label: "The full archive", href: "/archive", note: "Every story on file, filterable by month, desk, type and source" },

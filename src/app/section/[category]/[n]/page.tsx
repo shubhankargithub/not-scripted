@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ListingView } from "@/components/ListingView";
 import { PER_PAGE, pageCount, parsePage, slicePage } from "@/lib/paginate";
 import { sectionConfig, sectionSlugs } from "@/lib/listings";
+import { pageMeta, articleImageOrFallback } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -22,13 +23,14 @@ export async function generateMetadata({
   params,
 }: PageProps<"/section/[category]/[n]">): Promise<Metadata> {
   const { category, n } = await params;
-  const cfg = sectionConfig(category);
+const cfg = sectionConfig(category);
   if (!cfg) return { title: "Section not found" };
-  return {
-    title: `${cfg.title} â€” page ${n}`,
-    description: cfg.dek,
-    alternates: { canonical: `/section/${category}/${n}` },
-  };
+  return pageMeta({
+    title: `${cfg.title} — page ${n}`,
+    description: `Page ${n} of NOT SCRIPTED ${cfg.title.toLowerCase()} coverage. ${cfg.dek}`,
+    path: `/section/${category}/${n}`,
+    image: cfg.articles[0] ? articleImageOrFallback(cfg.articles[0].slug) : undefined,
+  });
 }
 
 export default async function SectionPaged({ params }: PageProps<"/section/[category]/[n]">) {
@@ -41,7 +43,7 @@ export default async function SectionPaged({ params }: PageProps<"/section/[cate
   return (
     <ListingView
       eyebrow={cfg.eyebrow}
-      title={`${cfg.title} â€” page ${page}`}
+      title={`${cfg.title} — page ${page}`}
       dek={cfg.dek}
       articles={toCards(slicePage(cfg.articles, page, PER_PAGE))}
       accent={cfg.accent}

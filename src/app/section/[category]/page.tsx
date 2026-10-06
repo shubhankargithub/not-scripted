@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ListingView } from "@/components/ListingView";
 import { pageCount, slicePage } from "@/lib/paginate";
 import { sectionConfig, sectionSlugs } from "@/lib/listings";
+import { pageMeta, articleImageOrFallback } from "@/lib/seo";
 
 export function generateStaticParams() {
   return sectionSlugs().map((category) => ({ category }));
@@ -13,14 +14,14 @@ export async function generateMetadata({
   params,
 }: PageProps<"/section/[category]">): Promise<Metadata> {
   const { category } = await params;
-  const cfg = sectionConfig(category);
+const cfg = sectionConfig(category);
   if (!cfg) return { title: "Section not found" };
-  return {
+  return pageMeta({
     title: cfg.title,
     description: cfg.dek,
-    alternates: { canonical: `/section/${category}` },
-    openGraph: { title: cfg.title, description: cfg.dek, url: `/section/${category}` },
-  };
+    path: `/section/${category}`,
+    image: cfg.articles[0] ? articleImageOrFallback(cfg.articles[0].slug) : undefined,
+  });
 }
 
 export default async function SectionPage({ params }: PageProps<"/section/[category]">) {

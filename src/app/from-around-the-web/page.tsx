@@ -2,12 +2,13 @@
 import type { Metadata } from "next";
 import { ListingView } from "@/components/ListingView";
 import { getDeskConfig } from "@/lib/listings";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "From Around The Web",
   description: "Independently written summaries of reporting published elsewhere, with clear attribution and a link to the original source in every case.",
-  alternates: { canonical: "/from-around-the-web" },
-};
+  path: "/from-around-the-web",
+});
 
 export default function Page() {
   const cfg = getDeskConfig("/from-around-the-web")!;

@@ -2,12 +2,13 @@
 import type { Metadata } from "next";
 import { ListingView } from "@/components/ListingView";
 import { getDeskConfig } from "@/lib/listings";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Top Stories",
   description: "What the desk is putting first: the stories our editors judge to matter most, whether or not they broke first.",
-  alternates: { canonical: "/top-stories" },
-};
+  path: "/top-stories",
+});
 
 export default function Page() {
   const cfg = getDeskConfig("/top-stories")!;

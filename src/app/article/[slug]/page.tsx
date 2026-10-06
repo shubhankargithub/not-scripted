@@ -1,7 +1,8 @@
 ﻿import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticlePageBody } from "@/components/ArticlePage";
-import { getAllSlugs, getArticleBySlug } from "@/lib/articles";
+import { CATEGORY_MAP, getAllSlugs, getArticleBySlug } from "@/lib/articles";
+import { articleImageOrFallback, pageMeta } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -16,24 +17,20 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug);
   if (!article) return { title: "Story not found" };
 
-  const description = article.dek;
-  return {
+  const path = `/article/${article.slug}`;
+
+  return pageMeta({
     title: article.headline,
-    description,
-    alternates: { canonical: `/article/${article.slug}` },
+    description: article.dek,
+    path,
+    image: articleImageOrFallback(article.slug),
+    type: "article",
+    publishedTime: article.publishedAt,
+    modifiedTime: article.updatedAt ?? article.publishedAt,
+    section: CATEGORY_MAP[article.category]?.name ?? article.category,
+    tags: article.tags,
     keywords: article.tags,
-    openGraph: {
-      type: "article",
-      title: article.headline,
-      description,
-      url: `/article/${article.slug}`,
-      publishedTime: article.publishedAt,
-      modifiedTime: article.updatedAt ?? article.publishedAt,
-      section: article.category,
-      tags: article.tags,
-    },
-    twitter: { card: "summary_large_image", title: article.headline, description },
-  };
+  });
 }
 
 export default async function ArticleRoute({ params }: PageProps<"/article/[slug]">) {

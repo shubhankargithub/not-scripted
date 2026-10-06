@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { ListingView } from "@/components/ListingView";
 import { PER_PAGE, pageCount, parsePage, slicePage } from "@/lib/paginate";
 import { getDeskConfig } from "@/lib/listings";
+import { pageMeta, articleImageOrFallback } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -14,11 +15,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/latest/[n]">): Promise<Metadata> {
   const { n } = await params;
-  return {
-    title: `Latest News â€” page ${n}`,
+  const cfg = getDeskConfig("/latest")!;
+  return pageMeta({
+    title: `Latest News — page ${n}`,
     description: `Page ${n} of the NOT SCRIPTED live feed, newest first.`,
-    alternates: { canonical: `/latest/${n}` },
-  };
+    path: `/latest/${n}`,
+    image: cfg.articles[0] ? articleImageOrFallback(cfg.articles[0].slug) : undefined,
+  });
 }
 
 export default async function LatestPaged({ params }: PageProps<"/latest/[n]">) {
@@ -30,7 +33,7 @@ export default async function LatestPaged({ params }: PageProps<"/latest/[n]">) 
   return (
     <ListingView
       eyebrow={cfg.eyebrow}
-      title={`${cfg.title} â€” page ${page}`}
+      title={`${cfg.title} — page ${page}`}
       dek={cfg.dek}
       articles={toCards(slicePage(cfg.articles, page, PER_PAGE))}
       accent={cfg.accent}

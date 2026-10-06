@@ -4,13 +4,14 @@ import { getSourceFacets, getSourceRegister, countSources } from "@/lib/articles
 import { SOURCE_TYPE_LABELS } from "@/content/taxonomy";
 import { formatDateShort } from "@/lib/format";
 import { PageIntro, SectionHead, Dot } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Source Register",
   description:
     "Every publication, wire service, government release and institution NOT SCRIPTED used to establish facts, with the stories each one was used for.",
-  alternates: { canonical: "/sources" },
-};
+  path: "/sources",
+});
 
 export default function SourcesPage() {
   const register = getSourceRegister();

@@ -4,13 +4,14 @@ import { AUTHORS, getDeskCounts, getArticlesByAuthor, countArticles } from "@/li
 import { CATEGORY_MAP } from "@/content/taxonomy";
 import { PageIntro, SectionHead, Dot } from "@/components/ui";
 import { formatDateShort } from "@/lib/format";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Newsroom & Bylines",
   description:
     "The NOT SCRIPTED desks, who files what, and how bylines and desk attributions work across this publication.",
-  alternates: { canonical: "/newsroom" },
-};
+  path: "/newsroom",
+});
 
 export default function NewsroomPage() {
   const deskCounts = getDeskCounts();

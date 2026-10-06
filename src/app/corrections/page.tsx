@@ -5,13 +5,14 @@ import { CATEGORY_MAP } from "@/content/taxonomy";
 import { SITE } from "@/lib/site";
 import { formatDateShort } from "@/lib/format";
 import { PageIntro, SectionHead, Dot, TypeBadge, EmptyState } from "@/components/ui";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Corrections",
   description:
     "The NOT SCRIPTED corrections policy and the public log of every correction issued against the archive. No corrections have been issued to date.",
-  alternates: { canonical: "/corrections" },
-};
+  path: "/corrections",
+});
 
 const POLICY: { n: string; title: string; body: string }[] = [
   {

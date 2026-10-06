@@ -6,6 +6,8 @@ import { Media } from "./Media";
 import { CatLabel, Dot, EmptyState, Pagination, PageIntro, SectionHead, TypeBadge } from "./ui";
 import { RankedRow, WideRow } from "./cards";
 import { CategoryCloud } from "./Footer";
+import { SeoJsonLd } from "./SeoJsonLd";
+import { breadcrumbNode, itemListNode, webPageNode } from "@/lib/seo";
 
 interface Props {
   eyebrow: string;
@@ -42,8 +44,26 @@ export function ListingView({
 
   const pageHref = (p: number) => (p <= 1 ? basePath : `${basePath}/${p}`);
 
+  const crumbs: { name: string; path: string }[] = [{ name: "Home", path: "/" }];
+  if (basePath.startsWith("/section/")) {
+    const cat = CATEGORY_MAP[articles[0]?.category ?? ""];
+    crumbs.push({ name: cat?.name ?? title, path: basePath });
+  } else {
+    crumbs.push({ name: title, path: basePath });
+  }
+
+  const jsonLd = [
+    webPageNode({ path: basePath, name: title, description: dek, type: "CollectionPage" }),
+    breadcrumbNode(crumbs),
+    itemListNode({
+      path: basePath,
+      articles: articles.map((a) => ({ slug: a.slug, headline: a.headline })),
+    }),
+  ];
+
   return (
     <div className="mx-auto max-w-[1400px] px-4 py-6 sm:px-6 sm:py-8">
+      <SeoJsonLd nodes={jsonLd} />
       <PageIntro
         eyebrow={eyebrow}
         title={title}

@@ -3,7 +3,9 @@ import { Archivo, Newsreader } from "next/font/google";
 import { Masthead } from "@/components/Masthead";
 import { Footer } from "@/components/Footer";
 import { StickyBar } from "@/components/Chrome";
+import { SeoJsonLd } from "@/components/SeoJsonLd";
 import { SITE } from "@/lib/site";
+import { organizationNode, websiteNode } from "@/lib/seo";
 import "./globals.css";
 
 const newsreader = Newsreader({
@@ -32,15 +34,11 @@ export const metadata: Metadata = {
   creator: SITE.name,
   publisher: SITE.name,
   category: "news",
-  alternates: {
-    canonical: "/",
-    types: { "application/rss+xml": "/feed.xml" },
-  },
   openGraph: {
     type: "website",
     siteName: SITE.name,
     locale: SITE.locale,
-    url: SITE.url,
+    url: `${SITE.url}/`,
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
   },
@@ -73,6 +71,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en-IN" className={`${newsreader.variable} ${archivo.variable}`}>
       <body className="flex min-h-screen flex-col antialiased">
+        <SeoJsonLd nodes={[organizationNode(), websiteNode()]} />
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-50 focus:bg-ink focus:px-4 focus:py-2 focus:font-ui focus:text-xs focus:uppercase focus:tracking-widest focus:text-paper"

@@ -2,12 +2,13 @@
 import type { Metadata } from "next";
 import { ListingView } from "@/components/ListingView";
 import { getDeskConfig } from "@/lib/listings";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Original Reporting",
   description: "NOT SCRIPTED's own journalism, built from primary documents and public datasets rather than from other publications' copy.",
-  alternates: { canonical: "/original" },
-};
+  path: "/original",
+});
 
 export default function Page() {
   const cfg = getDeskConfig("/original")!;

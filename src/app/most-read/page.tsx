@@ -2,12 +2,13 @@
 import type { Metadata } from "next";
 import { ListingView } from "@/components/ListingView";
 import { getDeskConfig } from "@/lib/listings";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Most Read",
   description: "What readers on NOT SCRIPTED spent the most time with this week. Ranked, dated and linked, with the same source records as everywhere else.",
-  alternates: { canonical: "/most-read" },
-};
+  path: "/most-read",
+});
 
 export default function Page() {
   const cfg = getDeskConfig("/most-read")!;

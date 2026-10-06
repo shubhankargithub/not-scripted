@@ -5,13 +5,14 @@ import { SOURCE_TYPE_LABELS } from "@/content/taxonomy";
 import { SITE } from "@/lib/site";
 import { PageIntro } from "@/components/ui";
 import { PhotoCreditStrip } from "@/components/Media";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Editorial Standards",
   description:
     "How NOT SCRIPTED writes, labels, sources and corrects. The rules that govern every article on this site.",
-  alternates: { canonical: "/editorial-standards" },
-};
+  path: "/editorial-standards",
+});
 
 const RULES: { n: string; title: string; body: string[] }[] = [
   {

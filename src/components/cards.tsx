@@ -36,11 +36,11 @@ export function LeadStory({ article }: { article: CardRef }) {
             <CatLabel category={article.category} />
             {article.kicker ? <span className="label-ui text-ink-4">{article.kicker}</span> : null}
           </div>
-          <h2 className="headline-tight mt-3 font-display text-[clamp(1.7rem,3.5vw,2.9rem)] font-bold leading-[1.02] text-ink">
+          <h1 className="headline-tight mt-3 font-display text-[clamp(1.7rem,3.5vw,2.9rem)] font-bold leading-[1.02] text-ink">
             <Link href={href(article)} className="transition-colors group-hover:text-brand">
               {article.headline}
             </Link>
-          </h2>
+          </h1>
           <p className="mt-3 font-ui text-[1.02rem] leading-relaxed text-ink-3">{article.dek}</p>
           <p className="label-meta mt-auto flex flex-wrap items-center gap-2 pt-4">
             <span style={{ color: CATEGORY_MAP[article.category]?.accent }}>{formatDateShort(article.publishedAt)}</span>
