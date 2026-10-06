@@ -3,6 +3,7 @@ import type { Article, Block } from "@/content/types";
 import { CATEGORY_MAP, SOURCE_TYPE_LABELS, TYPE_META, getAuthorFor, readingTime, getRelated } from "@/lib/articles";
 import { formatDate, formatDateTime, formatDateShort, formatTime, timeAgo } from "@/lib/format";
 import { Media, PhotoFigure } from "./Media";
+import { InstagramShare } from "./InstagramShare";
 import { CatLabel, Dot, TypeBadge } from "./ui";
 import { href } from "./cards";
 
@@ -110,6 +111,14 @@ export function ArticlePageBody({ article }: { article: Article }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      <InstagramShare
+        slug={article.slug}
+        headline={article.headline}
+        dek={article.dek}
+        category={article.category}
+        publishedAt={formatDateShort(article.publishedAt)}
       />
 
       <nav aria-label="Breadcrumb" className="label-meta flex flex-wrap items-center gap-2">
