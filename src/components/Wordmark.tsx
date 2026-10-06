@@ -10,9 +10,9 @@ interface WordmarkProps {
 }
 
 const SIZES = {
-  lg: { wrap: "text-[clamp(1.9rem,7.4vw,4.8rem)]", gap: "gap-[0.2em]", track: "tracking-[-0.032em]" },
-  md: { wrap: "text-[clamp(1.4rem,4.4vw,2.5rem)]", gap: "gap-[0.19em]", track: "tracking-[-0.028em]" },
-  sm: { wrap: "text-[1.05rem]", gap: "gap-[0.17em]", track: "tracking-[-0.02em]" },
+  lg: { wrap: "text-[clamp(1.25rem,5.6vw,4.6rem)]", gap: "gap-[0.2em]", track: "tracking-[-0.03em]" },
+  md: { wrap: "text-[clamp(1.1rem,3.6vw,2.4rem)]", gap: "gap-[0.19em]", track: "tracking-[-0.028em]" },
+  sm: { wrap: "text-[1rem]", gap: "gap-[0.17em]", track: "tracking-[-0.02em]" },
 } as const;
 
 export function Wordmark({ size = "md", className = "", asText = false, inverted = false }: WordmarkProps) {
@@ -21,8 +21,7 @@ export function Wordmark({ size = "md", className = "", asText = false, inverted
 
   const inner = (
     <span
-      className={`inline-flex items-baseline ${s.wrap} ${s.gap} ${s.track} font-ui font-extrabold uppercase leading-[0.84] ${className}`}
-      style={{ fontStretch: "condensed" }}
+      className={`inline-flex max-w-full items-baseline ${s.wrap} ${s.gap} ${s.track} whitespace-nowrap font-ui font-extrabold uppercase leading-[0.84] ${className}`}
     >
       <span
         style={{

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -83,7 +83,7 @@ export function MobileNav() {
   );
 }
 
-export function HeaderSearch() {
+export function HeaderSearch({ total }: { total?: number }) {
   const [q, setQ] = useState("");
   const [focused, setFocused] = useState(false);
 
@@ -91,7 +91,7 @@ export function HeaderSearch() {
     <form
       action="/archive"
       role="search"
-      className={`flex items-center border transition-colors ${
+      className={`flex min-w-0 items-center border transition-colors ${
         focused ? "border-paper" : "border-rule-2"
       } bg-paper`}
     >
@@ -106,8 +106,8 @@ export function HeaderSearch() {
         onChange={(e) => setQ(e.target.value)}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
-        placeholder="Search 138 stories"
-        className="w-[7.5rem] bg-transparent px-2.5 py-1.5 font-ui text-xs text-ink outline-none placeholder:text-ink-4 lg:w-52"
+        placeholder={`Search ${total} stories`}
+        className="w-full min-w-0 bg-transparent px-2.5 py-1.5 font-ui text-xs text-ink outline-none placeholder:text-ink-4 sm:w-[10rem] lg:w-52"
       />
       <button
         type="submit"
@@ -122,7 +122,7 @@ export function HeaderSearch() {
 export function StickyBar() {
   return (
     <div className="sticky top-0 z-40 border-b border-rule bg-paper/95 backdrop-blur-sm">
-      <div className="mx-auto flex h-14 max-w-[1400px] items-center gap-4 px-4 sm:px-6">
+      <div className="mx-auto flex h-14 max-w-[1400px] items-center gap-2 px-4 sm:gap-4 sm:px-6">
         <Wordmark size="sm" />
         <nav aria-label="Sections" className="ml-auto hidden overflow-x-auto lg:block">
           <ul className="flex items-center gap-5">
@@ -140,11 +140,13 @@ export function StickyBar() {
         </nav>
         <Link
           href="/archive"
-          className="label-ui ml-auto whitespace-nowrap border border-ink px-2.5 py-1.5 text-ink transition-colors hover:bg-ink hover:text-paper lg:ml-0"
+          className="label-ui ml-auto hidden whitespace-nowrap border border-ink px-2.5 py-1.5 text-ink transition-colors hover:bg-ink hover:text-paper sm:ml-0 sm:inline-block lg:hidden xl:inline-block"
         >
           Archive
         </Link>
-        <MobileNav />
+        <div className="ml-auto lg:ml-0">
+          <MobileNav />
+        </div>
       </div>
     </div>
   );

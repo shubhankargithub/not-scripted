@@ -36,7 +36,7 @@ function BreakingTicker() {
           <span aria-hidden="true" className="animate-live-dot inline-block h-[6px] w-[6px] rounded-full bg-brand-3" />
           Breaking
         </span>
-        <div className="relative flex-1 overflow-hidden py-2">
+        <div className="relative min-w-0 flex-1 overflow-hidden py-2">
           <div className="animate-marquee flex w-max motion-reduce:w-auto motion-reduce:overflow-x-auto">
             {row}
             <span aria-hidden="true" className="flex items-center">
@@ -85,12 +85,12 @@ export function Masthead() {
           <p className="label-meta ml-auto hidden md:inline">
             {stories} stories &middot; {sources} sourced references
           </p>
-          <HeaderSearch />
+          <HeaderSearch total={stories} />
         </div>
       </div>
 
-      <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 py-5">
+<div className="mx-auto max-w-[1400px] px-4 sm:px-6">
+        <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 py-5 lg:grid-cols-[1fr_auto_1fr] lg:gap-4">
           <nav aria-label="Utility" className="hidden lg:block">
             <ul className="space-y-1.5">
               <li>
@@ -111,12 +111,12 @@ export function Masthead() {
             </ul>
           </nav>
 
-          <div className="col-span-2 justify-self-center text-center lg:col-span-1 lg:justify-self-center">
+<div className="col-start-2 row-start-1 min-w-0 justify-self-center text-center">
             <Wordmark size="lg" />
-            <p className="label-ui mt-2 text-ink-4">{SITE.tagline}</p>
+            <p className="label-ui mt-1.5 truncate text-ink-4 sm:mt-2">{SITE.tagline}</p>
           </div>
 
-          <div className="flex items-center justify-end gap-3">
+          <div className="col-start-3 row-start-1 flex items-center justify-end gap-3">
             <nav aria-label="More" className="hidden lg:block">
               <ul className="space-y-1.5 text-right">
                 <li>
