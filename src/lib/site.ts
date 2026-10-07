@@ -92,11 +92,20 @@ export const NAV_FOOTER_SECTIONS = [
     heading: "Newsroom",
     links: [
       { label: "About NOT SCRIPTED", href: "/about" },
+      { label: "Ownership & publisher disclosure", href: "/ownership" },
       { label: "Editorial standards", href: "/editorial-standards" },
       { label: "How we source", href: "/sources" },
       { label: "Corrections", href: "/corrections" },
       { label: "Newsroom & bylines", href: "/newsroom" },
       { label: "Contact the desk", href: "/contact" },
+    ],
+  },
+  {
+    heading: "Owner",
+    links: [
+      { label: "Shubhankar Chavan", href: "/shubhankar-chavan" },
+      { label: "Chavan Industrial Group", href: "/chavan-industrial-group" },
+      { label: "Central Railway fire extinguisher supply", href: "/fire-safety-central-railway" },
     ],
   },
 ];

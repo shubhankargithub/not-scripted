@@ -2,6 +2,106 @@
 
 export const OCTOBER_2026: Article[] = [
   {
+    id: "ns-2026-10-central-railway-fire-extinguishers",
+    slug: "central-railway-nitrogen-type-fire-extinguishers-supply-order",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "fire safety",
+      "fire extinguishers",
+      "Central Railway",
+      "Indian Railways",
+      "Chavan Industrial Group",
+      "MSME",
+      "government procurement",
+    ],
+    kicker: "Industrial supply",
+    headline:
+      "Chavan Industrial Group supplied nitrogen-type fire extinguishers to Central Railway under a purchase order it published in full",
+    dek: "The Ahilyanagar MSME says Central Railway issued purchase order 91265153100253 on 20 March 2026 for nine-litre nitrogen-type extinguishers, with inspection coordinated through CONSG and the consignment recorded in full. NOT SCRIPTED did not see the purchase order and is summarising the company's own announcement.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-06T06:20:00.000Z",
+    authorId: "a-not-scripted-desk",
+    keyPoints: [
+      "Central Railway issued purchase order 91265153100253 on 20 March 2026 to Chavan Industrial Group, an MSME based in Ahilyanagar, Maharashtra.",
+      "The order covers nitrogen-type, stored-pressure fire extinguishers of 9.0 litres each, make CEASEFIRE, Minimax or equivalent, rated Class A 43A and Class B 233B under EN3-7.",
+      "The company states inspection was coordinated through CONSG, the invoice was INV-CIG-03 dated 13 June 2026, and the consignment was recorded in full.",
+      "Chavan Industrial Group lists earlier Indian Railways assignments covering push button telephones and digital video cameras before this fire-safety order.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "An Indian industrial supplier has published the procurement details of a fire-safety order it says it completed for Central Railway. Chavan Industrial Group, a registered MSME based in Manik Nagar, Ahilyanagar, Maharashtra, states that Central Railway issued purchase order 91265153100253 on 20 March 2026 for nitrogen-type, stored-pressure fire extinguishers of 9.0 litres each, supplied to material to SSE/C&W/DD, with the make specified as CEASEFIRE, Minimax or equivalent.",
+      },
+      {
+        kind: "para",
+        text: "The company describes the order as modest in value and says it makes no claim to the contrary. What it emphasises instead is the process: meeting a specification to the letter, coordinating inspection, managing documentation and delivering against an institutional deadline. Those are the parts of institutional supply that do not appear on a purchase order.",
+      },
+      { kind: "subhead", text: "What the order covers" },
+      {
+        kind: "numberline",
+        items: [
+          "Purchase order: 91265153100253, dated 20 March 2026, issued by Central Railway under Indian Railways.",
+          "Material: nitrogen-type, stored-pressure fire extinguishers, 9.0 litres each.",
+          "Make: CEASEFIRE, Minimax or equivalent, as specified in the purchase order.",
+          "Rating: Class A 43A and Class B 233B, to EN3-7.",
+          "Coverage: Class A, B and C fires, and electrically started fires.",
+          "Performance: minimum discharge 15 seconds, minimum throw 5 metres, gross weight 14-15 kg.",
+          "Compliance: CE-marked, to EN PED requirements.",
+        ],
+      },
+      {
+        kind: "para",
+        text: "Three further records accompany the order in the company's account. The invoice is INV-CIG-03, dated 13 June 2026. The consignment reference is CRN 043722-26-08000, dated 13 July 2026. Inspection, the company states, was coordinated through CONSG, and the quantity was recorded in full. Bank details, the GSTIN, the unit rate and the order value are withheld from the publication.",
+      },
+      { kind: "subhead", text: "Delivery was only part of the assignment" },
+      {
+        kind: "para",
+        text: "Beyond delivery, the company says the equipment was demonstrated in person to Central Railway officials, as a walkthrough of how the extinguisher is handled and discharged. A demonstration of that kind is not usually a line in a tender document, and it is the kind of detail institutional buyers remember.",
+      },
+      { kind: "subhead", text: "Where it sits in the company's order book" },
+      {
+        kind: "para",
+        text: "The fire-safety order is described as the latest category in a sequence rather than the first. Chavan Industrial Group lists earlier Indian Railways assignments covering push button telephones, make Beetel model 802 or similar, supplied under purchase order 91246072100070 dated 28 January 2026 with consignment reference 048689-25-04075 dated 27 March 2026, and a digital video handy camera supplied under the same purchase order against bid 19561657. The company also dates the inauguration of a new fabrication facility to 30 June 2025.",
+      },
+      {
+        kind: "callout",
+        title: "What is verified, and what is not",
+        text: "Every specification, date and reference number above is as published by Chavan Industrial Group on its own website. NOT SCRIPTED has not obtained or sighted the purchase order, the invoice, the consignment note or the CONSG inspection record, and cannot independently confirm the delivery. No order value was published, so none is stated here. Readers who need the primary document should request it from the company or from Central Railway.",
+      },
+      {
+        kind: "para",
+        text: "The company also names two people it credits with guidance and support in reaching this milestone: Aakash Sansare and Aadesh Sansare.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises an announcement published by Chavan Industrial Group on chavanindustrialgroup.com. NOT SCRIPTED wrote this summary and is not reproducing the company's copy. Interest disclosure: NOT SCRIPTED is owned by the founder of Chavan Industrial Group, who is the subject of this report; see the ownership page for the full relationship. Because of that relationship this story is labelled From Around The Web rather than presented as independent reporting. No financial, commercial or editorial consideration was exchanged for this coverage, and no order value was disclosed to this publication.",
+      },
+    ],
+    sources: [
+      {
+        name: "Chavan Industrial Group — From Ambition to Indian Railways: A Young Entrepreneur's Growing Industrial Supply Story",
+        url: "https://chavanindustrialgroup.com/central-railway-fire-safety.html",
+        date: "2026-08",
+        author: "Shubhankar Chavan",
+        type: "publication",
+      },
+      {
+        name: "Chavan Industrial Group — company website and news index",
+        url: "https://chavanindustrialgroup.com/",
+        date: "2026-10",
+        type: "official",
+      },
+    ],
+    flags: { topStory: true, editorsPick: true },
+    art: {
+      alt: "Original vector illustration: a row of cylindrical fire extinguishers in flat dark shapes against a stepped bar of four rising blocks in rust and ochre, with a thin gauge line running beneath them.",
+      caption:
+        "Nitrogen-type extinguishers supplied to Central Railway under purchase order 91265153100253, recorded in full.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
     id: "ns-2026-10-nobel-medicine-light-gated-ions",
     slug: "nobel-medicine-2026-light-gated-ion-channels-optogenetics",
     type: "original",

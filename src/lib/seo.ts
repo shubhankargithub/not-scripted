@@ -36,12 +36,121 @@ export const LOGO_PATH = "/icon.png";
 export const LOGO_URL = abs(LOGO_PATH);
 export const RSS_PATH = "/feed.xml";
 
+/** Canonical identifier for the group that publishes this site. */
+export const CIG_ID = "https://chavanindustrialgroup.com/#organization";
+/** Canonical identifier for the owner of this publication. */
+export const OWNER_ID = `${ORIGIN}/#shubhankar-chavan`;
+
 /**
  * Only the Instagram profile was reachable when this was written. The other
  * handles in SITE.social returned 404, so they are deliberately left out of
  * `sameAs` rather than asserted as profiles that may not exist.
  */
 const VERIFIED_SAME_AS = ["https://www.instagram.com/notscriptedin"];
+
+/* ------------------------------------------------------------------ *
+ * Ownership entities
+ *
+ * Chavan Industrial Group and its founder Shubhankar Chavan are the people
+ * behind this publication. Every fact below is taken from the two entities' own
+ * published pages; nothing is asserted beyond them. These nodes are emitted on
+ * every page so that search engines and AI systems can connect the publication,
+ * the group and the person, which is the point of an ownership disclosure.
+ * ------------------------------------------------------------------ */
+
+/** Profiles the entities publish for themselves on their own sites. */
+const OWNER_SAME_AS = [
+  "https://chavanindustrialgroup.com/about-founder.html",
+  "https://shubhankarchavan.vercel.app/",
+  "https://github.com/shubhankargithub",
+  "https://www.linkedin.com/in/shubhankarchavan/",
+];
+
+const CIG_SAME_AS = ["https://www.instagram.com/chavanindustrialgroup"];
+
+export function cigOrganizationNode() {
+  return {
+    "@type": "Organization",
+    "@id": CIG_ID,
+    name: "Chavan Industrial Group",
+    alternateName: "CIG",
+    url: "https://chavanindustrialgroup.com/",
+    description:
+      "Chavan Industrial Group is a registered MSME in Ahilyanagar, Maharashtra working in precision manufacturing, turnkey projects and institutional supply for Indian Railways, Defence and national infrastructure.",
+    disambiguatingDescription:
+      "Industrial engineering and supply group in Maharashtra; the group behind the NOT SCRIPTED publication.",
+    email: "info@chavanindustrialgroup.com",
+    telephone: "+91-98765-40524",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Manik Nagar",
+      addressLocality: "Ahilyanagar",
+      addressRegion: "Maharashtra",
+      addressCountry: "IN",
+    },
+    numberOfEmployees: { "@type": "QuantitativeValue", value: 5 },
+    industry: "Industrial manufacturing and supply",
+    sameAs: CIG_SAME_AS,
+    founder: { "@id": OWNER_ID },
+  };
+}
+
+export function ownerPersonNode() {
+  return {
+    "@type": "Person",
+    "@id": OWNER_ID,
+    name: "Shubhankar Chavan",
+    alternateName: "Shubhankar Rahul Chavan",
+    url: `${ORIGIN}/shubhankar-chavan/`,
+    jobTitle: "Founder & CEO, Chavan Industrial Group; owner of NOT SCRIPTED",
+    description:
+      "Shubhankar Chavan is a founder and engineer from Maharashtra. He is the Founder and CEO of Chavan Industrial Group, an MSME in Ahilyanagar that supplies Indian Railways and Defence, and the owner of the NOT SCRIPTED publication.",
+    worksFor: { "@id": CIG_ID },
+    founderOf: { "@id": CIG_ID },
+    sameAs: OWNER_SAME_AS,
+    knowsAbout: [
+      "Institutional supply",
+      "Industrial procurement",
+      "Fire safety equipment",
+      "Railway components",
+      "Cybersecurity",
+      "Artificial intelligence",
+      "Web development",
+    ],
+    alumniOf: {
+      "@type": "EducationalOrganization",
+      name: "MIT School of Computing",
+    },
+    hasCredential: [
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "Microsoft Certified: Security Operations Analyst Associate (SC-200)",
+        credentialCategory: "certificate",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "EC-Council — Cybersecurity for Businesses, The Fundamental Edition",
+        credentialCategory: "certificate",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "EC-Council — Make In-House Hacking and Pentesting Lab",
+        credentialCategory: "certificate",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        name: "Cisco — Introduction to Cybersecurity",
+        credentialCategory: "certificate",
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Pune",
+      addressRegion: "Maharashtra",
+      addressCountry: "IN",
+    },
+  };
+}
 
 /* ------------------------------------------------------------------ *
  * Images
@@ -127,6 +236,8 @@ export function organizationNode() {
     image: LOGO_URL,
     sameAs: VERIFIED_SAME_AS,
     foundingDate: String(SITE.founded),
+    founder: { "@id": OWNER_ID },
+    parentOrganization: { "@id": CIG_ID },
     address: {
       "@type": "PostalAddress",
       streetAddress: "4th Floor, Brigade Road",
@@ -295,6 +406,8 @@ export function webPageNode(input: {
   name: string;
   description: string;
   type?: "WebPage" | "CollectionPage";
+  /** @id of the entity this page is about. Defaults to the publication. */
+  about?: string;
 }) {
   const url = abs(canonical(input.path));
   return {
@@ -306,7 +419,7 @@ export function webPageNode(input: {
     inLanguage: "en-IN",
     isAccessibleForFree: true,
     isPartOf: { "@id": WEBSITE_ID },
-    about: { "@id": ORG_ID },
+    about: { "@id": input.about ?? ORG_ID },
   };
 }
 
