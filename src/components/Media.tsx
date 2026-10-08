@@ -106,7 +106,7 @@ export function PhotoFigure({ slug, category }: { slug: string; category: string
       <figcaption className="mt-2 leading-relaxed">
         <span className="block font-ui text-[0.82rem] text-ink-2">{photo.caption}</span>
         <span className="label-meta mt-1 block">
-          Photograph:{" "}
+          {photo.tier === "supplied" ? "Image: " : "Photograph: "}
           <a
             href={photo.sourceUrl}
             target="_blank"
@@ -128,11 +128,11 @@ export function PhotoFigure({ slug, category }: { slug: string; category: string
           >
             {photo.license}
           </a>
-          {photo.tier === "subject" ? (
-            ". Photograph of the subject reported."
-          ) : (
-            ". Freely-licensed photograph of the subject in general, not of the specific event reported."
-          )}
+          {photo.tier === "subject"
+            ? ". Photograph of the subject reported."
+            : photo.tier === "supplied"
+              ? ". Supplied promotional artwork, not a photograph of the event reported."
+              : ". Freely-licensed photograph of the subject in general, not of the specific event reported."}
         </span>
       </figcaption>
     </figure>

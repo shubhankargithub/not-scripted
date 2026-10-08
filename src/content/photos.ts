@@ -1261,6 +1261,22 @@ export const PHOTOS: Record<string, ArticlePhoto> = {
     sourceTitle: "Desk | San Francisco",
     tier: "illustrative",
   },
+  "central-railway-nitrogen-type-fire-extinguishers-supply-order": {
+    base: "/img/articles/w/central-railway-nitrogen-type-fire-extinguishers-supply-order",
+    srcset: "/img/articles/w/central-railway-nitrogen-type-fire-extinguishers-supply-order-400.jpg 400w, /img/articles/w/central-railway-nitrogen-type-fire-extinguishers-supply-order-800.jpg 800w, /img/articles/w/central-railway-nitrogen-type-fire-extinguishers-supply-order-1400.jpg 1400w",
+    width: 1400,
+    height: 787,
+    caption:
+      "Supplied promotional artwork for the Central Railway order, credited as such. It is not a photograph of the delivery. Note also that the extinguisher pictured is a dry-powder unit, whereas the equipment ordered under purchase order 91265153100253 is nitrogen type.",
+    alt: "Promotional artwork for the Central Railway fire-extinguisher order: a rail work site with a red fire extinguisher, supply-order paperwork, and Indian Railways e-procurement branding.",
+    author: "Chavan Industrial Group (supplied)",
+    license: "All rights reserved, supplied for editorial use",
+    licenseUrl: "https://chavanindustrialgroup.com/central-railway-fire-safety.html",
+    sourceUrl: "https://chavanindustrialgroup.com/central-railway-fire-safety.html",
+    sourceTitle:
+      "From Ambition to Indian Railways: A Young Entrepreneur's Growing Industrial Supply Story",
+    tier: "supplied",
+  },
   "census-2027-house-listing-phase-opens-april-2026": {
     base: "/img/articles/w/census-2027-house-listing-phase-opens-april-2026",
     srcset: "/img/articles/w/census-2027-house-listing-phase-opens-april-2026-400.jpg 400w, /img/articles/w/census-2027-house-listing-phase-opens-april-2026-800.jpg 800w",

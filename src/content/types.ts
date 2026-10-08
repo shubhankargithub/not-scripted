@@ -99,13 +99,16 @@ export interface ArticlePhoto {
   sourceUrl: string;
   sourceTitle: string;
   /**
-   * How closely the photograph matches the story.
+   * How closely the picture matches the story.
    *
    * - `subject`     the picture is of the actual thing the story reports.
    * - `illustrative` a real, freely-licensed photograph of the general subject,
    *   not of the specific event. The caption says so.
+   * - `supplied`    artwork supplied by the company the story is about, used
+   *   with permission and credited as such. Not a photograph of anything that
+   *   happened, and the credit line says so.
    */
-  tier: "subject" | "illustrative" | "illustrative-weak";
+  tier: "subject" | "illustrative" | "illustrative-weak" | "supplied";
 }
 
 export interface Author {
