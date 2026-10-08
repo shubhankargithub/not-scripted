@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageIntro, SectionHead, Dot, TypeBadge } from "@/components/ui";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
+import { InstagramShare } from "@/components/InstagramShare";
 import { breadcrumbNode, pageMeta, webPageNode } from "@/lib/seo";
 
 const SOURCE_URL = "https://chavanindustrialgroup.com/central-railway-fire-safety.html";
@@ -52,6 +53,13 @@ export default function FireSafetyCentralRailwayPage() {
             { name: "Central Railway fire extinguisher supply", path: "/fire-safety-central-railway" },
           ]),
         ]}
+      />
+
+      <InstagramShare
+        slug="chavan-industrial-group-central-railway-fire-safety"
+        headline="Central Railway fire extinguisher supply"
+        dek="Purchase order 91265153100253: nitrogen-type, stored-pressure fire extinguishers of 9.0 litres each supplied to Central Railway by Chavan Industrial Group, rated Class A 43A and Class B 233B to EN3-7."
+        category="business"
       />
 
       <PageIntro

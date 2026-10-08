@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageIntro, SectionHead, Dot } from "@/components/ui";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
+import { InstagramShare } from "@/components/InstagramShare";
 import { breadcrumbNode, pageMeta, webPageNode, CIG_ID } from "@/lib/seo";
 
 const SITE_URL = "https://chavanindustrialgroup.com/";
@@ -85,6 +86,13 @@ export default function ChavanIndustrialGroupPage() {
             { name: "Chavan Industrial Group", path: "/chavan-industrial-group" },
           ]),
         ]}
+      />
+
+      <InstagramShare
+        slug="chavan-industrial-group"
+        headline="Chavan Industrial Group"
+        dek="An MSME in Ahilyanagar, Maharashtra working in precision manufacturing, turnkey projects and institutional supply for Indian Railways, Defence and national infrastructure."
+        category="business"
       />
 
       <PageIntro

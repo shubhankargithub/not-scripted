@@ -5,11 +5,12 @@ import { PHOTOS } from "@/content/photos";
 import { CATEGORY_MAP } from "@/lib/articles";
 
 /**
- * Instagram sharing for article pages.
+ * Instagram sharing for article and standing pages.
  *
  * Isolated by design: this is the only module on the site that knows about
- * Instagram, and it is mounted from exactly one place (ArticlePage). The graphic
- * is drawn on demand into an off-screen canvas, so it adds nothing to page load.
+ * Instagram. It is mounted from ArticlePage and from the standing pages about
+ * Chavan Industrial Group and the Central Railway order. The graphic is drawn on
+ * demand into an off-screen canvas, so it adds nothing to page load.
  *
  * Nothing is published automatically, no credentials are involved, and the
  * final post is always the reader's own action through the platform share sheet
@@ -40,11 +41,19 @@ const RULE = "#DDD8CE";
 const BRAND = "#C21F17";
 
 interface Props {
+  /**
+   * Photo-register key. It is also the seed for the generated brand artwork, so
+   * a page with no photograph still gets a distinct, stable graphic.
+   */
   slug: string;
   headline: string;
   dek: string;
   category: string;
-  publishedAt: string;
+  /**
+   * Omitted on standing pages that were never "published" on a date, so the
+   * graphic shows the desk on its own rather than a date that would be false.
+   */
+  publishedAt?: string;
 }
 
 function hash(s: string): number {
@@ -337,7 +346,11 @@ async function renderGraphic(
   ctx.fillStyle = INK4;
   ctx.textAlign = "left";
   ctx.letterSpacing = "2px";
-  ctx.fillText(`${catName.toUpperCase()}   ·   ${data.publishedAt}`, pad, y);
+  ctx.fillText(
+    data.publishedAt ? `${catName.toUpperCase()}   ·   ${data.publishedAt}` : catName.toUpperCase(),
+    pad,
+    y,
+  );
   ctx.letterSpacing = "0px";
 
   y += 30;
