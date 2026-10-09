@@ -29,6 +29,21 @@ export const PHOTOS: Record<string, ArticlePhoto> = {
     sourceTitle: "",
     tier: "subject",
   },
+  "delhi-police-section-163-cjp-protest-october-10-illegal-gathering": {
+    base: "/img/articles/w/delhi-police-section-163-cjp-protest-october-10-illegal-gathering",
+    srcset: "/img/articles/w/delhi-police-section-163-cjp-protest-october-10-illegal-gathering-400.jpg 400w, /img/articles/w/delhi-police-section-163-cjp-protest-october-10-illegal-gathering-800.jpg 800w, /img/articles/w/delhi-police-section-163-cjp-protest-october-10-illegal-gathering-1400.jpg 1400w",
+    width: 1400,
+    height: 788,
+    caption:
+      "A crowd gathered at Jantar Mantar, the venue of the gathering planned for 10 October. This is a freely-licensed photograph of protests at that venue in July 2026, not of the 10 October event or of the people in it.",
+    alt: "A dense crowd of protesters at Jantar Mantar in Delhi at dusk, with placards held up and an Indian flag raised above them.",
+    author: "Alnitak-Alnilam-Mintaka",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_Protest.jpg",
+    sourceTitle: "Jantar Mantar Protest, Delhi",
+    tier: "illustrative",
+  },
   "former-finance-secretary-challenges-india-gdp-nominal-growth-figure": {
     base: "",
     srcset: "/img/articles/w/former-finance-secretary-challenges-india-gdp-nominal-growth-figure-400.jpg 400w, /img/articles/w/former-finance-secretary-challenges-india-gdp-nominal-growth-figure-800.jpg 800w, /img/articles/w/former-finance-secretary-challenges-india-gdp-nominal-growth-figure-1400.jpg 1400w",
