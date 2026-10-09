@@ -2,6 +2,198 @@
 
 export const OCTOBER_2026: Article[] = [
   {
+    id: "ns-2026-10-delhi-police-section-163-cjp-october-10",
+    slug: "delhi-police-section-163-cjp-protest-october-10-illegal-gathering",
+    type: "from-the-web",
+    category: "india",
+    tags: [
+      "Section 163",
+      "Delhi Police",
+      "Cockroach Janta Party",
+      "Jantar Mantar",
+      "Gyanesh Kumar",
+      "Special Intensive Revision",
+      "CAPF deployment",
+    ],
+    kicker: "Delhi",
+    headline:
+      "Delhi Police called the 10 October CJP gathering illegal under Section 163, as 23,000 personnel and 331 CAPF companies moved into position",
+    dek: "A day before the planned Jantar Mantar protest against the election commission, Delhi Police said Section 163 was in force and any gathering would be illegal. Reporting from the 8th describes a large security build-up and allegations by protest organisers that supporters were being detained on the way to Delhi.",
+    dateline: "New Delhi",
+    publishedAt: "2026-10-09T06:45:00.000Z",
+    authorId: "a-nandini-rao",
+    keyPoints: [
+      "Delhi Police warned against the proposed Cockroach Janta Party protest on 10 October, saying Section 163 is in force in the national capital and any gathering would be considered illegal.",
+      "NDTV reported 23,000 personnel deployed, and the Union Home Ministry approving 221 CAPF companies between 8 and 12 October in addition to 110 companies already with Delhi Police.",
+      "The Hindu reported Delhi Police had identified 500 people and 200 social media channels in a 'perception' campaign, and was working with Meta and X on why its content was not amplified.",
+      "The CJP and Left organisations alleged on 8 October that supporters were being detained on the way to Delhi. Those claims were reported as allegations and were not independently verified.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Delhi Police has warned against the Cockroach Janta Party's planned protest for 10 October, stating that Section 163 of the Code of Criminal Procedure is in force in the national capital and that any gathering would be considered illegal. Deputy Commissioner of Police Shrishti Pandey made the warning, according to a report published by The Economic Times on 9 October.",
+      },
+      { kind: "subhead", text: "The security build-up" },
+      {
+        kind: "para",
+        text: "The scale of the deployment ahead of the protest has been reported in detail. NDTV reported on 8 October that 23,000 personnel were deployed and that barricades were being put in place across the city. The Union Home Ministry approved the deployment of 221 Central Armed Police Force companies between 8 and 12 October, in addition to 110 CAPF companies already provided to Delhi Police.",
+      },
+      {
+        kind: "numberline",
+        items: [
+          "221 CAPF companies approved for 8 to 12 October, in addition to 110 already with Delhi Police.",
+          "85 Central Reserve Police Force companies, 10 Sashastra Seema Bal, seven Indo-Tibetan Border Police and seven Rapid Action Force companies, among the units listed.",
+          "23,000 personnel reported deployed by NDTV, with barricading in place.",
+          "500 people and 200 social media channels identified by Delhi Police in a 'perception' campaign reported by The Hindu.",
+        ],
+      },
+      { kind: "subhead", text: "A police 'perception' campaign" },
+      {
+        kind: "para",
+        text: "The Hindu reported on 8 October that Delhi Police had begun examining the performance of its own social media content, and why its account of events during the July protest did not gain comparable traction. One official was quoted as saying efforts were being made to draw engagement on social platforms during the July protest of the CJP. Another official said the force was working with Meta, X and other platforms to examine why its content was not being amplified by their algorithms.",
+      },
+      { kind: "subhead", text: "Allegations of pre-protest detentions" },
+      {
+        kind: "para",
+        text: "On the same day, The Hindu reported that the CJP and Left organisations alleged that protesters were being picked up from across the country ahead of the 10 October march. The CJP stated that a group of students travelling from Pune to Delhi had been detained midway and taken to an unspecified location, and shared a video purportedly showing young people inside a moving bus in Madhya Pradesh.",
+      },
+      {
+        kind: "para",
+        text: "These are allegations made by the organisers and their supporters. NOT SCRIPTED did not obtain detention records, and the accounts here are reproduced as reported. Whether any individual was detained, and on what authority, is not established by the reporting available at the time of writing.",
+      },
+      {
+        kind: "callout",
+        title: "What the protest is about",
+        text: "The 10 October gathering has been called against the immediate removal of Chief Election Commissioner Gyanesh Kumar and the suspension of the Special Intensive Revision of electoral rolls. Both sides have framed the dispute in generational terms: organisers describe it as a youth-led protest about what they call the theft of votes and the exclusion of younger voters from the roll, while the police response concerns public order and the permission regime at Jantar Mantar.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises reporting published by The Economic Times, NDTV, The Hindu and NewsGram between 8 and 9 October 2026. NOT SCRIPTED wrote this summary and did not report the protest. Detention claims are the allegations of the protest organisers as reported, not verified findings. NOT SCRIPTED covered the wider election-commission dispute earlier in this archive.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Economic Times — CJP protest on October 10: Delhi Police warns against gathering, calls it 'illegal'",
+        url: "https://economictimes.indiatimes.com/news/india/cjp-protest-on-october-10-delhi-police-warns-against-gathering-calls-it-illegal/printarticle/134805412.cms",
+        date: "2026-10-09",
+        type: "publication",
+      },
+      {
+        name: "NDTV — 23,000 Personnel, Barricading: Delhi Preps For CJP's Saturday Protest",
+        url: "https://www.ndtv.com/delhi-news/23-000-personnel-barricading-delhi-preps-for-cjps-saturday-protest-cockroach-janta-party-protest-against-gyanesh-kumar-election-commissioner-12155095",
+        date: "2026-10-08",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — Delhi Police ramp up 'perception' campaign, identifies 500 people, 200 social media channels",
+        url: "https://www.thehindu.com/news/cities/Delhi/delhi-police-ramp-up-perception-campaign-identifies-500-people-social-media-channels-ahead-of-october-10-protest/article71560264.ece",
+        date: "2026-10-08",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — CJP, Left groups allege supporters detained ahead of October 10 protest",
+        url: "https://www.thehindu.com/news/national/cjp-left-groups-allege-supporters-detained-ahead-of-october-10-protest/article71560572.ece",
+        date: "2026-10-08",
+        type: "publication",
+      },
+      {
+        name: "NewsGram — Heavy Security Deployment in Delhi Ahead of Jantar Mantar 2.0 on October 10",
+        url: "https://www.newsgram.com/story/delhi/2026/10/08/jantar-mantar-20-security-deployment",
+        date: "2026-10-08",
+        type: "publication",
+      },
+    ],
+    flags: { breaking: true, topStory: true, trending: true },
+    art: {
+      alt: "Original vector illustration: a tall barricade line and a cluster of round police helmets in flat dark shapes against a pale wall, with a thin mast-like line rising between them.",
+      caption:
+        "Delhi Police said Section 163 was in force on 9 October, a day before the planned gathering at Jantar Mantar.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-petrol-diesel-steady-crude-above-100",
+    slug: "petrol-diesel-unchanged-october-9-2026-crude-above-100",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "petrol prices",
+      "diesel prices",
+      "Indian Crude Oil Basket",
+      "Brent crude",
+      "oil marketing companies",
+      "fuel prices",
+    ],
+    kicker: "Fuel",
+    headline:
+      "Petrol and diesel held steady across Indian cities on 9 October, with Brent crude still above $100 a barrel",
+    dek: "Retail fuel rates were unchanged in fourteen cities on 9 October even as the Indian Crude Oil Basket sat at $120.34 a barrel and Brent traded around $103.50. Reporting attributes the gap between crude and pump prices to margins the oil companies have been absorbing, and notes ICRA's warning on negative marketing margins.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-09T04:30:00.000Z",
+    authorId: "a-rohit-banerjee",
+    keyPoints: [
+      "Petrol and diesel prices were unchanged across major Indian cities on 9 October 2026, Livemint reported.",
+      "The Indian Crude Oil Basket was priced at $120.34 a barrel, Brent December futures fell 0.77% to around $103.50, and US WTI November futures fell 0.64% to around $90.90.",
+      "In Bengaluru, petrol was priced at ₹111.68 a litre and diesel at ₹99.56; in Delhi, ₹102.12 and ₹95.20.",
+      "ICRA has flagged negative marketing margins on petrol and diesel for the oil marketing companies, according to the report.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Indian retail fuel prices did not move on 9 October, even as crude stayed high. Livemint reported that petrol and diesel rates were unchanged across major cities even as the Indian Crude Oil Basket was priced at $120.34 a barrel, Brent crude traded around $103.50 and US West Texas Intermediate around $90.90.",
+      },
+      {
+        kind: "para",
+        text: "The international picture was volatile rather than stable. Brent futures for December delivery fell 0.77% to about $103.50 a barrel, and US WTI futures for November fell 0.64% to about $90.90. Both figures follow a week in which crude climbed above $100 on supply-disruption concerns after attacks in Saudi Arabia and a storm threatening oil production in the US Gulf. The report also noted reports that the United States was considering large-scale military operations in Iran over the coming weeks.",
+      },
+      { kind: "subhead", text: "Where the pumps stood on 9 October" },
+      {
+        kind: "numberline",
+        items: [
+          "New Delhi: petrol ₹102.12, diesel ₹95.20 a litre.",
+          "Mumbai: petrol ₹111.21, diesel ₹97.83.",
+          "Bengaluru: petrol ₹111.68, diesel ₹99.56.",
+          "Chennai: petrol ₹107.77, diesel ₹99.55.",
+          "Kolkata: petrol ₹113.51, diesel ₹99.82.",
+          "Hyderabad: petrol ₹116.15, diesel ₹104.23.",
+          "Thiruvananthapuram: petrol ₹115.49, diesel ₹104.40.",
+          "Lucknow: petrol ₹101.86, diesel ₹95.36.",
+          "Chandigarh: petrol ₹101.54, diesel ₹89.47.",
+          "Jaipur: petrol ₹112.66, diesel ₹98.25.",
+        ],
+      },
+      { kind: "subhead", text: "Why the pump did not follow crude" },
+      {
+        kind: "para",
+        text: "The gap between a rising crude price and an unchanged retail rate is the part of this story that matters most for the second half of the year. Indian retail fuel prices are shaped by international crude, the rupee's exchange rate against the dollar, freight and refining costs, and central and state taxes. State-run oil marketing companies revise prices daily, but rates can hold steady for extended periods because of how quickly each input moves.",
+      },
+      {
+        kind: "para",
+        text: "ICRA has flagged negative marketing margins on petrol and diesel, Livemint reported. If crude stays elevated while retail rates hold, that pressure on the companies' margins persists. For an importer that depends heavily on overseas crude, a prolonged rise also widens the oil import bill. Whether the gap closes through higher pump prices or absorbed margins is not something the reporting establishes, and it depends on pricing decisions and the rupee's path.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises Livemint's published fuel-price report of 9 October 2026. NOT SCRIPTED wrote this summary and did not check the city rates against individual state oil marketing companies. Figures are as published by that outlet and vary by state tax and local levy; readers should check city-specific rates before refuelling. This article is retrospective: it was compiled after the day it describes.",
+      },
+    ],
+    sources: [
+      {
+        name: "Livemint — Petrol, diesel prices today, October 9: Check rates in Delhi, Mumbai, Bengaluru, Chennai and more",
+        url: "https://www.livemint.com/news/india/petrol-diesel-prices-today-october-9-check-rates-in-delhi-mumbai-bengaluru-chennai-and-more-11791515883756.html",
+        date: "2026-10-09",
+        author: "Livemint News Desk",
+        type: "publication",
+      },
+    ],
+    flags: { topStory: true, trending: true },
+    art: {
+      alt: "Original vector illustration: a fuel dispenser nozzle and a row of price-tag shapes in flat dark silhouettes against a stepped bar of four rising blocks in ochre and rust.",
+      caption:
+        "Retail rates held on 9 October while the Indian Crude Oil Basket sat at $120.34 a barrel.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
     id: "ns-2026-10-central-railway-fire-extinguishers",
     slug: "central-railway-nitrogen-type-fire-extinguishers-supply-order",
     type: "from-the-web",

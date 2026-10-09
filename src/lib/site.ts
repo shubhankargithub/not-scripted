@@ -9,7 +9,7 @@ export const SITE = {
   locale: "en_IN",
   language: "en",
   /** Edition stamp. The archive is a fixed edition, so relative timestamps are deterministic. */
-  editionAt: "2026-10-06T05:45:00.000Z",
+  editionAt: "2026-10-09T05:30:00.000Z",
   timezone: "Asia/Kolkata",
   timezoneLabel: "IST",
   founded: 2026,
