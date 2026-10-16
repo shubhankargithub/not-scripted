@@ -2075,4 +2075,19 @@ export const PHOTOS: Record<string, ArticlePhoto> = {
     sourceTitle: "Desolate Earth Skin removing",
     tier: "illustrative",
   },
+  "jio-platforms-ipo-price-band-fixed-anchor-book-20-billion": {
+    base: "/img/articles/w/jio-platforms-ipo-price-band-fixed-anchor-book-20-billion",
+    srcset: "/img/articles/w/jio-platforms-ipo-price-band-fixed-anchor-book-20-billion-400.jpg 400w, /img/articles/w/jio-platforms-ipo-price-band-fixed-anchor-book-20-billion-800.jpg 800w, /img/articles/w/jio-platforms-ipo-price-band-fixed-anchor-book-20-billion-1400.jpg 1400w",
+    width: 1400,
+    height: 933,
+    caption:
+      "The Bombay Stock Exchange building at Dalal Street, where Indian primary issues are listed. This is a freely-licensed photograph of the exchange and shows none of the parties, bookings, prices or filings described in this article.",
+    alt: "The multi-storey facade of the Bombay Stock Exchange building on Dalal Street in Mumbai.",
+    author: "BSEINDIA",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:BSE_building_at_Dalal_Street.JPG",
+    sourceTitle: "BSE building at Dalal Street",
+    tier: "illustrative",
+  },
 };

@@ -2,6 +2,137 @@
 
 export const OCTOBER_2026: Article[] = [
   {
+    id: "ns-2026-10-jio-platforms-ipo-price-band-anchor-book",
+    slug: "jio-platforms-ipo-price-band-fixed-anchor-book-20-billion",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "Jio Platforms",
+      "IPO",
+      "Reliance Industries",
+      "Ambani",
+      "price band",
+      "anchor investors",
+      "grey market premium",
+    ],
+    kicker: "Primary market",
+    headline:
+      "Jio Platforms has fixed its IPO price band at ₹1,065-1,119, and its anchor book is reported to exceed $20 billion",
+    dek: "Reliance Industries' digital and telecom arm will open subscription on 21 October and close on 23 October, with anchor bidding on 19 October and listing expected around 28 October. Bloomberg reported more than $20 billion of bids, from investors including Fidelity, Allianz and Capital Group.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-16T06:30:00.000Z",
+    authorId: "a-divya-raghavan",
+    keyPoints: [
+      "Jio Platforms fixed its price band at ₹1,065 to ₹1,119 a share on 14 October, at the lower end giving ₹28,755 crore and at the cap ₹30,213 crore.",
+      "Subscription opens 21 October and closes 23 October; anchor investors bid on 19 October and listing is expected around 28 October.",
+      "The RHP was filed with the Registrar of Companies in Ahmedabad on 14 October. The draft had been filed on 19 June and SEBI issued an observation letter on 28 August.",
+      "Bloomberg reported more than $20 billion of bids ahead of the offering, with interest from Fidelity, Allianz, Capital Group, GIC and Norway's Government Pension Fund Global among others.",
+      "Reliance Industries holds 66.43% of Jio Platforms, Meta 9.98% and Google 7.73%. No existing investor is selling in this issue.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Jio Platforms has fixed the price band for its initial public offering at ₹1,065 to ₹1,119 a share, with subscription opening on 21 October and closing on 23 October, according to regulatory filings by Reliance Industries reported by The Tribune and Firstpost on 14 and 15 October.",
+      },
+      {
+        kind: "para",
+        text: "At the bottom of the band the issue would raise about ₹28,755 crore; at the cap, about ₹30,213 crore. The offer comprises a fresh issue of up to 27 crore equity shares of ₹10 face value. The band was approved by the IPO committee of Jio Platforms' board.",
+      },
+      { kind: "subhead", text: "The timetable" },
+      {
+        kind: "numberline",
+        items: [
+          "19 June 2026: draft red herring prospectus filed.",
+          "28 August 2026: Reliance Industries told the exchanges that SEBI had issued an observation letter on the draft prospectus.",
+          "14 October 2026: red herring prospectus filed with the Registrar of Companies, Gujarat, at Ahmedabad. Price band fixed.",
+          "19 October 2026: anchor investor bidding.",
+          "21 to 23 October 2026: public subscription window.",
+          "28 October 2026: listing date expected, not formally specified in the filings.",
+        ],
+      },
+      { kind: "subhead", text: "The anchor book" },
+      {
+        kind: "para",
+        text: "Bloomberg reported that Jio Platforms was set to receive more than $20 billion in bids for the offering, citing people familiar with the matter. Business Today, carrying the same report, named global investors including Fidelity, Allianz and Capital Group, and said GIC, Norway's Government Pension Fund Global, New World Fund and Smallcap World Fund had also indicated interest.",
+      },
+      {
+        kind: "para",
+        text: "The anchor list had not been finalised at the time of reporting. Akash Ambani, the 34-year-old managing director of Jio Platforms and son of Mukesh Ambani, has been leading the deal and has met investors in Hong Kong, London and New York, according to that reporting.",
+      },
+      { kind: "subhead", text: "Reservations and the minimum ticket" },
+      {
+        kind: "para",
+        text: "Up to ₹2,500 crore of shares are reserved for eligible Reliance Industries shareholders and up to ₹500 crore for eligible employees. Employee bidders receive a discount of ₹54 a share. The record date for the shareholder reservation was 14 October, the date of the RHP filing. The minimum bid is 12 shares, with bids in multiples of 12, so a single lot at the cap price costs ₹13,428.",
+      },
+      {
+        kind: "para",
+        text: "At least 35 per cent of the net issue is reserved for retail individual investors. Roughly ₹27,500 crore of the proceeds is earmarked for repaying debt, with the remainder for general corporate purposes.",
+      },
+      { kind: "subhead", text: "A record, or nearly one" },
+      {
+        kind: "para",
+        text: "If completed at these levels the issue would surpass Hyundai Motor India's record ₹27,870 crore offering from October 2024, making it India's largest public issue. Jio is seeking a valuation of up to ₹10.3 lakh crore, about $108 billion, well below the $170 billion some earlier expectations had reached.",
+      },
+      {
+        kind: "callout",
+        title: "The sources disagree on the size of the issue",
+        text: "Firstpost reported the offering would raise around ₹37,700 crore, while Bloomberg's figure, carried by Business Today, was a little over ₹30,200 crore, and Reliance Industries' filings gave ₹30,213 crore at the cap for the fresh issue alone. Firstpost also reported that no existing investor was selling, which would mean a wholly primary issue. The ₹30,213 crore filing figure is the one taken from the regulatory filing; the ₹37,700 crore total is not reconciled here and should be treated as unconfirmed until the company publishes final issue size.",
+      },
+      { kind: "subhead", text: "No existing investor is selling" },
+      {
+        kind: "para",
+        text: "None of Jio Platforms' existing shareholders is seeking to sell in this issue, including Meta Platforms, Alphabet, Mubadala and Saudi Arabia's Public Investment Fund. Reliance Industries holds 66.43% of Jio Platforms, Meta 9.98% and Google 7.73%.",
+      },
+      {
+        kind: "para",
+        text: "Reliance Industries shares rose about 2.9% on 15 October, to ₹1,209.50 on the BSE, after the price band was announced. Separately, the issue was reported on 15 and 16 October to be trading at a grey market premium of about ₹218 to ₹220 a share ahead of the 21 October opening. A grey market premium is an unofficial price for shares not yet listed, and it can evaporate.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises reporting by The Tribune (ANI) on 14 October, Business Today on 14 October, Firstpost and Rediff on 15 October, The Economic Times on 15 and 16 October, and Bloomberg on 9 October. NOT SCRIPTED wrote this summary, did not obtain the red herring prospectus, and did not speak to Reliance Industries, Jio Platforms or any investor. NOT SCRIPTED covered the planned listing earlier in this archive; this article covers what was fixed and filed afterwards.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Tribune (ANI) — Jio Platforms fixes IPO price band at Rs 1,065-1,119 per share; issue to open on October 21",
+        url: "https://www.tribuneindia.com/news/business/jio-platforms-fixes-ipo-price-band-at-rs-1065-1119-per-share-issue-to-open-on-october-21",
+        date: "2026-10-14",
+        type: "publication",
+      },
+      {
+        name: "Business Today — Jio Platforms IPO: Anchor book to draw bids over $20 billion, says report",
+        url: "https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-ipo-anchor-book-to-draw-bids-over-20-billion-says-report-561477-2026-10-14",
+        date: "2026-10-14",
+        type: "publication",
+      },
+      {
+        name: "Firstpost — Jio Platforms sets IPO price band at Rs 1,065-1,119, issue opens October 21",
+        url: "https://www.firstpost.com/business/jio-platforms-ipo-price-band-october-21-issue-date-14052930.html",
+        date: "2026-10-15",
+        type: "publication",
+      },
+      {
+        name: "Rediff — Price band for Jio Platforms IPO revealed",
+        url: "https://www.rediff.com/news/commentary/2026/oct/15/price-band-for-jio-platforms-ipo-revealed.../ec6ff3a08d451ca12a87379b88bd2961",
+        date: "2026-10-15",
+        type: "publication",
+      },
+      {
+        name: "Bloomberg — Ambani Heirs Face Tough Questions in Roadshow for Record Jio IPO",
+        url: "https://www.bloomberg.com/news/articles/2026-10-09/ambani-heirs-face-tough-questions-in-roadshow-for-record-jio-ipo",
+        date: "2026-10-09",
+        type: "publication",
+      },
+    ],
+    flags: { topStory: true, trending: true, mostRead: true },
+    art: {
+      alt: "Original vector illustration: a rising stepped bar chart beside a silhouetted hand holding a share certificate, in rust and deep green.",
+      caption:
+        "Jio Platforms fixed its IPO band at ₹1,065-1,119, with subscription opening on 21 October.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
     id: "ns-2026-10-jantar-mantar-denotified-cjp-jail-tiranga-march",
     slug: "jantar-mantar-denotified-cjp-leaders-jail-tiranga-march-october-16",
     type: "from-the-web",
