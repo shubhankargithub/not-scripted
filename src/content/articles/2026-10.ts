@@ -2,6 +2,259 @@
 
 export const OCTOBER_2026: Article[] = [
   {
+    id: "ns-2026-10-jantar-mantar-denotified-cjp-jail-tiranga-march",
+    slug: "jantar-mantar-denotified-cjp-leaders-jail-tiranga-march-october-16",
+    type: "from-the-web",
+    category: "india",
+    tags: [
+      "Jantar Mantar",
+      "Connaught Place",
+      "Cockroach Janta Party",
+      "Section 163",
+      "protest",
+      "Abhijeet Dipke",
+      "Saurav Das",
+    ],
+    kicker: "Delhi",
+    headline:
+      "Jantar Mantar has been de-notified as a protest site, three CJP leaders are in judicial custody, and a Tiranga march was called for Connaught Place",
+    dek: "After party leaders were detained for entering Jantar Mantar carrying the national flag, the party called a march for Connaught Place on 16 October. NDMC closed Central Park for two days, prohibitory orders were imposed under Section 163, and Delhi Police said flag-waving would be allowed at a suitable place.",
+    dateline: "New Delhi",
+    publishedAt: "2026-10-16T13:10:00.000Z",
+    authorId: "a-nandini-rao",
+    keyPoints: [
+      "Jantar Mantar has been de-notified as a designated protest site, and Delhi Police has announced alternative sites.",
+      "CJP leaders Saurav Das, Ashutosh Ranka and Ajinkya Shinde were placed in preventive custody on 14 October over alleged trespass; a case was registered for trespassing and obstructing public officials.",
+      "Das and Ranka were remanded to five days' judicial custody. Party sources said Ranka spent his 14 October birthday in custody and that the pair were denied access to lawyers for close to 24 hours.",
+      "For 16 October, NDMC closed Central Park in Connaught Place, police imposed prohibitory orders under Section 163 of the BNSS, and CJP founder Abhijeet Dipke called on supporters to gather at 5pm to wave the flag.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "The thread running through Delhi's protest politics this month began at Jantar Mantar. The site has been de-notified as a designated protest location, Delhi Police has announced alternative sites, and party leaders who attempted to enter it were detained.",
+      },
+      { kind: "subhead", text: "The arrests" },
+      {
+        kind: "para",
+        text: "Three leaders of the Cockroach Janta Party — Saurav Das, Ashutosh Ranka and Ajinkya Shinde — were placed in preventive custody on the morning of Wednesday 14 October after attempting to enter Jantar Mantar, The Economic Times reported. A case was registered against them alleging trespass and obstructing public officials. Das and Ranka had been released days earlier on a one-year peace bond.",
+      },
+      {
+        kind: "para",
+        text: "Das and Ranka were subsequently remanded to five days' judicial custody. Reporting on their detention included claims that the pair were denied access to their lawyers for nearly 24 hours, and that Ranka spent his 14 October birthday in custody. These are accounts from the party and from reporting on the case; this article does not attempt to adjudicate them.",
+      },
+      { kind: "subhead", text: "The march called for 16 October" },
+      {
+        kind: "para",
+        text: "CJP founder Abhijeet Dipke called on supporters to gather at Central Park in Connaught Place at 5pm on Friday 16 October for a 'Lehra do Tiranga', or tricolour wave, march. The New Delhi Municipal Council closed the park on 16 and 17 October for administrative reasons, following a request to Delhi Police to secure it and prevent unauthorised entry.",
+      },
+      {
+        kind: "para",
+        text: "Police imposed prohibitory orders under Section 163 of the Bharatiya Nagarik Suraksha Sanhita in Connaught Place and adjoining areas, citing law and order and the safety of people and property. Traffic restrictions were reported to begin from 3pm, affecting 21 roads and stretches. The Aam Aadmi Party extended support to the march, and the CJP called for parallel Tiranga marches in other cities.",
+      },
+      {
+        kind: "para",
+        text: "Early on Friday morning, before the march, several NSUI workers were detained after protesting outside the Parliament Street Police Station, according to The Economic Times. The workers were demanding that police register a first information report over an alleged assault on female members of the union, with NSUI president Vinod Jakhar among those reported detained. The union said police had failed to register the complaint.",
+      },
+      { kind: "subhead", text: "Flag-waving and permission" },
+      {
+        kind: "para",
+        text: "The Hindu reported that Delhi Police said flag-waving would be allowed at a 'suitable place', and that the police urged the public to stay away from the area. Dipke maintained that the gathering was intended to hoist the national flag and that waving the Tricolour is not a crime. Separately, The Economic Times reported that a legal notice was served at his residence and that he faced restrictions ahead of the march.",
+      },
+      {
+        kind: "callout",
+        title: "Both sides of this dispute",
+        text: "The reporting carries competing characterisations. Party leaders and their supporters describe suppression of peaceful assembly and the criminalisation of protest. Police action is reported in the terms of prohibitory orders, trespass and public safety. This article reports both sets of accounts and takes no position on the legality of the de-notification or of any arrest.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises reporting by The Economic Times on 14, 15 and 16 October 2026 and by The Hindu on 15 and 16 October 2026. NOT SCRIPTED wrote this summary, did not attend the protest, and did not obtain court records. Statements by party members and by police are attributed to their sources. NOT SCRIPTED has covered the wider election-commission dispute elsewhere in this archive.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Economic Times — CJP's 'Lehra do Tiranga' protest: NSUI workers detained in Delhi early Friday",
+        url: "https://economictimes.indiatimes.com/news/india/cjps-lehra-do-tiranga-protest-nsui-workers-detained-in-delhi-early-friday/printarticle/134979812.cms",
+        date: "2026-10-16",
+        type: "publication",
+      },
+      {
+        name: "The Economic Times — Abhijeet Dipke detained in Delhi ahead of 'Lehra Do Tiranga' protest at Connaught Place",
+        url: "http://widgets.economictimes.com/topic/cjp-lehra-do-tiranga-protest",
+        date: "2026-10-16",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — Delhi Police allows flag-waving; Central Park shut, ahead of CJP's Tiranga protest",
+        url: "https://www.thehindu.com/news/national/cjp-delhi-tiranga-march-oct-16-2026-live-updates/article71590925.ece",
+        date: "2026-10-16",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — Anti-CEC protest highlights ahead of CJP's Tiranga protest",
+        url: "https://www.thehindu.com/news/national/anti-cec-sir-protest-live-updates-oct-15-2026-rahul-gandhi-india-bloc/article71586459.ece",
+        date: "2026-10-15",
+        type: "publication",
+      },
+    ],
+    flags: { breaking: true, topStory: true, trending: true, mostRead: true },
+    art: {
+      alt: "Original vector illustration: a tall barricade line and a cluster of round police helmets in flat dark shapes against a pale wall.",
+      caption:
+        "Jantar Mantar has been de-notified as a protest site and party leaders who entered it were detained.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-india-wholesale-inflation-september-2026",
+    slug: "india-wholesale-price-inflation-11-39-percent-september-2026",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "wholesale inflation",
+      "WPI",
+      "inflation",
+      "fuel prices",
+      "food prices",
+      "retail inflation",
+    ],
+    kicker: "Inflation",
+    headline:
+      "India's wholesale inflation quickened to 11.39% in September, from 9.92% in August",
+    dek: "Wholesale price inflation rose faster than economists expected in September, driven by fuel and food. The fuel and power basket recorded 25.85% inflation against 22.93% a month earlier, and retail inflation came in at 5.54%.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-14T06:00:00.000Z",
+    authorId: "a-divya-raghavan",
+    keyPoints: [
+      "Annual wholesale price inflation rose to 11.39% in September 2026, from 9.92% in August.",
+      "Wholesale price inflation in the fuel and power basket was 25.85% in September, against 22.93% the previous month.",
+      "Retail inflation was reported at 5.54%, attributed largely to higher vegetable prices.",
+      "Reuters reported the rise was faster than economists had expected.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "India's wholesale price inflation quickened to 11.39% in September 2026 from 9.92% in August, driven by higher fuel and food costs, according to reporting by Reuters and The Economic Times on 14 and 15 October. Reuters described the increase as faster than economists had expected.",
+      },
+      {
+        kind: "para",
+        text: "The fuel and power basket was the sharpest component. Wholesale price inflation in that group was 25.85% in September, against 22.93% in the previous month. Retail inflation was reported at 5.54%, attributed largely to higher vegetable prices.",
+      },
+      {
+        kind: "para",
+        text: "The August comparison is worth keeping in view, because it shows the direction of travel rather than a single spike. In August, the all-commodities Wholesale Price Index stood at 110.8 against 110.0 a month earlier, and the Ministry of Commerce and Industry identified mineral oils, food articles, basic metals, non-food articles and chemicals as the main drivers of that month's increase.",
+      },
+      {
+        kind: "para",
+        text: "Concerns reported at the time centre on whether food inflation will stay elevated, with uneven monsoon rainfall and El Nino risk both cited as factors.",
+      },
+      {
+        kind: "callout",
+        title: "Wholesale is not the measure most people feel",
+        text: "Wholesale price inflation and retail inflation are different series answering different questions. Retail inflation, reported here at 5.54%, is the closer proxy for what households pay. A high wholesale figure does not automatically translate into shop prices rising by the same amount.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises data reported by Reuters on 14 October 2026 and coverage by The Economic Times on 15 October, alongside Ministry of Commerce and Industry figures for August 2026 carried by ANI. NOT SCRIPTED wrote this summary and did not obtain the index data directly. Note that 11.39% is the September 2026 reading; a separate figure of the same value was recorded in August 2021 and the two are unrelated.",
+      },
+    ],
+    sources: [
+      {
+        name: "Reuters — India's wholesale prices rise 11.39% year-on-year in September",
+        url: "https://www.reuters.com/world/india/india-wholesale-prices-rise-1139-year-on-year-september-2026-10-14",
+        date: "2026-10-14",
+        type: "wire",
+      },
+      {
+        name: "The Economic Times — WPI inflation quickens to 11.39% in September from 9.9% in August",
+        url: "http://widgets.economictimes.com/topic/mineral-production-records",
+        date: "2026-10-15",
+        type: "publication",
+      },
+    ],
+    flags: { topStory: true },
+    art: {
+      alt: "Original vector illustration: a rising stepped bar chart with a fuel-pump silhouette beside it, in rust and deep ochre.",
+      caption:
+        "Wholesale inflation reached 11.39% in September 2026, with the fuel and power basket at 25.85%.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-09-maharashtra-drought-265-talukas",
+    slug: "maharashtra-drought-declared-265-talukas-september-2026",
+    type: "from-the-web",
+    category: "environment",
+    tags: [
+      "drought",
+      "Maharashtra",
+      "monsoon",
+      "agriculture",
+      "water",
+      "El Nino",
+    ],
+    kicker: "Monsoon",
+    headline:
+      "Drought was declared across 265 talukas in Maharashtra, with the monsoon still uneven",
+    dek: "Maharashtra declared drought in 265 of its talukas as an uneven monsoon left large parts of the state short of water. The declaration followed an August wholesale inflation figure in which food prices were already a principal driver.",
+    dateline: "Mumbai",
+    publishedAt: "2026-09-26T11:00:00.000Z",
+    authorId: "a-abhishek-nair",
+    keyPoints: [
+      "Maharashtra declared drought across 265 talukas, reported on 26 September 2026.",
+      "The state has 36 districts, so the declaration covers a substantial majority of them.",
+      "The monsoon had been uneven, with reporting linking later inflation concerns to uneven rainfall and El Nino risk.",
+      "The August wholesale inflation data identified food articles among the principal drivers of price rises.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Maharashtra declared drought across 265 talukas, The Hindu reported on 26 September 2026. A taluka is a revenue subdivision, and with the state organised into 36 districts the declaration covers the large majority of them.",
+      },
+      {
+        kind: "para",
+        text: "The declaration came at the end of a monsoon that had been uneven rather than uniformly poor. That distinction matters for what follows: a shortfall spread thinly across many districts produces different damage from a total failure in a few, and it shapes whether relief is triggered by area or by actual damage to the crop.",
+      },
+      { kind: "subhead", text: "Why this feeds into prices" },
+      {
+        kind: "para",
+        text: "The drought declaration and India's inflation figures are connected rather than coincidental. In the wholesale data for August 2026, the Ministry of Commerce and Industry identified food articles and the manufacture of food products among the principal drivers of the month's rise. When the report on September wholesale inflation followed on 14 October, concerns about elevated food inflation were attributed in part to uneven monsoon rainfall and El Nino risk.",
+      },
+      {
+        kind: "para",
+        text: "That chain runs from rainfall, to sowing and harvest, to what arrives at the wholesale market, to what a household pays. Each step attenuates the last, so the movement in wholesale food prices is an indicator rather than a forecast of retail prices.",
+      },
+      {
+        kind: "callout",
+        title: "What this article does not establish",
+        text: "This summary does not include district-level crop damage figures, relief expenditure or sowing and harvest data, because the available reporting did not set them out in a form that could be stated accurately. Those numbers would need to be taken from state government releases before being relied on.",
+      },
+      {
+        kind: "dateline-note",
+        text: "Reporting note: this article summarises The Hindu's report of 26 September 2026 and Ministry of Commerce and Industry wholesale price data carried by ANI, alongside reporting on September inflation published in October. NOT SCRIPTED wrote this summary and did not obtain state government drought documentation. Figures are as published and may be revised.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Hindu — Top news of the day: drought declared in Maharashtra's 265 talukas",
+        url: "https://www.thehindu.com/news/top-news-of-the-day-september-26-2026-eci-sets-new-sir-rules-drought-declared-in-maharashtras/article71512709.ece",
+        date: "2026-09-26",
+        type: "publication",
+      },
+      {
+        name: "Babushahi (ANI) — Wholesale Price Inflation inches up to 9.92% YoY in August 2026",
+        url: "https://www.babushahi.com/full-news.php?headline=Wholesale-Price-Inflation-inches-up-to-9.92%25-YoY-in-August-2026-from-9.78%25-as-fuel-and-food-prices-rise&id=226723",
+        date: "2026-09-14",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a cracked earth plane with a single dead tree and a low sun, in ochre and rust on warm paper.",
+      caption:
+        "Drought was declared across 265 talukas in Maharashtra on 26 September 2026.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
     id: "ns-2026-10-us-states-sue-openai-chatgpt-harm",
     slug: "eight-us-states-sue-openai-chatgpt-child-safety-consumer-protection",
     type: "from-the-web",
