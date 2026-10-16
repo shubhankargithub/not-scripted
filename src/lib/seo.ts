@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { Article, Author } from "@/content/types";
 import { PHOTOS } from "@/content/photos";
+import { widestCandidate } from "@/components/Media";
 import { SITE } from "./site";
 
 /**
@@ -168,31 +169,18 @@ export interface SeoImage {
  *
  * The register's `base` field is empty for most entries, so deriving the path
  * from `srcSet` is the only reliable way to get a resolvable absolute URL. Every
- * referenced file is present in `public/`.
+ * referenced file is present in `public/`. Shares its resolver with Media.tsx so
+ * the in-page `src` and the og:image can never point at different images.
  */
-function widestFromSrcset(srcset: string, slug: string): string | null {
-  const candidates = srcset
-    .split(",")
-    .map((part) => part.trim())
-    .filter(Boolean)
-    .map((part) => {
-      const [url, width] = part.split(/\s+/);
-      return { url, width: Number.parseInt(width ?? "0", 10) || 0 };
-    })
-    .filter((c) => Boolean(c.url));
-
-  if (candidates.length === 0) return null;
-  const best = candidates.reduce((a, b) => (b.width > a.width ? b : a));
-  return best.url ?? `/img/articles/w/${slug}-1400.jpg`;
+function widestFromSrcset(srcset: string, slug: string): string {
+  return abs(widestCandidate(srcset, slug));
 }
 
 /** The featured photograph for an article, as an absolute URL, or null. */
 export function articleImage(slug: string): SeoImage | null {
   const photo = PHOTOS[slug];
   if (!photo) return null;
-  const url = widestFromSrcset(photo.srcset, slug);
-  if (!url) return null;
-  return { url: abs(url), width: photo.width, height: photo.height, alt: photo.alt };
+  return { url: widestFromSrcset(photo.srcset, slug), width: photo.width, height: photo.height, alt: photo.alt };
 }
 
 /** Fallback card image: the existing wordmark icon. No new artwork is created. */

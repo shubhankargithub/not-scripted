@@ -1,4 +1,4 @@
-﻿import { PHOTOS } from "@/content/photos";
+import { PHOTOS } from "@/content/photos";
 import type { ArticlePhoto } from "@/content/types";
 import { ArticleArt } from "./ArticleArt";
 
@@ -8,6 +8,29 @@ export function getPhoto(slug: string): ArticlePhoto | undefined {
 
 export function hasPhoto(slug: string): boolean {
   return Boolean(PHOTOS[slug]);
+}
+
+/**
+ * Pick one concrete file out of a photo register `srcSet`.
+ *
+ * Not every register entry ships a 1400px candidate, so asking for
+ * `<base>-1400.jpg` unconditionally produced a 404 `src` on 48 articles. The
+ * browser recovered from `srcSet`, but crawlers that read `src` did not.
+ * Resolving the widest candidate that actually exists fixes that and keeps the
+ * `src` and the `srcSet` describing the same image.
+ */
+export function widestCandidate(srcset: string, slug: string): string {
+  const best = srcset
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const [url, width] = part.split(/\s+/);
+      return { url, width: Number.parseInt(width ?? "0", 10) || 0 };
+    })
+    .sort((a, b) => b.width - a.width)[0];
+
+  return best?.url ?? `/img/articles/w/${slug}-1400.jpg`;
 }
 
 /**
@@ -47,7 +70,7 @@ export function Media({
   if (photo) {
     return (
       <img
-        src={`${photo.base}-400.jpg`}
+        src={widestCandidate(photo.srcset, slug)}
         srcSet={photo.srcset}
         sizes={SIZES[size]}
         alt={photo.alt}
@@ -92,7 +115,7 @@ export function PhotoFigure({ slug, category }: { slug: string; category: string
     <figure className="mt-6">
       <div className="aspect-[16/9] w-full overflow-hidden border border-rule bg-paper-3">
         <img
-          src={`${photo.base}-1400.jpg`}
+          src={widestCandidate(photo.srcset, slug)}
           srcSet={photo.srcset}
           sizes={SIZES.full}
           alt={photo.alt}
