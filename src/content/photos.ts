@@ -2121,4 +2121,19 @@ export const PHOTOS: Record<string, ArticlePhoto> = {
     sourceTitle: "Sheetla Mata Temple Gwalior",
     tier: "illustrative",
   },
+  "tiger-shroff-car-fired-juhu-lawrence-bishnoi-gang-claims-responsibility": {
+    base: "/img/articles/w/tiger-shroff-car-fired-juhu-lawrence-bishnoi-gang-claims-responsibility",
+    srcset: "/img/articles/w/tiger-shroff-car-fired-juhu-lawrence-bishnoi-gang-claims-responsibility-300.jpg 300w, /img/articles/w/tiger-shroff-car-fired-juhu-lawrence-bishnoi-gang-claims-responsibility-449.jpg 449w",
+    width: 449,
+    height: 633,
+    caption:
+      "Tiger Shroff in 2019, promoting a film at a cinema in Mumbai. This is a file photograph of the actor taken seven years before the shooting and is not from Pushpa Park, not from Juhu, and not from the events of 18 October 2026.",
+    alt: "Tiger Shroff photographed at a film promotion event in 2019, looking towards the camera.",
+    author: "Bollywood Hungama",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Tiger_Shroff_in_2019.jpg",
+    sourceTitle: "Tiger Shroff in 2019",
+    tier: "subject",
+  },
 };

@@ -3176,4 +3176,169 @@ export const OCTOBER_2026: Article[] = [
       credit: "NOT SCRIPTED illustration",
     },
   },
+  {
+    id: "ns-2026-10-tiger-shroff-juhu-firing",
+    slug: "tiger-shroff-car-fired-juhu-lawrence-bishnoi-gang-claims-responsibility",
+    type: "from-the-web",
+    category: "india",
+    tags: [
+      "Mumbai",
+      "Juhu",
+      "Tiger Shroff",
+      "Lawrence Bishnoi",
+      "gangster",
+      "public safety",
+      "Devendra Fadnavis",
+      "Eknath Shinde",
+    ],
+    kicker: "Mumbai",
+    headline:
+      "Gunmen fired five rounds at Tiger Shroff's car in Juhu. A gang claim, three detentions and an unanswered motive",
+    dek: "Tiger Shroff was unhurt after attackers on a motorcycle shot at his BMW near Pushpa Park on the evening of 18 October. His driver and an autorickshaw driver were injured. A post claiming to be from the Lawrence Bishnoi gang says the actor was targeted for working with Salman Khan; police say they are verifying it, and have not established a motive.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-19T12:00:00.000Z",
+    authorId: "a-rohit-banerjee",
+    keyPoints: [
+      "Gunmen on a motorcycle fired at Tiger Shroff's car near Pushpa Park in Mumbai's Juhu area at around 7 pm on Sunday 18 October, as the actor was leaving a private event.",
+      "Shroff was not hit by any bullet. His driver, Firdaus, and an autorickshaw driver identified as Chauhan were injured. DCM Eknath Shinde said Shroff sustained gunpowder burns to his right hand.",
+      "A video shows two men firing through the windshield and side window at close range, and a second video shows Shroff taking over the driver's seat to rush his injured driver to hospital.",
+      "A social media post attributed to Lawrence Bishnoi aide Anil Pandit claims responsibility and alleges Shroff had ignored warnings not to work with Salman Khan. Police say they are verifying it.",
+      "Fifteen Mumbai Police teams are investigating; the motorcycle used was recovered from Andheri West; three suspects were detained in Kota, Rajasthan. Police have not established a motive.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Gunmen on a motorcycle opened fire on a car driven by the Bollywood actor Tiger Shroff in Mumbai's Juhu area on Sunday evening, injuring two people, according to Mumbai Police. The actor was not struck by any bullet.",
+      },
+      {
+        kind: "para",
+        text: "The shooting took place at around 7 pm near Pushpa Park, within the jurisdiction of the Juhu police station, as Shroff was leaving the ground where he had attended a private event. Deputy Commissioner of Police Mohit Kumar Garg said the actor was returning in his car when the incident occurred and that he was \"completely safe\".",
+      },
+      {
+        kind: "para",
+        text: "Maharashtra Deputy Chief Minister Eknath Shinde, who holds the Home portfolio, said five rounds were fired at Shroff's BMW. Shinde said the actor suffered gunpowder burns to his right hand but was not shot.",
+      },
+      { kind: "subhead", text: "Two injured, and a driver who had to be driven by his employer" },
+      {
+        kind: "para",
+        text: "Two people other than the actor were injured. A police officer told the Press Trust of India that Shroff's driver, identified as Firdaus, and an autorickshaw driver identified only as Chauhan were injured and rushed for medical treatment.",
+      },
+      {
+        kind: "para",
+        text: "A video circulating from the scene shows a second vehicle taking over in the moments after the shooting, with bystanders urging the driver forward. The footage appears to show Shroff at the wheel, having taken over from his injured driver to get him to hospital. Shroff's father, the actor Jackie Shroff, said through his team that his son was safe.",
+      },
+      { kind: "subhead", text: "The claim, and what police say about it" },
+      {
+        kind: "para",
+        text: "A social media post claiming to be from the Lawrence Bishnoi gang took responsibility for the attack within hours. The post was attributed to Anil Pandit, described in reports as a Bishnoi associate, and named Pandit and Harman Sandhu as those claiming responsibility.",
+      },
+      {
+        kind: "quote",
+        text: "Anyone who works with Salman Khan will be next.",
+        attribution: "The threat attributed to the post claiming to be from the Lawrence Bishnoi gang",
+      },
+      {
+        kind: "para",
+        text: "The post alleged that Shroff had ignored warnings not to work with Salman Khan. Mumbai Police said they are verifying the authenticity of the claim. The Business Standard reported that investigators had yet to establish a motive, which is the standard caution at this stage of a criminal investigation and means the claim should not yet be treated as the settled account of why this happened.",
+      },
+      { kind: "subhead", text: "Fifteen teams, one recovered motorcycle" },
+      {
+        kind: "para",
+        text: "Mumbai Police formed around fifteen teams to trace those responsible and are analysing CCTV footage from the surrounding areas to establish the identities of the assailants and how many were involved. An FIR has been lodged and the Mumbai Crime Branch has taken over the probe.",
+      },
+      {
+        kind: "para",
+        text: "Police recovered the motorcycle allegedly used by the assailants from Andheri West. According to preliminary information, the accused travelled from Juhu, where the firing took place, to Andheri before boarding a train to escape, and investigators are examining CCTV along that route.",
+      },
+      {
+        kind: "para",
+        text: "Three suspects were detained in Kota, Rajasthan. Police official Tejaswani Gautam said preliminary questioning revealed that two of them had one case each against them, one related to theft and the other under the Arms Act. Police said they had not yet established a motive. The number of people detained was reported differently across outlets during the day, so this figure should be treated as provisional.",
+      },
+      { kind: "subhead", text: "What the political response signals" },
+      {
+        kind: "para",
+        text: "Chief Minister Devendra Fadnavis, who also holds the Home portfolio, spoke to Mumbai Police Commissioner Deven Bharti, sought details of the firing and directed him to conduct a swift and thorough investigation. Fadnavis then called Shroff.",
+      },
+      {
+        kind: "quote",
+        text: "We are all with you. We will track down the accused soon. Do not worry.",
+        attribution: "Devendra Fadnavis, Chief Minister of Maharashtra, on his call with Tiger Shroff",
+      },
+      {
+        kind: "para",
+        text: "Shinde visited Shroff at his residence and said the actor and his mother had been left shaken. He warned that no gang or individual would be allowed to revive gang wars in Mumbai, and that the state would coordinate with the states from which the attackers operate and with the central government regarding those operating from abroad. The All Indian Cine Workers Association condemned the incident and urged Fadnavis to intervene.",
+      },
+      {
+        kind: "callout",
+        title: "The context is a previous attack, not this one",
+        text: "On 14 April 2024, gunmen fired outside Salman Khan's Galaxy Apartments residence in Bandra. Investigators alleged the attack was ordered by Lawrence Bishnoi and his brother Anmol Bishnoi over the 1998 blackbuck poaching case in Jodhpur. Baba Siddique, father of politician Zeeshan Siddique and reported to be close to several film actors, was shot dead in Mumbai in October 2024, allegedly at the behest of Anmol Bishnoi. That history is why this shooting was read instantly as an organised-crime attack on the film industry, and why the verification of the claim matters.",
+      },
+      {
+        kind: "para",
+        text: "Shroff, born Jai Hemant Shroff on 2 March 1990, is among Bollywood's leading action stars, with the Baaghi franchise and War among his films. He is also a footballer. He has no known connection to the blackbuck case that investigators have said motivated the earlier attack on Khan.",
+      },
+      {
+        kind: "para",
+        text: "What is established is limited: shots were fired at a moving car on a public road in a residential suburb, two bystanders were injured, and the actor was unhurt. Whether the claim was genuine, whether the three detentions are connected, and what the motive actually was are questions the Crime Branch has not yet answered.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by The Week (19 October 2026), The Business Standard (19 October 2026), The Hindu (19 October 2026), Business Today (19 October 2026), The Hollywood Reporter India (19 October 2026) and the French Press Agency's report carried by BSS (19 October 2026). Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Week — Tiger Shroff firing incident: video shows attackers shooting at actor's BMW car at close range",
+        url: "https://www.theweek.in/news/india/2026/10/19/tiger-shroff-car-shooting-mumbai-visuals.html",
+        date: "2026-10-19",
+        author: "Vinod V K",
+        type: "publication",
+      },
+      {
+        name: "The Business Standard — Attack on Tiger Shroff revives memories of Mumbai underworld's shadow over Bollywood",
+        url: "https://www.tbsnews.net/world/south-asia/firing-tiger-shroffs-car-revives-memories-mumbai-underworlds-shadow-over-bollywood",
+        date: "2026-10-19",
+        author: "Pallab Bhattacharya",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — Actor Tiger Shroff escapes unhurt in Juhu firing incident",
+        url: "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-in-mumbai-juhu-october-18-2026/article71600449.ece",
+        date: "2026-10-18",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — Tiger Shroff firing: three suspects detained in Kota",
+        url: "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-fir-lodged-mumbai-crime-branch-takes-over-probe/article71602123.ece",
+        date: "2026-10-19",
+        type: "publication",
+      },
+      {
+        name: "Business Today — Firing at Tiger Shroff: CM Fadnavis orders strict action, 15 Mumbai Police teams probe attack",
+        url: "https://www.businesstoday.in/india/story/firing-at-tiger-shroff-cm-fadnavis-orders-strict-action-15-mumbai-police-teams-probe-attack-562336-2026-10-19",
+        date: "2026-10-19",
+        type: "publication",
+      },
+      {
+        name: "The Hollywood Reporter India — Tiger Shroff meets Maharashtra Deputy CM Eknath Shinde",
+        url: "https://www.hollywoodreporterindia.com/features/insight/tiger-shroff-meets-maharashtra-deputy-cm-eknath-shinde-cm-devendra-fadnavis-announces-the-attackers-arent-from-the-state",
+        date: "2026-10-19",
+        type: "publication",
+      },
+      {
+        name: "BSS / French Press Agency — Bollywood actor Tiger Shroff shot at in Mumbai, three suspects held",
+        url: "https://www.bssnews.net/international/436582",
+        date: "2026-10-19",
+        author: "AFP",
+        type: "wire",
+      },
+    ],
+    flags: { topStory: true, breaking: true },
+    art: {
+      alt: "Original vector illustration: a motorcycle alongside a car on a night street, with muzzle flash and skid marks, in charcoal, amber and deep teal.",
+      caption:
+        "Five rounds were fired at Tiger Shroff's car near Pushpa Park in Juhu on the evening of 18 October 2026.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
 ];
