@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: PageProps<"/latest/[n]">): Pr
   const { n } = await params;
   const cfg = getDeskConfig("/latest")!;
   return pageMeta({
-    title: `Latest News — page ${n}`,
+    title: `Latest News | page ${n}`,
     description: `Page ${n} of the NOT SCRIPTED live feed, newest first.`,
     path: `/latest/${n}`,
     image: cfg.articles[0] ? articleImageOrFallback(cfg.articles[0].slug) : undefined,
@@ -33,7 +33,7 @@ export default async function LatestPaged({ params }: PageProps<"/latest/[n]">) 
   return (
     <ListingView
       eyebrow={cfg.eyebrow}
-      title={`${cfg.title} — page ${page}`}
+      title={`${cfg.title} | page ${page}`}
       dek={cfg.dek}
       articles={toCards(slicePage(cfg.articles, page, PER_PAGE))}
       accent={cfg.accent}

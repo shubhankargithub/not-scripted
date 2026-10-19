@@ -673,7 +673,8 @@ export const JUNE_2026: Article[] = [
     category: "science",
     tags: ["NASA", "Artemis", "Orion", "Moon", "spaceflight"],
     kicker: "Space",
-    headline: "NASA names the Artemis 3 crew — and the mission will not set foot on the Moon",
+    headline:
+      "NASA names the Artemis 3 crew, and the mission will not set foot on the Moon",
     dek: "NASA named the crew on June 9: Randy Bresnik, Frank Rubio, Andre Douglas and the European Space Agency's Luca Parmitano. None of them is going to the Moon. Artemis 3 is a rehearsal, and the agency is candid about the gap between a rehearsal and a landing.",
     dateline: "Washington",
     publishedAt: "2026-06-09T18:30:00.000Z",

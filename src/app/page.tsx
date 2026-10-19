@@ -24,7 +24,7 @@ import { Media } from "@/components/Media";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: `${SITE.name} — ${SITE.tagline}`,
+  title: `${SITE.name} | ${SITE.tagline}`,
   description: SITE.description,
   path: "/",
 });
