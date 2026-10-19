@@ -2917,4 +2917,263 @@ export const OCTOBER_2026: Article[] = [
       credit: "NOT SCRIPTED illustration",
     },
   },
+  {
+    id: "ns-2026-10-kolkata-durga-puja-pandal-stampede",
+    slug: "kolkata-durga-puja-pandal-stampede-19-dead-judicial-probe-arrests",
+    type: "from-the-web",
+    category: "india",
+    tags: [
+      "West Bengal",
+      "Kolkata",
+      "Durga Puja",
+      "stampede",
+      "crowd safety",
+      "Suvendu Adhikari",
+      "Amit Shah",
+    ],
+    kicker: "Crowd safety",
+    headline:
+      "Nineteen died in a stampede at a Kolkata Durga Puja pandal. A judge-led probe will now ask how the crowd moved",
+    dek: "Nineteen people were killed and 25 injured at the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on the evening of Maha Saptami, when heavy rain sent a crowd rushing towards a collapsing exit. Police have arrested seven people, registered a suo motu culpable homicide case and handed the investigation to a special team led by a sitting Calcutta High Court judge.",
+    dateline: "Kolkata",
+    publishedAt: "2026-10-18T11:00:00.000Z",
+    authorId: "a-nandini-rao",
+    keyPoints: [
+      "At least 19 people died and 25 were injured at the Chorbagan Sarbojanin Durga Puja pandal off Chittaranjan Avenue in north Kolkata, at around 7 pm on Saturday 17 October, the day of Maha Saptami.",
+      "Seventeen of the dead died on arrival or at the scene, according to Chief Minister Suvendu Adhikari; 24 of the injured were out of danger and one remained critical.",
+      "Police detained 14 people overnight and arrested seven on Sunday, including the puja committee's secretary and vice-president, the contractor who built the bamboo structure, two crowd-management staff and two private security employees.",
+      "A suo motu case of culpable homicide not amounting to murder has been registered, and a special investigation team headed by a sitting judge of the Calcutta High Court, with STF and CID members, will probe the incident.",
+      "The state announced Rs 25 lakh and a Group D government job for each family of the deceased and Rs 5 lakh plus free treatment for each injured person; the Centre announced an ex gratia of Rs 2 lakh and Rs 50,000 respectively.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Nineteen people died and 25 were injured in a stampede at a Durga Puja pandal in north Kolkata on the evening of Saturday 17 October, according to West Bengal Chief Minister Suvendu Adhikari, who visited the hospital where the victims had been taken.",
+      },
+      {
+        kind: "para",
+        text: "The incident happened at around 7 pm at the Chorbagan Sarbojanin Durga Puja pandal, a community pandal off Chittaranjan Avenue, on the evening of Maha Saptami. Heavy rain and lightning had brought people into a tight cluster outside, and an announcement by the organisers prompted those waiting to move forward. A senior police officer described people falling on the road as the crowd surged.",
+      },
+      {
+        kind: "para",
+        text: "Adhikari said seventeen of the dead died on the spot and that one of the injured remained in critical condition. Crowds were also seen trying to escape as part of the pandal structure gave way near the exit, with footwear scattered on the ground outside.",
+      },
+      { kind: "subhead", text: "Who has been arrested" },
+      {
+        kind: "para",
+        text: "Kolkata Police said on Sunday that seven people had been arrested, all of them among the fourteen detained late on Saturday night. More arrests were flagged as possible.",
+      },
+      {
+        kind: "bullets",
+        items: [
+          "Rajkumar Seoda and Shantanu Dubey, the secretary and vice-president of the Chorbagan puja committee.",
+          "Biplab Mukhopadhyay, who was responsible for installing the bamboo structure at the pandal.",
+          "Kaushik Saha and Pintu De, who were in charge of crowd management.",
+          "Suman Chakraborty and Rajesh Pal, employees of the private security agency contracted for the event.",
+        ],
+      },
+      {
+        kind: "para",
+        text: "Police also registered a suo motu case of culpable homicide not amounting to murder. An anti-rowdy section team collected CCTV footage from the site, and the officer in charge of Girish Park police station was subsequently removed from his post.",
+      },
+      { kind: "subhead", text: "A judge, not a file, will lead the inquiry" },
+      {
+        kind: "para",
+        text: "Adhikari said the state government would write to the Chief Justice of the Calcutta High Court asking for a sitting judge to head a special investigation team drawn from the Special Task Force, the Criminal Investigation Department and other departments. That is an unusual choice for a crowd-management failure, and it is the clearest signal yet that the state does not intend to treat this as an ordinary police matter.",
+      },
+      {
+        kind: "para",
+        text: "Separately, the chief minister formed a high-level committee to review safety arrangements at major puja venues across West Bengal. Its members include Principal Secretary of Disaster Management Rajesh Sinha, Director General of Fire Services Anuj Sharma and Additional Director General of Police (Law and Order) Javed Shamim, and its brief covers crowd management, exit routes and structural safety.",
+      },
+      { kind: "subhead", text: "Relief, and an argument about what caused it" },
+      {
+        kind: "para",
+        text: "The state announced Rs 25 lakh and a Group D government job for each family of the deceased, and Rs 5 lakh plus the full cost of treatment for each injured person. Prime Minister Narendra Modi announced an ex gratia of Rs 2 lakh for the kin of those who died and Rs 50,000 for the injured. President Droupadi Murmu, the prime minister and Union Home Minister Amit Shah offered condolences; Shah visited a hospital on Sunday morning with Adhikari and cancelled his scheduled programmes in Bengal.",
+      },
+      {
+        kind: "para",
+        text: "Several visitors told reporters that inadequate safety arrangements and narrow entry and exit points contributed to the crush, and that wet staircases near the exit became the point at which people were trapped. The administration advised several large theme pandals to close temporarily, a significant step with close to 3,500 pandals operating in the city.",
+      },
+      {
+        kind: "para",
+        text: "The aftermath has become a political argument. Adhikari criticised attempts to politicise the incident and pointed to electrocution deaths during the 2025 puja season under the previous administration. Opposition figures have blamed the administration for allowing the pandal to operate and for its crowd arrangements.",
+      },
+      {
+        kind: "callout",
+        title: "The figures moved during the day",
+        text: "Early reports on the night of 17 October gave the toll as 17. It was revised to 19 on 18 October, and the number detained was reported as 12 in some outlets and 14 in others, with seven arrests confirmed by the police. Readers should treat the toll and the number of people in custody as figures settled on 18 October, not as fixed counts from the night of the incident.",
+      },
+      {
+        kind: "para",
+        text: "What the accounts agree on is the mechanism. Rain, a tight crowd, confusing announcements and a structure or exit that gave way under pressure. Kolkata's puja season has drawn millions of visitors over ten days into a city where most pandals are temporary bamboo constructions on narrow streets. The investigation will now establish who was responsible for the particular pandal, and the state committee will decide what changes for the thousands that remain standing.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by The Tribune and Rediff (both carrying Press Trust of India reports dated 18 October 2026), The New Indian Express and The Hindustan Times (17 October 2026), and India TV News (18 October 2026). Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Tribune — Kolkata tragedy: Organisers among 7 held for Durga Puja stampede that killed 19",
+        url: "https://www.tribuneindia.com/news/india/kolkata-durga-puja-stampede-19-dead-24-injured-organisers-among-12-detained/",
+        date: "2026-10-18",
+        author: "Press Trust of India",
+        type: "wire",
+      },
+      {
+        name: "Rediff — Stampede at Kolkata Durga Puja pandal, 19 dead; govt orders probe",
+        url: "https://www.rediff.com/news/report/stampede-at-kolkata-durga-puja-pandal-several-dead-govt-orders-probe/20261018.htm",
+        date: "2026-10-18",
+        author: "Press Trust of India",
+        type: "wire",
+      },
+      {
+        name: "The New Indian Express — 19 killed, 25 injured in stampede at Kolkata Durga Puja pandal; organisers detained",
+        url: "https://www.newindianexpress.com/states/west-bengal/2026/Oct/17/17-dead-25-others-injured-in-stampede-at-kolkata-durga-puja-pandal-pm-modi-expresses-condolences",
+        date: "2026-10-17",
+        type: "publication",
+      },
+      {
+        name: "The Hindustan Times — 19 dead after stampede at Kolkata Durga Puja pandal; CM Suvendu Adhikari reaches hospital",
+        url: "https://www.hindustantimes.com/cities/kolkata-news/kolkata-stampede-at-chorbagan-durga-puja-pandal-casualties-west-bengal-cm-suvendu-adhikari-101792252785991.html",
+        date: "2026-10-17",
+        type: "publication",
+      },
+      {
+        name: "India TV News — Kolkata stampede leaves 19 dead, probe initiated; CM Suvendu calls for safety review of Durga Puja pandals",
+        url: "https://www.indiatvnews.com/west-bengal/news-kolkata-stampede-death-count-cm-suvendu-adhikari-orders-safety-review-of-durga-puja-pandals-2026-10-18-1057272",
+        date: "2026-10-18",
+        type: "publication",
+      },
+    ],
+    flags: { topStory: true },
+    art: {
+      alt: "Original vector illustration: a rain-lashed pandal entrance with a crush of figures at a narrowing exit, in deep indigo and crimson.",
+      caption:
+        "Nineteen people died at the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on the evening of 17 October 2026.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-gwalior-sheetla-mata-truck-crash",
+    slug: "gwalior-shitla-mata-temple-truck-crash-devotees-killed",
+    type: "from-the-web",
+    category: "india",
+    tags: [
+      "Madhya Pradesh",
+      "Gwalior",
+      "Sheetla Mata temple",
+      "Navratri",
+      "road accident",
+      "traffic management",
+      "Mohan Yadav",
+    ],
+    kicker: "Public safety",
+    headline:
+      "A paddy truck ran into worshippers beside a Gwalior temple at half past one in the morning. Families are asking who let it through",
+    dek: "A truck carrying sacks of paddy lost control on a slope near the Sheetla Mata temple, 18 kilometres from Gwalior, and ploughed into shops around the temple's outer gate. The reported death toll moved between 12 and 15 during Sunday as casualties were updated, and families of the dead have accused the district administration of failing to close the route to large vehicles during Navratri.",
+    dateline: "Bhopal",
+    publishedAt: "2026-10-18T09:30:00.000Z",
+    authorId: "a-deepti-mishra",
+    keyPoints: [
+      "The accident happened at around 1:30 am on Sunday 18 October when a truck lost control descending a slope near the Sheetla Mata temple, about 18 km from the Gwalior district headquarters.",
+      "An official said approximately 50 people were struck by the vehicle; the reported death toll rose during Sunday from an initial 12 to 15, with more than 25 injured and five patients in critical condition.",
+      "Two police personnel deployed at the site were also injured, and about 39 people were taken to hospital, according to Senior Superintendent of Police Dharmveer Singh.",
+      "The route past the temple is normally closed to large vehicles during Navratri. Officials said they are investigating who authorised the truck's entry.",
+      "Relatives of the dead gathered outside the post-mortem house, alleging poor traffic management, delayed rescue and false information about a child's condition.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "A truck carrying sacks of paddy lost control early on Sunday morning and ploughed into shops beside the outer gate of the Sheetla Mata temple in Madhya Pradesh's Gwalior district, killing worshippers on the busiest night of Navratri.",
+      },
+      {
+        kind: "para",
+        text: "The incident occurred at around 1:30 am at the historic temple, roughly 18 kilometres from the district headquarters. An eyewitness told the IANS agency that the truck, approaching from the direction of Chinor, went out of control while descending the slope near the main outer gate and crashed into the shops around it, destroying several shops and a number of parked two-wheelers.",
+      },
+      {
+        kind: "para",
+        text: "An official said approximately 50 people were struck by the vehicle. Two police personnel deployed at the scene were among the injured, and bodies were taken to the Jaya Arogya Hospital in Gwalior.",
+      },
+      { kind: "subhead", text: "A death toll that kept changing" },
+      {
+        kind: "para",
+        text: "The number of deaths reported for this accident moved several times over the course of Sunday, and readers should note that this was a developing figure rather than a settled one.",
+      },
+      {
+        kind: "numberline",
+        items: [
+          "An initial district account gave 12 deaths and more than 25 injured.",
+          "A subsequent police account to ANI gave 12 deaths out of 39 people taken to hospital.",
+          "Later IANS reporting raised the toll to 14, with 27 injured.",
+          "Television reports on Sunday afternoon put the toll at 15, with 33 injured and five patients in critical condition.",
+        ],
+      },
+      {
+        kind: "para",
+        text: "The identified dead include Satendra Singh Gurjar, Sarla Tomar, Gaurav Parihar, Mahesh Sharma, Vimlesh, Devesh Baghel, Prince alias Chhote Jatav, Shaurya Sharma, Hemant Rathore, Divyansh Kushwah and Pawan Rathore. Officials said efforts were under way to establish the identities of three further victims.",
+      },
+      { kind: "subhead", text: "Who let the truck onto the route" },
+      {
+        kind: "para",
+        text: "The sharpest question is not about the driver. The route passing the temple is normally closed to large vehicles during Navratri, when hundreds of thousands of devotees visit, and even two-wheelers are restricted at peak times. Officials said they are probing who authorised the truck's entry and whose negligence allowed the vehicle onto the stretch.",
+      },
+      {
+        kind: "para",
+        text: "Senior Superintendent of Police Dharamveer Singh Yadav reached the post-mortem house where relatives had gathered, and left under heavy security without speaking to them. Families said rescue was delayed and that police information about one child was wrong. Ashok Kushwah, whose son Divyansh died, said the administration had restricted even two-wheelers and asked how a large vehicle was permitted through: \"What kind of arrangements were made that allowed a large vehicle to pass and kill these children?\"",
+      },
+      {
+        kind: "para",
+        text: "Congress leader Rahul Gandhi expressed grief and offered condolences to the families. Prime Minister Narendra Modi announced an ex gratia of Rs 2 lakh for the kin of the deceased and Rs 50,000 for the injured, and authorities have launched an investigation into the crash.",
+      },
+      {
+        kind: "callout",
+        title: "What the families are actually asking",
+        text: "The anger outside the post-mortem house was directed less at the driver than at the permission. A temple route that is closed to heavy vehicles for nine days of the year was used by a loaded truck, and the vehicle descended a slope into a congregation that had gathered after a night of worship. Establishing who authorised the entry is the question that decides whether this is recorded as an accident or as an administrative failure.",
+      },
+      {
+        kind: "para",
+        text: "Both tragedies outside Kolkata's pandal and Gwalior's temple happened at sites that were deliberately crowded — a festival ground and a pilgrimage route — and both turned on a failure of the same kind: an access or crowd decision that a specific risk was manageable and was not. The investigations now under way will say whether these were separate failures or the same one.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by The Hans India, The IOL and The Post's South Africa edition, and Lokmat Times (all carrying Indian News and Associated Services reports dated 18 October 2026) and India Today (18 October 2026). Read those reports in full for the outlets' own accounts, and note that the death toll was still being updated when they were published.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Hans India — 12 killed as truck crashes into shops near temple gate in MP's Gwalior",
+        url: "https://www.thehansindia.com/news/national/12-killed-as-truck-crashes-into-shops-near-temple-gate-in-mps-gwalior-1133501",
+        date: "2026-10-18",
+        author: "IANS",
+        type: "wire",
+      },
+      {
+        name: "IOL / The Post — India temple accident: 14 killed as truck hits Navaratri devotees",
+        url: "https://iol.co.za/thepost/news/2026-10-18-india-temple-accident-14-killed-as-truck-hits-navaratri-devotees/",
+        date: "2026-10-18",
+        author: "IANS",
+        type: "wire",
+      },
+      {
+        name: "Lokmat Times — MP road accident toll climbs to 14; families allege negligence in traffic management",
+        url: "https://www.lokmattimes.com/national/mp-road-accident-toll-climbs-to-14-families-allege-negligence-in-traffic-management",
+        date: "2026-10-18",
+        author: "IANS",
+        type: "wire",
+      },
+      {
+        name: "India Today — Gwalior Accident: 15 devotees crushed to death after truck ran over them",
+        url: "https://www.indiatoday.in/india/madhya-pradesh/story/gwalior-accident-sheetla-mata-temple-truck-devotees-killed-injured-hospitalised-3019938-2026-10-18",
+        date: "2026-10-18",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a loaded truck on a dark hillside road above a lit temple gate, in ochre, black and deep maroon.",
+      caption:
+        "A truck crashed into shops near the Sheetla Mata temple in Gwalior early on 18 October 2026, killing worshippers returning from Navratri darshan.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
 ];

@@ -2090,4 +2090,35 @@ export const PHOTOS: Record<string, ArticlePhoto> = {
     sourceTitle: "BSE building at Dalal Street",
     tier: "illustrative",
   },
+  "kolkata-durga-puja-pandal-stampede-19-dead-judicial-probe-arrests": {
+    base: "/img/articles/w/kolkata-durga-puja-pandal-stampede-19-dead-judicial-probe-arrests",
+    srcset: "/img/articles/w/kolkata-durga-puja-pandal-stampede-19-dead-judicial-probe-arrests-400.jpg 400w, /img/articles/w/kolkata-durga-puja-pandal-stampede-19-dead-judicial-probe-arrests-800.jpg 800w, /img/articles/w/kolkata-durga-puja-pandal-stampede-19-dead-judicial-probe-arrests-1400.jpg 1400w",
+    width: 1400,
+    height: 1050,
+    caption:
+      "A Durga Puja pandal in Kolkata lit up during the festival. This is a freely-licensed photograph of a pandal and is not the Chorbagan pandal, and it was not taken on 17 October 2026 or at any time connected to the deaths described in this article.",
+    alt: "An illuminated Durga Puja pandal at night, its decorated facade and entrance lit by rows of lights.",
+    author: "Subhrajyoti07",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Chalta_Bagan_Durga_Puja_2019.jpg",
+    sourceTitle: "Chalta Bagan Durga Puja 2019",
+    tier: "illustrative",
+  },
+  "gwalior-shitla-mata-temple-truck-crash-devotees-killed": {
+    base: "/img/articles/w/gwalior-shitla-mata-temple-truck-crash-devotees-killed",
+    srcset: "/img/articles/w/gwalior-shitla-mata-temple-truck-crash-devotees-killed-400.jpg 400w, /img/articles/w/gwalior-shitla-mata-temple-truck-crash-devotees-killed-800.jpg 800w, /img/articles/w/gwalior-shitla-mata-temple-truck-crash-devotees-killed-1400.jpg 1400w",
+    width: 1400,
+    height: 1050,
+    caption:
+      "The Sheetla Mata temple at Gwalior, the shrine near which a truck struck worshippers early on 18 October 2026. This is a freely-licensed photograph of the temple and is not of the accident, the vehicle, the road or any of the people involved.",
+    alt: "The Sheetla Mata temple complex at Gwalior, seen across the forested hills that surround the shrine.",
+    author: "Gyanendra Singh Chauhan",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:Sheetla_Mata_Temple_Gwalior_-_panoramio.jpg",
+    sourceTitle: "Sheetla Mata Temple Gwalior",
+    tier: "illustrative",
+  },
 };
