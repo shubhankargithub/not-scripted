@@ -6,6 +6,12 @@ import { CATEGORY_MAP } from "@/content/taxonomy";
 export interface ListingConfig {
   eyebrow: string;
   title: string;
+  /**
+   * Descriptive title for `<title>` and social metadata, falling back to
+   * `title` when a desk has not defined one. The on-page heading keeps using
+   * `title`, so this only changes what search engines are told.
+   */
+  metaTitle?: string;
   dek: string;
   accent: string;
   articles: Article[];
@@ -19,6 +25,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: "Live feed",
       title: "Latest News",
+      metaTitle: "Latest News: Every NOT SCRIPTED Story, Newest First",
       dek: "Every NOT SCRIPTED story, newest first. Times are shown in IST. Each entry records where the facts were established from — nothing appears here without a dated source behind it.",
       accent: "#14181d",
       articles: all,
@@ -34,6 +41,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: "The lead package",
       title: "Top Stories",
+      metaTitle: "Top Stories: What the NOT SCRIPTED Desk Is Leading With",
       dek: "What the desk is putting first: the stories our editors judge to matter most, whether or not they broke first.",
       accent: "#c21f17",
       articles: list,
@@ -49,6 +57,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: "Developing",
       title: "Breaking News",
+      metaTitle: "Breaking News: Developing Stories at NOT SCRIPTED",
       dek: "Stories the newsroom is actively following. Breaking entries are time-stamped to the moment of the last verified update and never claim more certainty than the sources allow.",
       accent: "#d40d0d",
       articles: list,
@@ -64,6 +73,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: "Audience",
       title: "Most Read",
+      metaTitle: "Most Read: The Stories People Are Opening at NOT SCRIPTED",
       dek: "What readers on NOT SCRIPTED spent the most time with this week. Ranked, dated and linked, with the same source records as everywhere else on the site.",
       accent: "#8a2b4d",
       articles: list,
@@ -91,6 +101,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: "Chosen by the editors",
       title: "Editor's Picks",
+      metaTitle: "Editor's Picks: Selected NOT SCRIPTED Reporting",
       dek: "Coverage selected for reading value rather than news value: the pieces we would send to someone who wants to understand an issue rather than catch up on it.",
       accent: "#7a1f3d",
       articles: list,
@@ -103,6 +114,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: TYPE_META.original.name,
       title: "Original Reporting",
+      metaTitle: "Original Reporting: Written by the NOT SCRIPTED Desk",
       dek: TYPE_META.original.description,
       accent: TYPE_META.original.accent,
       articles: list,
@@ -118,6 +130,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: TYPE_META.analysis.name,
       title: "Opinion & Analysis",
+      metaTitle: "Opinion and Analysis from NOT SCRIPTED",
       dek: TYPE_META.analysis.description,
       accent: TYPE_META.analysis.accent,
       articles: list,
@@ -133,6 +146,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: TYPE_META.explainer.name,
       title: "Explainers",
+      metaTitle: "Explainers: How NOT SCRIPTED Breaks Down the Story",
       dek: TYPE_META.explainer.description,
       accent: TYPE_META.explainer.accent,
       articles: list,
@@ -145,6 +159,7 @@ const DESKS: Record<string, () => ListingConfig> = {
     return {
       eyebrow: TYPE_META["from-the-web"].name,
       title: "From Around The Web",
+      metaTitle: "From Around The Web: NOT SCRIPTED Summaries of Outside Reporting",
       dek: TYPE_META["from-the-web"].description,
       accent: TYPE_META["from-the-web"].accent,
       articles: list,
@@ -172,6 +187,7 @@ export function sectionConfig(slug: string): ListingConfig | undefined {
   return {
     eyebrow: `${cat.name} desk`,
     title: cat.name,
+    metaTitle: cat.searchTitle,
     dek: cat.blurb,
     accent: cat.accent,
     articles: list,

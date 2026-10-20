@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Top Stories",
+  title: getDeskConfig("/top-stories")!.metaTitle ?? "Top Stories",
   description: "What the desk is putting first: the stories our editors judge to matter most, whether or not they broke first.",
   path: "/top-stories",
 });

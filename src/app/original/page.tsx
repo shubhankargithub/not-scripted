@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Original Reporting",
+  title: getDeskConfig("/original")!.metaTitle ?? "Original Reporting",
   description: "NOT SCRIPTED's own journalism, built from primary documents and public datasets rather than from other publications' copy.",
   path: "/original",
 });

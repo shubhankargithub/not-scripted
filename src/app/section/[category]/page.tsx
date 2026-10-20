@@ -17,7 +17,7 @@ export async function generateMetadata({
 const cfg = sectionConfig(category);
   if (!cfg) return { title: "Section not found" };
   return pageMeta({
-    title: cfg.title,
+    title: cfg.metaTitle ?? cfg.title,
     description: cfg.dek,
     path: `/section/${category}`,
     image: cfg.articles[0] ? articleImageOrFallback(cfg.articles[0].slug) : undefined,

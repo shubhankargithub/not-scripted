@@ -3,6 +3,14 @@ import type { ArticleType, SourceType } from "./types";
 export interface Category {
   slug: string;
   name: string;
+  /**
+   * Descriptive page title used in `<title>`, Open Graph and Twitter metadata.
+   * `name` alone ("India", "Sports") is too thin for a search engine to tell
+   * one section from another, so each category carries a phrase that says what
+   * the desk actually covers. Kept under about sixty characters so it is not
+   * truncated in results.
+   */
+  searchTitle: string;
   /** Short descriptor used on section landing pages. */
   blurb: string;
   /** Section index letter used in the print-style section bar. */
@@ -15,6 +23,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "india",
     name: "India",
+    searchTitle: "India News: Politics, Policy and Public Life",
     blurb:
       "Policy, politics and public life across the states, tracked against official records and on-the-ground reporting.",
     accent: "#B3271E",
@@ -23,6 +32,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "karnataka",
     name: "Bengaluru & Karnataka",
+    searchTitle: "Bengaluru and Karnataka News",
     blurb:
       "The city and the state: infrastructure, water, mobility, urban policy and the businesses reshaping India's tech capital.",
     accent: "#9C3B14",
@@ -31,6 +41,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "politics",
     name: "Politics",
+    searchTitle: "Indian Politics: Parliament, Elections and Policy",
     blurb:
       "Parliamentary business, party arithmetic, electoral rolls and the machinery of Indian democracy.",
     accent: "#7A2233",
@@ -39,6 +50,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "business",
     name: "Business",
+    searchTitle: "Business News: Markets, Companies and the Economy",
     blurb:
       "Markets, corporate results, labour, banking and the economy — read against the data rather than the noise.",
     accent: "#14584A",
@@ -47,6 +59,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "technology",
     name: "Technology",
+    searchTitle: "Technology News: AI, Software, Space and Semiconductors",
     blurb:
       "Semiconductors, software, artificial intelligence, space and the Indian technology economy.",
     accent: "#1B3C86",
@@ -55,6 +68,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "world",
     name: "World",
+    searchTitle: "World News: Global Affairs, Conflict and Diplomacy",
     blurb:
       "Reporting from outside India: conflict, diplomacy, elections, disasters and the global economy.",
     accent: "#2A4A6B",
@@ -63,6 +77,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "geopolitics",
     name: "Geopolitics",
+    searchTitle: "Geopolitics: Great Power Competition and Trade Blocs",
     blurb:
       "Great-power competition, trade blocs, energy security and India's place in the shifting world order.",
     accent: "#4A3A78",
@@ -71,6 +86,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "science",
     name: "Science",
+    searchTitle: "Science News: Space, Health and Climate Research",
     blurb:
       "Space missions, health research, climate models and the institutions doing the slow, careful work.",
     accent: "#0F5F6E",
@@ -79,6 +95,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "environment",
     name: "Environment",
+    searchTitle: "Environment News: Air, Water, Forests and Energy",
     blurb:
       "Air, water, forests, heat and the transition — with an emphasis on what the numbers actually show.",
     accent: "#256B33",
@@ -87,6 +104,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "culture",
     name: "Culture",
+    searchTitle: "Culture: Film, Music, Literature and Memory",
     blurb:
       "Film, music, literature and the institutions that decide what a country remembers.",
     accent: "#8A2B4D",
@@ -95,6 +113,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "lifestyle",
     name: "Lifestyle",
+    searchTitle: "Lifestyle: Food, Travel, Health and Homes",
     blurb:
       "Food, travel, health, housing and the everyday decisions of an urban Indian household.",
     accent: "#A4621F",
@@ -103,6 +122,7 @@ export const CATEGORIES: Category[] = [
   {
     slug: "sports",
     name: "Sports",
+    searchTitle: "Sport News: Cricket, Football and Athletics",
     blurb:
       "Cricket, the Asian Games, football, athletics and the business of Indian sport.",
     accent: "#1B5E20",

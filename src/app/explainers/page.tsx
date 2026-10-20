@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Explainers",
+  title: getDeskConfig("/explainers")!.metaTitle ?? "Explainers",
   description: "Context and background on a story that is confusing, technical or simply too important to move past in three paragraphs.",
   path: "/explainers",
 });

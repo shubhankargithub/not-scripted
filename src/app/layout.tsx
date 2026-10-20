@@ -5,7 +5,13 @@ import { Footer } from "@/components/Footer";
 import { StickyBar } from "@/components/Chrome";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
 import { SITE } from "@/lib/site";
-import { cigOrganizationNode, organizationNode, ownerPersonNode, websiteNode } from "@/lib/seo";
+import {
+  cigOrganizationNode,
+  navigationNode,
+  organizationNode,
+  ownerPersonNode,
+  websiteNode,
+} from "@/lib/seo";
 import "./globals.css";
 
 const newsreader = Newsreader({
@@ -72,7 +78,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en-IN" className={`${newsreader.variable} ${archivo.variable}`}>
       <body className="flex min-h-screen flex-col antialiased">
         <SeoJsonLd
-          nodes={[organizationNode(), cigOrganizationNode(), ownerPersonNode(), websiteNode()]}
+          nodes={[
+            organizationNode(),
+            cigOrganizationNode(),
+            ownerPersonNode(),
+            websiteNode(),
+            navigationNode(),
+          ]}
         />
         <a
           href="#main"

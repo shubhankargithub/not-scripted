@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Breaking News",
+  title: getDeskConfig("/breaking")!.metaTitle ?? "Breaking News",
   description: "Stories the newsroom is actively following, time-stamped to the last verified update and never claiming more certainty than the sources allow.",
   path: "/breaking",
 });

@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Trending",
+  title: getDeskConfig("/trending")!.metaTitle ?? "Trending",
   description: "Stories picking up the most attention across the site right now, surfaced by reading velocity rather than editorial selection.",
   path: "/trending",
 });

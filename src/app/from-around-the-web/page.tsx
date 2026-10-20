@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "From Around The Web",
+  title: getDeskConfig("/from-around-the-web")!.metaTitle ?? "From Around The Web",
   description: "Independently written summaries of reporting published elsewhere, with clear attribution and a link to the original source in every case.",
   path: "/from-around-the-web",
 });

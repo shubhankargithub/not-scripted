@@ -6,7 +6,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta, articleImageOrFallback } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Latest News",
+  title: getDeskConfig("/latest")!.metaTitle ?? "Latest News",
   description:
     "The NOT SCRIPTED live feed: every story, newest first, with publication times in IST and the sources each was established against.",
   path: "/latest",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { Article, Author } from "@/content/types";
 import { PHOTOS } from "@/content/photos";
+import { NAV_DESKS, NAV_SECTIONS } from "@/content/taxonomy";
 import { widestCandidate } from "@/components/Media";
 import { SITE } from "./site";
 
@@ -263,6 +264,31 @@ export function websiteNode() {
     description: SITE.description,
     inLanguage: "en-IN",
     publisher: { "@id": ORG_ID },
+  };
+}
+
+/**
+ * The site's main navigation, declared as `SiteNavigationElement` so search
+ * engines can see which sections exist and how they are named without having to
+ * crawl and infer it. This describes the navigation already rendered in the
+ * masthead and the footer; it does not add, rank or claim any page.
+ *
+ * Google does not guarantee sitelinks for a site, and this is not a request for
+ * them. It is a plain statement of the structure the site already publishes.
+ */
+export function navigationNode() {
+  const entries = [...NAV_DESKS, ...NAV_SECTIONS];
+  return {
+    "@type": "SiteNavigationElement",
+    "@id": `${ORIGIN}/#navigation`,
+    name: `${SITE.name} sections`,
+    url: `${ORIGIN}/`,
+    inLanguage: "en-IN",
+    hasPart: entries.map((e) => ({
+      "@type": "SiteNavigationElement",
+      name: e.label,
+      url: abs(canonical(e.href)),
+    })),
   };
 }
 

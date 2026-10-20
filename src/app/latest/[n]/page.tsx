@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: PageProps<"/latest/[n]">): Pr
   const { n } = await params;
   const cfg = getDeskConfig("/latest")!;
   return pageMeta({
-    title: `Latest News | page ${n}`,
+    title: `Latest News: Every NOT SCRIPTED Story | page ${n}`,
     description: `Page ${n} of the NOT SCRIPTED live feed, newest first.`,
     path: `/latest/${n}`,
     image: cfg.articles[0] ? articleImageOrFallback(cfg.articles[0].slug) : undefined,

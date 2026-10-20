@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Most Read",
+  title: getDeskConfig("/most-read")!.metaTitle ?? "Most Read",
   description: "What readers on NOT SCRIPTED spent the most time with this week. Ranked, dated and linked, with the same source records as everywhere else.",
   path: "/most-read",
 });

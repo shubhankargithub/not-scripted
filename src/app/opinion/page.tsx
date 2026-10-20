@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Opinion & Analysis",
+  title: getDeskConfig("/opinion")!.metaTitle ?? "Opinion & Analysis",
   description: "Clearly labelled analysis and argument from NOT SCRIPTED columnists. Not straight news, and not the view of the editors as a whole.",
   path: "/opinion",
 });

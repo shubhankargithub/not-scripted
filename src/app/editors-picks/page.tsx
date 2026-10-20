@@ -5,7 +5,7 @@ import { getDeskConfig } from "@/lib/listings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Editor's Picks",
+  title: getDeskConfig("/editors-picks")!.metaTitle ?? "Editor's Picks",
   description: "Coverage selected for reading value rather than news value: the pieces we would send to someone who wants to understand an issue rather than catch up on it.",
   path: "/editors-picks",
 });
