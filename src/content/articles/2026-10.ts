@@ -1,4 +1,4 @@
-﻿import type { Article } from "../types";
+import type { Article } from "../types";
 
 export const OCTOBER_2026: Article[] = [
   {
@@ -3338,6 +3338,1027 @@ export const OCTOBER_2026: Article[] = [
       alt: "Original vector illustration: a motorcycle alongside a car on a night street, with muzzle flash and skid marks, in charcoal, amber and deep teal.",
       caption:
         "Five rounds were fired at Tiger Shroff's car near Pushpa Park in Juhu on the evening of 18 October 2026.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-rubio-india-trade-visit-mumbai-jamnagar",
+    slug: "us-india-trade-talks-rubio-jaishankar-mumbai",
+    type: "from-the-web",
+    category: "geopolitics",
+    tags: [
+      "United States",
+      "India",
+      "Marco Rubio",
+      "S Jaishankar",
+      "trade deal",
+      "Mumbai",
+      "Jamnagar",
+      "Reliance Industries",
+      "Russian oil",
+      "Venezuela",
+    ],
+    kicker: "Mumbai",
+    headline:
+      "Rubio says US and India are 'very, very close' on a trade deal, and will talk Venezuelan crude refining at Jamnagar",
+    dek: "The US Secretary of State landed in Mumbai on 20 October for talks with External Affairs Minister S Jaishankar, his second official visit to India this year. He said only a small number of items remain, and that a Wednesday trip to Reliance's Jamnagar refinery will cover refining more Venezuelan oil.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-21T07:00:00.000Z",
+    authorId: "a-not-scripted-desk",
+    keyPoints: [
+      "US Secretary of State Marco Rubio said the US and India are 'very, very close' to a trade agreement, with only a small number of items left to wrap up.",
+      "Rubio met External Affairs Minister S Jaishankar in Mumbai on 20 October and is scheduled to visit Reliance Industries' refinery complex at Jamnagar, Gujarat, on 21 October.",
+      "He said the Jamnagar talks will cover refining more Venezuelan oil, calling India a 'refining superpower' and noting Reliance's pre-existing concessions in Venezuela.",
+      "Rubio said India had made 'substantial progress' in reducing its reliance on Russian energy imports, while acknowledging diversification is not easy overnight.",
+      "The visit comes days after President Donald Trump waived sanctions and tariffs of up to 100% on countries including India that continue to buy Russian oil.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "US Secretary of State Marco Rubio said the United States and India are \"very, very close\" to concluding a trade agreement, speaking to reporters in Mumbai on 21 October during a two-day visit to the country.",
+      },
+      {
+        kind: "quote",
+        text: "We're very, very close. I would say we're about as close as you can be without having an executed agreement. I think there's a small number of items left to wrap up.",
+        attribution: "Marco Rubio, US Secretary of State, in Mumbai",
+      },
+      {
+        kind: "para",
+        text: "Rubio landed in Mumbai on 20 October, his second official visit to India this year. According to the Ministry of External Affairs, he met External Affairs Minister Subrahmanyam Jaishankar around 4 pm local time, with energy, trade and investment, defence, and critical and emerging technologies on the agenda. He also paid tribute at the 26/11 memorial at the Taj Palace hotel and attended a US @250 event.",
+      },
+      { kind: "subhead", text: "What is left in the deal" },
+      {
+        kind: "para",
+        text: "After an interim trade deal was agreed on 2 February, US tariffs on Indian goods were set to fall to 18% from a combined rate of 50%, which had included a punitive 25% levy imposed in August 2025 over India's purchase of Russian oil. Negotiations on a final deal were disrupted after the US Supreme Court on 20 February struck down global tariffs imposed by President Donald Trump, ruling he had exceeded his authority. Trump then imposed a temporary 10% tariff citing authority under the 1974 Trade Act, leaving the status of trade agreements unclear.",
+      },
+      {
+        kind: "para",
+        text: "On 5 October, Union Finance Minister Nirmala Sitharaman said trade talks had reached a \"plateau\" and that further concessions might be difficult. Rubio's assessment in Mumbai was markedly more upbeat, and he framed the visit as part of an effort to repair ties strained over visa restrictions and tariff threats.",
+      },
+      { kind: "subhead", text: "Jamnagar, Venezuelan crude and Russian oil" },
+      {
+        kind: "para",
+        text: "Rubio said that during a visit to Jamnagar on Wednesday he will hold talks with Reliance Industries about refining more Venezuelan oil. He noted that Reliance has \"pre-existing oil concessions\" in Venezuela and that the company has done such refining \"in the past\".",
+      },
+      {
+        kind: "quote",
+        text: "They have the capability to refine heavy crude. We are going to go see what their hold-up is and what opportunities exist.",
+        attribution: "Marco Rubio on the planned Reliance refinery visit",
+      },
+      {
+        kind: "para",
+        text: "Reliance's two refineries at the Jamnagar complex have a combined capacity of about 1.4 million barrels of crude oil per day. Venezuela's oil production has risen after the US captured President Nicolas Maduro in January, and Reliance has become a major buyer of Venezuelan crude.",
+      },
+      {
+        kind: "para",
+        text: "On Russian energy, Rubio said India had made \"substantial progress\" in reducing reliance on Russian imports. \"What India has expressed repeatedly is their desire to diversify their energy portfolio, which is a smart thing to do,\" he said, while adding that it is \"not easy to do that from one day to the next\".",
+      },
+      {
+        kind: "callout",
+        title: "The sanctions waiver that changed the backdrop",
+        text: "The visit came days after President Trump on 16 October issued an executive order waiving US sanctions and tariffs of up to 100% on India and other countries that continue to purchase Russian oil and gas. Speaking in Samarkand earlier that week, Rubio said Washington had weighed the India-US trade deal when deciding to waive those measures, and that the US could not \"unravel the economy of other countries because of one central issue\".",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by Scroll.in (21 October 2026), Deutsche Welle's live coverage from New Delhi (20 October 2026) and The Indian Express (reported via DW, 20 October 2026). Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "Scroll.in — India-US trade deal 'very close', says Marco Rubio",
+        url: "https://scroll.in/latest/1096546",
+        date: "2026-10-21",
+        author: "Anamika Pathak",
+        type: "publication",
+      },
+      {
+        name: "Deutsche Welle — India news: Rubio holds talks with counterpart Jaishankar",
+        url: "https://www.dw.com/en/live-updates-india-us-trade-talks/a-79708492",
+        date: "2026-10-20",
+        author: "Midhat Fatimah",
+        type: "wire",
+      },
+      {
+        name: "Deutsche Welle — Rubio lands in Mumbai, set to meet Jaishankar, Mukesh Ambani",
+        url: "https://www.dw.com/en/live-updates-india-us-trade-talks/a-79708492",
+        date: "2026-10-20",
+        type: "wire",
+      },
+      {
+        name: "Deutsche Welle — Rubio says India made progress in cutting reliance on Russian energy",
+        url: "https://www.dw.com/en/live-updates-india-us-trade-talks/a-79708492",
+        date: "2026-10-20",
+        type: "wire",
+      },
+    ],
+    flags: { topStory: true, breaking: true },
+    art: {
+      alt: "Original vector illustration: a diplomatic handshake over a stylised map arc between Washington and New Delhi, with an oil refinery silhouette on the horizon, in deep navy, amber and slate.",
+      caption:
+        "Marco Rubio met S Jaishankar in Mumbai on 20 October 2026 and said a trade deal was 'very, very close'.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-india-new-zealand-fta-in-force",
+    slug: "india-new-zealand-fta-in-force",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "India",
+      "New Zealand",
+      "free trade agreement",
+      "Piyush Goyal",
+      "Todd McClay",
+      "FTA",
+      "exports",
+      "agriculture",
+      "services",
+    ],
+    kicker: "Trade",
+    headline:
+      "India's free trade agreement with New Zealand is in force, with zero duty on every Indian export line from day one",
+    dek: "The India-New Zealand FTA entered into force on 20 October, making 100% of India's tariff lines duty-free for exports to New Zealand. Dairy and sensitive farm products stay outside concessions; services cover about 118 sectors with 5,000 skilled-work visas a year.",
+    dateline: "New Delhi",
+    publishedAt: "2026-10-21T08:30:00.000Z",
+    authorId: "a-divya-raghavan",
+    keyPoints: [
+      "The India-New Zealand Free Trade Agreement entered into force on 20 October 2026, the date announced jointly by Commerce Minister Piyush Goyal and New Zealand Trade Minister Todd McClay.",
+      "Every tariff line covering 100% of India's exports to New Zealand becomes duty-free from day one, eliminating New Zealand peak tariffs of up to 10% on textiles, leather, footwear, gems and jewellery, engineering goods and processed foods.",
+      "Dairy, animal meat except sheep, key agricultural commodities, sugar and edible oils remain excluded from tariff concessions, with quotas and minimum import prices for New Zealand apples, kiwifruit and Manuka honey.",
+      "Services cover roughly 118 sectors including IT and professional services, with 5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas a year for young Indians.",
+      "Both countries aim to double two-way trade to about NZ$7 billion (roughly ₹35,000 crore) by 2030 under a Strategic Partnership Roadmap endorsed during Prime Minister Modi's July 2026 visit to New Zealand.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "The India-New Zealand Free Trade Agreement entered into force on 20 October 2026, after the completion of internal ratification processes in both countries. Commerce and Industry Minister Piyush Goyal and New Zealand's Minister for Trade and Investment Todd McClay announced the date in a joint virtual conference.",
+      },
+      {
+        kind: "para",
+        text: "The agreement was signed on 27 April 2026 at Bharat Mandapam in New Delhi. New Zealand's Parliament passed the enabling legislation on 16 September. Goyal said the entry-into-force date was chosen for Dussehra, or Vijay Dashmi, and that it would \"overcome all hurdles that stood between our trade, technology and investment relationship\".",
+      },
+      { kind: "subhead", text: "What changes immediately" },
+      {
+        kind: "para",
+        text: "From day one, every single tariff line covering 100% of India's exports to New Zealand becomes duty-free. New Zealand's peak tariffs of up to 10% are eliminated on sectors that employ large numbers in India: textiles and apparel, leather and footwear, gems and jewellery, engineering goods and processed food. Indian manufacturers also gain tariff-free access to inputs such as wooden logs, coking coal and metal scrap.",
+      },
+      {
+        kind: "para",
+        text: "Bilateral merchandise trade stood at around USD 1.1 billion in 2025-26. Both governments have set an aspirational target of NZ$7 billion, approximately ₹35,000 crore, in two-way trade in goods and services by 2030, under the India-New Zealand Strategic Partnership: Roadmap to 2030 endorsed during Prime Minister Narendra Modi's July 2026 visit — the first by an Indian prime minister to New Zealand in four decades.",
+      },
+      { kind: "subhead", text: "What stays outside" },
+      {
+        kind: "para",
+        text: "The government kept sensitive farm products outside tariff concessions: dairy, animal meat other than sheep, key agricultural commodities, sugar and edible oils. Market access for New Zealand apples, kiwifruit and Manuka honey is structured through tariff-rate quotas with minimum import prices and seasonal windows, alongside safeguards for domestic farmers.",
+      },
+      {
+        kind: "para",
+        text: "The agreement also creates an Agriculture Productivity Partnership with action plans for kiwifruit, apples and honey, centres of excellence for orchard management and post-harvest practices, and a Joint Agriculture Productivity Council to monitor cooperation alongside market access.",
+      },
+      { kind: "subhead", text: "Services, mobility and investment" },
+      {
+        kind: "para",
+        text: "For services, the FTA covers roughly 118 sectors including IT, professional services, audio-visual, construction and tourism, with most-favoured-nation treatment locked across about 139 sub-sectors. Mobility provisions include a dedicated quota of 5,000 Temporary Employment Entry visas for skilled Indians and 1,000 Working Holiday visas each year for young Indians, plus uncapped student mobility with post-study work rights of up to three years for STEM graduates and four for doctoral scholars.",
+      },
+      {
+        kind: "para",
+        text: "New Zealand has committed to facilitate USD 20 billion in investment into India, spanning agriculture, manufacturing, infrastructure and start-ups. Pharmaceutical and medical device exporters gain faster market access as New Zealand begins accepting inspection approvals from regulators including the US FDA, EMA, UK MHRA and Health Canada.",
+      },
+      {
+        kind: "callout",
+        title: "Nine months, then a Dussehra start",
+        text: "McClay called it one of the highest-quality agreements concluded in nine months, and said that at a time of uncertainty in trade and rising tariffs, the FTA gives confidence to businesses on both sides. The operational start on Dussehra — the day that marks victory in the epic narrative — was presented by Goyal as deliberately symbolic for a deal that had been in negotiation for years before the 2026 signing.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises the Press Information Bureau release of 21 September 2026 announcing the entry-into-force date, and reporting by India Today, The Hindu BusinessLine, The New Zealand Herald and BusinessWorld (all 20-21 October 2026). Read those sources in full for the outlets' and ministries' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "Press Information Bureau — India-New Zealand FTA to Enter into Force from 20 October 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313143",
+        date: "2026-09-21",
+        type: "official",
+      },
+      {
+        name: "India Today — India-New Zealand FTA comes into force",
+        url: "https://www.indiatoday.in/business/story/india-new-zealand-fta-comes-into-force-3020744-2026-10-20",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "The Hindu BusinessLine — India-New Zealand trade pact comes into force",
+        url: "https://www.thehindubusinessline.com/economy/india-new-zealand-trade-pact-comes-into-force/article71603109.ece",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "BusinessWorld — India-New Zealand FTA in force from 20 October",
+        url: "https://www.businessworld.in/article/India-New-Zealand-FTA-in-force/629473",
+        date: "2026-10-20",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a container ship and a kiwi-fruit crate on a stylised trade-route line between two coastlines, in fern green, navy and warm gold.",
+      caption:
+        "The India-New Zealand free trade agreement entered into force on 20 October 2026, making all Indian export lines duty-free.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-france-curfews-extended-riots",
+    slug: "france-nightly-curfews-extended-riots",
+    type: "from-the-web",
+    category: "world",
+    tags: [
+      "France",
+      "Paris",
+      "curfews",
+      "riots",
+      "Lecornu",
+      "Nuñez",
+      "Marseille",
+      "protests",
+      "Macron",
+    ],
+    kicker: "Paris",
+    headline:
+      "France extends nightly curfews 'for as long as needed' after weekend of riots that left about 1,000 officers hurt",
+    dek: "Partial overnight curfews are in force in parts of central Paris and other cities after a weekend in which about 550,000 people demonstrated, more than 2,500 were arrested, and a 19th-century town hall in Limoges was gutted by fire. PM Sébastien Lecornu did not rule out a state of emergency.",
+    dateline: "Paris",
+    publishedAt: "2026-10-21T06:00:00.000Z",
+    authorId: "a-helena-costa",
+    keyPoints: [
+      "French authorities imposed overnight curfews in parts of central Paris and other cities after a weekend of riots and looting. A curfew runs 23:00 to 06:00 at Place de la République and Les Halles, with partial curfews in Marseille, Bordeaux, Nice, Lyon, Lille and other towns.",
+      "About 550,000 people demonstrated over the weekend against rising fuel prices, the cost of living and deteriorating public services. More than 2,500 people have been arrested and about 1,000 police officers were injured.",
+      "Interior Minister Laurent Nuñez said police had 'lost control' in some cities. He attempted to resign on 19 October, but President Macron refused, citing the need for continued command of law enforcement.",
+      "Prime Minister Sébastien Lecornu said local mayors can impose curfews 'where they need', announced money to help affected areas, and did not rule out a state of emergency. He also announced a partial unemployment fund for those unable to work because of the riots.",
+      "The Chambers of Commerce and Industry said more than 2,000 shops and businesses were directly impacted, with damage estimated at hundreds of millions of euros. The ornate 19th-century city hall in Limoges was gutted by fire, its clock tower collapsing.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "French authorities have imposed overnight curfews in parts of central Paris and other cities after a weekend of riots and looting across the country. Police in Paris said a curfew would run from 23:00 to 06:00 local time at Place de la République, where protesters had gathered, and at the Les Halles shopping area. A ban on unauthorised gatherings has also been imposed in several other parts of the city centre.",
+      },
+      {
+        kind: "para",
+        text: "Partial curfews variously restricting the movement of young people and gatherings were announced for cities including Marseille, Bordeaux, Nice and Lyon in the south, as well as Lille and other towns in the north. After a crisis meeting on Monday, Prime Minister Sébastien Lecornu said local mayors were being given the power to implement curfews \"where they need\".",
+      },
+      { kind: "subhead", text: "How the violence escalated" },
+      {
+        kind: "para",
+        text: "The protests began last month with students demanding better school conditions, and have since escalated to cover a broader range of concerns. About 550,000 demonstrators took to the streets over the weekend against rising fuel prices, the cost of living and deteriorating public services, including schools. Trade unions and various protest groups bolstered the numbers.",
+      },
+      {
+        kind: "para",
+        text: "Groups of rioters, some dressed in black and wearing masks and balaclavas, set fire to cars and buildings and looted businesses in Paris, Marseille and other cities and smaller towns. In Limoges, the ornate 19th-century city hall was gutted by fire on Saturday; its clock tower and roof collapsed as the flames took hold. A suspect was later arrested in connection with that fire, according to French media.",
+      },
+      {
+        kind: "para",
+        text: "Officials said more than 2,500 people have been arrested and about 1,000 police officers were injured. One demonstrator's hand was blown off by a police crowd-control grenade, according to the French Press Agency. Interior Minister Laurent Nuñez said 200 investigators were analysing CCTV footage to identify possible ringleaders.",
+      },
+      { kind: "subhead", text: "A minister's resignation refused, and the economic cost" },
+      {
+        kind: "para",
+        text: "Nuñez, who has faced strong criticism from opposition politicians over preparedness for the disorder, admitted police had \"lost control\" in some cities. He attempted to resign on Sunday, but President Emmanuel Macron refused \"given the need for continued command of law enforcement\", the Élysée Palace said. The statement said Nuñez should be transparent over what Macron called \"intelligence and foresight failings\".",
+      },
+      {
+        kind: "para",
+        text: "Lecornu, who did not rule out imposing a state of emergency, said the government would set aside money to help affected areas recover, recovered from those behind the violence through legislation. He also announced a partial unemployment fund for those who could not work because of the riots and looting. The head of France's Chambers of Commerce and Industry said more than 2,000 shops and other businesses were directly impacted, with damage estimated at \"hundreds of millions of euros\".",
+      },
+      {
+        kind: "callout",
+        title: "The election shadow over the unrest",
+        text: "Lecornu alleged in an earlier news conference that some groups \"want to create chaos in our country up until the presidential elections\". Jean-Luc Mélenchon, leader of La France Insoumise and a candidate in next year's presidential election, called on the prime minister to \"prove his accusation\" or \"apologise, shut up, and stop stoking disorder\". Both the US and Chinese embassies issued advisories for their citizens to avoid affected areas.",
+      },
+      {
+        kind: "para",
+        text: "Looted goods were listed on selling platforms including Vinted, two French government ministers said. A Vinted spokesperson said the sale or solicitation of stolen goods is \"strictly prohibited\" and that the company had stepped up monitoring of suspicious listings since the weekend.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by the BBC (20 October 2026), Deutsche Welle (20-21 October 2026), The Straits Times and The Hindu (20 October 2026), all drawing on Agence France-Presse and Reuters. Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "BBC News — Curfew imposed in parts of central Paris and other cities after rioting across France",
+        url: "https://www.bbc.com/news/articles/cx30ez03djyqo",
+        date: "2026-10-20",
+        author: "Jaroslav Lukiv",
+        type: "publication",
+      },
+      {
+        name: "The Straits Times — France imposes first overnight curfews after nights of rioting",
+        url: "https://www.straitstimes.com/world/europe/france-imposes-first-overnight-curfews-after-nights-of-rioting",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "The Hindu — French PM Lecornu extends curfews as unrest continues",
+        url: "https://www.thehindu.com/news/international/french-pm-lecornu-extends-curfews-as-unrest-continues/article71603103.ece",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "Deutsche Welle — France: Partial curfews issued in Paris, Nice after unrest",
+        url: "https://www.dw.com/en/france-partial-curfews-issued-in-paris-nice-after-unrest/live-79707186",
+        date: "2026-10-20",
+        type: "wire",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a barricaded Paris street at night with a distant glow of fire behind Haussmann façades, and a curfew clock face, in charcoal, ember orange and deep blue.",
+      caption:
+        "Overnight curfews are in force in parts of central Paris after a weekend of riots that left about 1,000 police officers injured.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-manipur-firewood-ambush-cm-house",
+    slug: "manipur-firewood-ambush-bodies-outside-cm-house",
+    type: "from-the-web",
+    category: "india",
+    tags: [
+      "Manipur",
+      "Imphal",
+      "Kangpokpi",
+      "violence",
+      "Meitei",
+      "Kuki",
+      "Khemchand Singh",
+      "CRPF",
+      "northeast",
+    ],
+    kicker: "Imphal",
+    headline:
+      "Three killed in Manipur ambush on Meitei firewood collectors; bodies carried to the chief minister's residence",
+    dek: "Unidentified militants opened fire on a group of 14 Meitei villagers collecting firewood in Kangpokpi district, killing three and injuring three, according to Manipur Police. Protesters placed bodies outside Chief Minister Y Khemchand Singh's residence in Imphal before police dispersed them with tear gas.",
+    dateline: "Imphal",
+    publishedAt: "2026-10-21T05:30:00.000Z",
+    authorId: "a-deepti-mishra",
+    keyPoints: [
+      "Unidentified militants opened fire around 9.40 am on 19 October on 14 Meitei villagers cutting and transporting firewood in the Sunurok hills of Kangpokpi district, ADGP (Law and Order) Lhari Dorjee Lhatoo said.",
+      "Three men died — Arubam Ronil, 35, and Lairenlakpam Inaobi, 51, at the scene, and Kshetrimayum Sushil, 32, in hospital. Three others were injured and under treatment.",
+      "Protesters carried the bodies to Chief Minister Y Khemchand Singh's official residence in Imphal's Babupara area; police fired tear gas to disperse the crowd, and the bodies were taken to JNIMS hospital.",
+      "The chief minister condemned the killings, held security review meetings and directed stronger security in vulnerable areas. The opposition Congress demanded his resignation.",
+      "Separate incidents on 18-19 October included community clashes in Thoubal district, an IED blast near Singjamei that injured three CRPF personnel, and firing on Meitei villagers near Khongbal.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Unidentified militants opened fire on a group of 14 Meitei villagers who had gone to the hills to collect firewood in Manipur on 19 October, killing three and injuring three, according to ADGP (Law and Order) Lhari Dorjee Lhatoo.",
+      },
+      {
+        kind: "para",
+        text: "\"Around 9.40 am on Monday, unidentified militants opened fire on a group of 14 Meitei villagers who were engaged in cutting and transporting firewood. The exact spot is Sunurok hills under the Sagolmang Police Station,\" Lhatoo said. Arubam Ronil, 35, and Lairenlakpam Inaobi, 51, died at the scene. Kshetrimayum Sushil, 32, succumbed to injuries at a private hospital.",
+      },
+      { kind: "subhead", text: "Bodies at the chief minister's gate" },
+      {
+        kind: "para",
+        text: "The ambush sparked protests in Imphal. Crowds carried the bodies to the chief minister's official bungalow in the Babupara area and placed them outside the gate, confronting the state leadership with the human cost of the attack. Police personnel deployed at the site fired several rounds of tear gas to disperse the protesters, after which the bodies were retrieved and taken to JNIMS hospital.",
+      },
+      {
+        kind: "para",
+        text: "Chief Minister Y Khemchand Singh condemned the killings, convened security review meetings and directed officials to strengthen security arrangements in vulnerable areas. Security forces launched a combing operation in the ambush area with sniffer dogs, drones and a helicopter for surveillance.",
+      },
+      {
+        kind: "para",
+        text: "The opposition Congress demanded Singh's resignation, alleging that continued killings had made people feel orphaned. Manipur has been locked in ethnic conflict between its mostly Hindu Meitei majority and largely Christian Kuki minority since 2023, over economic benefits and job quotas.",
+      },
+      { kind: "subhead", text: "A wider pattern of incidents" },
+      {
+        kind: "para",
+        text: "Separate incidents on 18-19 October included community clashes in Thoubal district that left one person dead and several injured, an improvised explosive device blast near Singjamei in Imphal that injured three CRPF personnel, and firing on Meitei villagers near Khongbal. Together they marked one of the bloodiest stretches in the state in recent weeks.",
+      },
+      {
+        kind: "callout",
+        title: "Why the death toll figure should be treated carefully",
+        text: "This report uses the figure of three dead in the firewood ambush, which is the count named individual-by-individual by the Manipur Police ADGP and Press Trust of India. Separate incidents across 18-19 October, including the Thoubal clashes, have been reported elsewhere in aggregate figures as high as four. NOT SCRIPTED has not merged those counts, because casualty numbers in Manipur have shifted repeatedly within hours in previous incidents.",
+      },
+      {
+        kind: "para",
+        text: "What is established is limited: three Meitei villagers are dead after gunfire while collecting firewood in Kangpokpi district; their bodies were taken to the chief minister's residence in Imphal; and the state remains locked in an ethnic conflict that has resisted political solutions for more than three years.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by Press Trust of India via Rediff (19 October 2026), The New Indian Express (19 October 2026), India Today (20 October 2026) and Deutsche Welle's live coverage from New Delhi (20 October 2026, drawing on Reuters). Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "Rediff / Press Trust of India — Manipur ambush kills 3 Meitei men, sparks protests at CM's residence",
+        url: "https://www.rediff.com/news/report/manipur-ambush-kills-3-meitei-men-sparks-protests-at-cms-residence/20261019.htm",
+        date: "2026-10-19",
+        type: "wire",
+      },
+      {
+        name: "The New Indian Express — Three shot dead by militants in Manipur; locals protest with bodies outside CM's house",
+        url: "https://www.newindianexpress.com/story/india/2026/oct/19/two-shot-dead-by-militants-in-manipur-locals-protest-with-bodies-outside-cms-house",
+        date: "2026-10-19",
+        type: "publication",
+      },
+      {
+        name: "India Today — Manipur firing kills 3, villagers confront govt with bodies outside CM's office",
+        url: "https://www.indiatoday.in/india/story/manipur-violence-meitei-villagers-killed-militants-open-fire-thoubal-3020812-2026-10-20",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "Deutsche Welle — 3 killed in attack on Meitei villagers in India's Manipur state",
+        url: "https://www.dw.com/en/live-updates-india-us-trade-talks/a-79708492",
+        date: "2026-10-20",
+        type: "wire",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a dusk valley skyline of Imphal with a distant crowd gathered outside a gated residence, in muted indigo, ochre and ash grey.",
+      caption:
+        "Three Meitei villagers were killed in an ambush while collecting firewood in Kangpokpi district on 19 October 2026; bodies were carried to the chief minister's residence in Imphal.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-apple-india-revenue-one-lakh-crore",
+    slug: "apple-india-revenue-crosses-one-lakh-crore",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "Apple",
+      "India",
+      "revenue",
+      "iPhone",
+      "Samsung",
+      "smartphones",
+      "premium",
+      "Counterpoint",
+    ],
+    kicker: "Apple India",
+    headline:
+      "Apple India's FY26 revenue crosses ₹1 lakh crore, with profit up 66% and iPhone volumes up 24%",
+    dek: "Apple India Pvt Ltd reported ₹1,03,853 crore of revenue from operations for the year ended March 2026, up 31%, with net profit at ₹5,311 crore. Counterpoint data shows Apple's volume growth more than doubled as the premium segment outgrew the market.",
+    dateline: "New Delhi",
+    publishedAt: "2026-10-21T09:00:00.000Z",
+    authorId: "a-divya-raghavan",
+    keyPoints: [
+      "Apple India Pvt Ltd reported FY26 revenue from operations of ₹1,03,853 crore, a 31% increase from ₹79,060 crore in FY25, according to filings with the Registrar of Companies accessed via AltInfo.",
+      "Net profit climbed 66% to ₹5,311 crore, compared with ₹3,196 crore a year earlier. Revenue growth accelerated from 18% in FY25.",
+      "Counterpoint data shows Apple's India smartphone volume growth doubled to 24% in FY26 from 11% the previous year, while the overall market grew 2% in volume and 9% in value.",
+      "Samsung's India mobile phone revenue fell 1.4% to ₹81,472 crore, though Samsung Electronics India's total FY26 revenue of ₹1.12 lakh crore spans several categories beyond phones.",
+      "Apple India's reported figures do not capture iPhone production and exports handled by contract manufacturers, which are recorded through overseas entities within the Apple group.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Apple's business in India crossed the ₹1 lakh crore revenue mark in the financial year ended March 2026, according to company filings with the Registrar of Companies accessed by business intelligence platform AltInfo and reported by The Times of India and the Economic Times.",
+      },
+      {
+        kind: "para",
+        text: "Apple India Pvt Ltd reported revenue from operations of ₹1,03,853 crore for FY26, a 31% increase from ₹79,060 crore in the previous year. Net profit rose 66% to ₹5,311 crore, from ₹3,196 crore in FY25. Both sales and profits grew at a faster pace than the prior year, when revenue had expanded 18% and profit 16%.",
+      },
+      { kind: "subhead", text: "What is driving the growth" },
+      {
+        kind: "para",
+        text: "Counterpoint Technology Market Research data cited by the Economic Times shows India's smartphone market expanded 2% in volume and 9% in value in FY26. Phones priced above ₹30,000 recorded the strongest growth among market segments, with volumes rising 12%. Apple's own volume growth more than doubled, reaching 24% from 11% the preceding year.",
+      },
+      {
+        kind: "quote",
+        text: "Apple's growth in India is being driven by the steady shift towards premium smartphones. Strong brand aspiration, wider retail reach, deeper distribution across tier-2 and beyond markets, along with easy financing options are making iPhones accessible to a much larger set of buyers.",
+        attribution: "Shubham Singh, research analyst, Counterpoint Technology Market Research",
+      },
+      {
+        kind: "para",
+        text: "Singh said Apple is also benefiting from a shrinking price difference between iPhones and premium Android handsets at a time when smartphone prices across brands have risen, and from its tightly integrated ecosystem.",
+      },
+      { kind: "subhead", text: "The Samsung comparison, and what these numbers do not show" },
+      {
+        kind: "para",
+        text: "Samsung, Apple's biggest competitor in the Indian market, reported a 1.4% fall in mobile phone revenue to ₹81,472 crore in the last fiscal year. Samsung Electronics India recorded total FY26 revenue of ₹1.12 lakh crore, but its operations span televisions, household appliances, telecom network equipment and exports. Apple India's reported revenue, by contrast, does not reflect the entire scale of iPhone production and exports originating in India: those flows are handled by contract manufacturers and recorded through multiple overseas entities within the Apple group.",
+      },
+      {
+        kind: "para",
+        text: "The filings did not explain what drove the sharper growth in revenue and earnings. Apple India had not responded to an email seeking comment by the time of the reports on 20 October.",
+      },
+      {
+        kind: "callout",
+        title: "The competitive frame",
+        text: "Both Apple and Samsung have reported revenues of a comparable scale in India, but the businesses covered by those figures differ considerably. Apple's FY26 result is the clearest public signal yet that the company's India strategy — retail expansion, local financing and premium positioning — is compounding faster than the market it competes in.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by The Times of India (20 October 2026) and the Economic Times (20 October 2026), both based on Apple India's Registrar of Companies filings and Counterpoint research data. Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Times of India — Apple India crosses Rs 1 lakh crore revenue in FY26",
+        url: "https://timesofindia.indiatimes.com/business/india-business/apple-india-revenue-crosses-rs-1-lakh-crore-in-fy26-profit-jumps-66/articleshow/135063134.cms",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "The Economic Times — Apple India revenue tops Rs 1 lakh crore",
+        url: "https://economictimes.indiatimes.com/tech/technology/apple-india-revenue-tops-rs-1-lakh-crore/articleshow/135055778.cms",
+        date: "2026-10-20",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: an iPhone silhouette on a rising revenue bar chart against a stylised India map outline, in silver, midnight blue and warm white.",
+      caption:
+        "Apple India reported FY26 revenue of ₹1,03,853 crore, crossing the ₹1 lakh crore mark for the first time.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-primordial-helium-big-bang-lbt",
+    slug: "primordial-helium-measurement-big-bang",
+    type: "from-the-web",
+    category: "science",
+    tags: [
+      "astronomy",
+      "Big Bang",
+      "helium",
+      "cosmology",
+      "LBT",
+      "nucleosynthesis",
+      "neutrinos",
+      "HII regions",
+    ],
+    kicker: "Cosmology",
+    headline:
+      "A more precise measurement of primordial helium tightens the test of Big Bang physics",
+    dek: "The LBT Yp Project's determination of the primordial helium-4 mass fraction, Yp = 0.2458 ± 0.0013, is the most precise to date. Combined with primordial deuterium, it constrains the number of light neutrino families and confirms standard Big Bang nucleosynthesis at a level that can probe physics beyond the Standard Model.",
+    dateline: "Tucson",
+    publishedAt: "2026-10-21T10:00:00.000Z",
+    authorId: "a-not-scripted-desk",
+    keyPoints: [
+      "The LBT Yp Project measured the primordial helium-4 mass fraction as Yp = 0.2458 ± 0.0013, the most precise determination to date, using observations of extremely low-metallicity HII regions with the Large Binocular Telescope.",
+      "Yp combined with standard Big Bang nucleosynthesis and the neutron half-life provides a direct measurement of the number of light neutrino families; the precision aims to constrain physics beyond the Standard Model at about the 3% level.",
+      "The methodology combines LBT MODS and LUCI spectra with archival calibration over four years to deliver helium abundances in individual HII regions with uncertainties of roughly 2% or less.",
+      "A related 3He/4He measurement along Milky Way sightlines, published in the Astrophysical Journal, found a primordial isotope ratio consistent with Standard Model Big Bang nucleosynthesis at the cosmic microwave background baryon density.",
+      "Future extremely large telescopes are expected to measure 3He/4He in more metal-poor environments for a model-independent determination of the primordial value.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "About five minutes after the Big Bang, the young universe had fused roughly a quarter of its baryonic mass into helium-4. Measuring that primordial fraction precisely — written Yp — is one of the cleanest tests of Big Bang nucleosynthesis, and of whether the particle physics underlying it is complete.",
+      },
+      {
+        kind: "para",
+        text: "The LBT Yp Project's new measurement, Yp = 0.2458 ± 0.0013, is the most precise determination to date. The result comes from observations of extremely low-metallicity HII regions — star-forming gas clouds whose chemistry still reflects the primordial composition — made with the Large Binocular Telescope's MODS and LUCI instruments.",
+      },
+      { kind: "subhead", text: "Why a fraction of a percent matters" },
+      {
+        kind: "para",
+        text: "Yp, combined with standard Big Bang nucleosynthesis and the half-life of the neutron, provides a direct measurement of the number of light neutrino families. The project was designed to deliver a determination with precision of about 0.5%, enough to constrain the effective number of neutrino families at roughly the 3% level — a threshold at which deviations from the Standard Model of particle physics would begin to show.",
+      },
+      {
+        kind: "para",
+        text: "The methodology depends as much on calibration as on observation. Archival LBT/MODS spectra of standard stars collected over a four-year period enable the determination of a wavelength-dependent uncertainty in the MODS spectral response, which in turn reduces relative emission-line errors in the science observations.",
+      },
+      { kind: "subhead", text: "The isotope ratio, and what comes next" },
+      {
+        kind: "para",
+        text: "A complementary measurement reported in the Astrophysical Journal, by Ryan Cooke of Durham University with James Johnson of Carnegie Observatories, Pasquier Noterdaeme of the Institut d'Astrophysique de Paris, Max Pettini of Cambridge and colleagues, used the upgraded CRyogenic InfraRed Echelle Spectrograph on the Very Large Telescope to determine the helium isotope ratio 3He/4He along Milky Way sightlines, including a less-than-4% precision measure in the Orion Nebula.",
+      },
+      {
+        kind: "para",
+        text: "That team inferred a primordial isotope ratio of (3He/4He)_P = (1.15 +0.24 −0.21) × 10⁻⁴, which agrees with Big Bang nucleosynthesis calculations that assume the Standard Model of particle physics in combination with the baryon density inferred from cosmic microwave background temperature fluctuations. They note that forthcoming extremely large telescopes are poised to determine 3He/4He in more metal-poor environments, securing a model-independent determination of the primordial value.",
+      },
+      {
+        kind: "callout",
+        title: "A confirmation, not a crisis",
+        text: "Unlike the primordial lithium problem, where observed abundances fall short of standard predictions by a wide margin, the helium sector has been converging. Each improvement in Yp precision has so far landed on the Standard Model prediction rather than away from it. That is itself a scientific result: it tightens the space in which new physics could hide during the first minutes of the universe.",
+      },
+      {
+        kind: "para",
+        text: "Universe Today, in coverage carried by phys.org, framed the result as further confirmation of the standard picture of the Big Bang rather than a challenge to it — the kind of quiet tightening that makes the next generation of telescopes worth building.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises the arXiv preprints of the LBT Yp Project (2601.22232 and 2601.22239, January 2026), the peer-reviewed paper of Cooke et al. in the Astrophysical Journal (arXiv:2605.00122, accepted 2026), and Universe Today coverage carried by phys.org (12 October 2026) and highlighted by ScienceDaily on 20 October 2026. Read the papers in full for the authors' own methods and caveats.",
+      },
+    ],
+    sources: [
+      {
+        name: "arXiv — The LBT Yp Project V: Cosmological Implications of a New Determination of Primordial 4He",
+        url: "https://arxiv.org/abs/2601.22239",
+        date: "2026-01-29",
+        type: "research",
+      },
+      {
+        name: "arXiv — The LBT Yp Project I: An Improved Determination of the Primordial Helium Abundance",
+        url: "https://arxiv.org/abs/2601.22232",
+        date: "2026-01-29",
+        type: "research",
+      },
+      {
+        name: "arXiv / Astrophysical Journal — Towards a measurement of the primordial helium isotope ratio (Cooke et al.)",
+        url: "https://arxiv.org/abs/2605.00122",
+        date: "2026-04-30",
+        author: "Ryan J. Cooke et al.",
+        type: "research",
+      },
+      {
+        name: "phys.org / Universe Today — Primordial helium further confirms our understanding of the Big Bang",
+        url: "https://phys.org/news/2026-10-primordial-helium-big.html",
+        date: "2026-10-12",
+        author: "Brian Koberlein",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a spectrum of hydrogen and helium emission lines over a cooling early-universe gradient, in cyan, violet and pale gold.",
+      caption:
+        "The primordial helium-4 mass fraction has been measured with a precision of about 0.5%, tightening the Big Bang nucleosynthesis test.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-delhi-aqi-poor-first-time-2026",
+    slug: "delhi-aqi-hits-poor-first-time-2026",
+    type: "from-the-web",
+    category: "environment",
+    tags: [
+      "Delhi",
+      "air quality",
+      "AQI",
+      "pollution",
+      "Rekha Gupta",
+      "CPCB",
+      "winter",
+      "GRAP",
+      "stubble burning",
+    ],
+    kicker: "Delhi",
+    headline:
+      "Delhi's air slips into the 'poor' category for the first time this year, and the winter plan starts on 1 November",
+    dek: "The capital recorded an average AQI of 230 at 8.15 am on 21 October, with 41 of 56 monitoring stations at 'poor' or worse. Chief Minister Rekha Gupta said curb measures begin 1 November and run through 28 February, including vehicle restrictions and 50% work-from-home for government and private offices.",
+    dateline: "New Delhi",
+    publishedAt: "2026-10-21T11:30:00.000Z",
+    authorId: "a-nandini-rao",
+    keyPoints: [
+      "Delhi's average Air Quality Index was 230 at 8.15 am on 21 October, in the 'poor' category, according to the Central Pollution Control Board's Sameer application. Forty-one of 56 active monitoring stations recorded 'poor' or worse.",
+      "Pusa recorded the worst reading in Delhi at 318, in the 'very poor' band. This was the highest AQI in the capital since mid-July.",
+      "Ghaziabad recorded a 'poor' AQI of 222, Greater Noida 248, Noida 203 and Gurugram 204. Faridabad was in the 'moderate' category at 124.",
+      "Chief Minister Rekha Gupta said winter pollution measures begin on 1 November and stay in force until 28 February, including barring non-Delhi BS-IV-and-below vehicles, denying fuel to vehicles without valid pollution certificates, and 50% work-from-home for government and private offices.",
+      "Air quality in Delhi typically deteriorates sharply in winter, driven by stubble burning in Punjab and Haryana, vehicular emissions, firecrackers, falling temperatures and reduced wind speeds.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Delhi's air quality worsened to the \"poor\" category on Wednesday, the first time this year the capital has slipped into that band, according to readings published by the Central Pollution Control Board on its Sameer application.",
+      },
+      {
+        kind: "para",
+        text: "As of 8.15 am, Delhi recorded an average Air Quality Index of 230. Forty-one of the 56 active monitoring stations recorded \"poor\" or worse air quality. At 318, the reading at Pusa was the worst in the city, placing it in the \"very poor\" band. This was the highest AQI in the national capital since mid-July.",
+      },
+      {
+        kind: "para",
+        text: "The neighbouring National Capital Region tracked the same pattern. In Uttar Pradesh, Ghaziabad recorded a \"poor\" AQI of 222, Greater Noida 248 and Noida 203. In Haryana, Gurugram averaged 204, while Faridabad at 124 remained in the \"moderate\" category.",
+      },
+      { kind: "subhead", text: "What the index bands mean" },
+      {
+        kind: "numberline",
+        items: [
+          "0-50: good.",
+          "51-100: satisfactory.",
+          "101-200: moderate.",
+          "201-300: poor.",
+          "301-400: very poor.",
+          "401-450: severe.",
+          "Above 450: severe plus.",
+        ],
+      },
+      { kind: "subhead", text: "The winter plan, and when it starts" },
+      {
+        kind: "para",
+        text: "Chief Minister Rekha Gupta said on Tuesday that the government was imposing measures beginning on 1 November to curb pollution, with the Winter Action Plan in force until 28 February. As part of the measures, non-Delhi vehicles below Bharat Stage-6 emission norms will not be allowed to enter the national capital until 31 January.",
+      },
+      {
+        kind: "para",
+        text: "Vehicles registered in Delhi that do not have a valid pollution control certificate will be denied refuelling. Restrictions will also be imposed on construction and demolitions, which will be monitored. The government said 50% of employees in government and private offices will be required to work from home.",
+      },
+      {
+        kind: "callout",
+        title: "Why October, and why it gets worse",
+        text: "Air quality deteriorates sharply in the winter months in Delhi, which is often ranked the world's most polluted capital. Stubble burning in Punjab and Haryana, vehicular pollution, the lighting of firecrackers during Diwali, falling temperatures, decreased wind speeds and emissions from industries and coal-fired plants all contribute. A reading of 230 in the third week of October is early by the capital's recent standards — the deep 'severe' episodes of previous years typically arrived in November and December.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by Scroll.in (21 October 2026), drawing on the Central Pollution Control Board's Sameer application and a Press Trust of India visual dispatch, and reporting by Business Today (21 October 2026). Read those reports in full for the outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "Scroll.in — Delhi air quality worsens to 'poor' category",
+        url: "https://scroll.in/latest/1096545",
+        date: "2026-10-21",
+        type: "publication",
+      },
+      {
+        name: "Business Today — Delhi air quality deteriorates",
+        url: "https://www.businesstoday.in/india/story/delhi-air-quality-deteriorates-562675-2026-10-21",
+        date: "2026-10-21",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a hazy Delhi skyline with India Gate silhouette under a graduated grey-amber pollution gradient, in ash grey, amber and pale blue.",
+      caption:
+        "Delhi's average AQI hit 230 on the morning of 21 October 2026, the first 'poor' day of the year in the capital.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-yes-bank-at1-q2-proforma",
+    slug: "yes-bank-at1-q2-proforma-loss",
+    type: "from-the-web",
+    category: "business",
+    tags: [
+      "Yes Bank",
+      "AT1 bonds",
+      "Supreme Court",
+      "Sumitomo",
+      "banking",
+      "CET-1",
+      "mutual funds",
+      "capital",
+    ],
+    kicker: "Banking",
+    headline:
+      "Yes Bank says the AT1 bond ruling could turn its September-quarter profit into a ₹5,217 crore loss",
+    dek: "In its Q2 investor presentation, the bank disclosed pro-forma figures showing a loss of ₹5,217 crore if the Supreme Court's write-off reversal were recognised. Reported net profit was ₹1,080 crore. Mutual funds have paused fresh investments in its AT1 bonds.",
+    dateline: "Mumbai",
+    publishedAt: "2026-10-21T04:00:00.000Z",
+    authorId: "a-vikram-nadkarni",
+    keyPoints: [
+      "Yes Bank disclosed in its Q2 investor presentation that it would have posted a loss of ₹5,217 crore in the September quarter had it recognised the impact of the Supreme Court verdict overturning the write-off of its AT1 bonds.",
+      "The bank reported a net profit of ₹1,080 crore for July-September, up 65% year-on-year, and said it has not recognised any impact of the judgment in its reported results because its assessment is incomplete.",
+      "On a pro-forma basis, its CET-1 ratio would be 11.4% against the reported 13.7%, and return on assets would be negative 4.3% against 0.9% reported. The figures are indicative and unaudited.",
+      "The Supreme Court on 15 October dismissed appeals against the Bombay High Court order that quashed the 2020 write-off of ₹8,415 crore of AT1 bonds, holding the rescue administrator lacked authority to extinguish the securities.",
+      "Kotak Mahindra Asset Management and Nippon Life India Asset Management have halted fresh investments in debt and retirement funds that hold the bank's AT1 bonds, according to Bloomberg.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "Yes Bank said in its quarterly investor presentation that it would have posted a loss of ₹5,217 crore in the September quarter — about $549 million — had it recognised the impact of the Supreme Court verdict overturning the write-off of its additional tier-1 bonds.",
+      },
+      {
+        kind: "para",
+        text: "The lender, 24.9% owned by Japan's Sumitomo Mitsui Banking Corporation, reported a net profit of ₹1,080 crore for July-September in the results it announced on 18 October. Net profit rose 65% from a year ago and was flat from the June quarter. Operating profit rose 29.4% to ₹1,678 crore, net interest income rose 22.7% to ₹2,822 crore, and gross non-performing assets fell to 1.2% from 1.6% a year earlier.",
+      },
+      { kind: "subhead", text: "What the pro-forma numbers show" },
+      {
+        kind: "para",
+        text: "The bank said it has not recognised any impact of the judgment in its reported results, as it is yet to complete its assessment. On the pro-forma basis, its Common Equity Tier-1 ratio would be 11.4% against the reported 13.7%, and return on assets would be negative 4.3% against 0.9% reported. For the April-September half, the pro-forma loss would have been ₹4,146 crore against the reported profit of ₹2,151 crore, according to a Bloomberg report on the presentation.",
+      },
+      {
+        kind: "para",
+        text: "Managing Director and CEO Vinay Tonse said in the press release that the bank respects the Supreme Court's judgment and is examining it in detail. \"We will keep our stakeholders informed as matters progress,\" he said. The bank said it is evaluating the consequential actions, the financial and regulatory implications and the legal remedies available to it, and is also assessing options to strengthen its capital buffers to support growth.",
+      },
+      { kind: "subhead", text: "The ruling, and what it unwound" },
+      {
+        kind: "para",
+        text: "The Supreme Court on 15 October dismissed appeals against the Bombay High Court order that quashed the 2020 write-off of ₹8,415 crore of AT1 bonds. According to Bloomberg, the court held that the administrator appointed during the government-backed rescue did not have the authority to extinguish the securities. Yes Bank had issued ₹3,000 crore of AT1 bonds in December 2016 and ₹5,415 crore in October 2017; the administrator wrote all of it down to zero on 14 March 2020, weeks after the RBI took control of the board.",
+      },
+      {
+        kind: "para",
+        text: "The bank's shares have fallen more than 17% since the order, according to Bloomberg. Crisil Ratings estimates a full reversal of the write-off would cut the CET-1 ratio by 230 to 250 basis points; Icra puts it at about 255 basis points and CareEdge Ratings at 250 to 300 basis points. S&P Global Ratings said it does not expect the ruling to affect Yes Bank's credit ratings, though it could weigh on earnings.",
+      },
+      {
+        kind: "callout",
+        title: "Why mutual funds stopped buying",
+        text: "Kotak Mahindra Asset Management and Nippon Life India Asset Management have halted fresh investments in their debt and retirement funds that hold Yes Bank's AT1 bonds, Bloomberg reported. The funds had expected the bonds' value to rise after the ruling; the bank's disclosure that the accounting and regulatory treatment is still open is precisely the uncertainty that makes new purchases hard to justify.",
+      },
+      {
+        kind: "para",
+        text: "Sumitomo Mitsui agreed in May 2025 to buy a 20% stake from SBI and seven other banks for about ₹13,483 crore, and has since become the largest shareholder. SBI holds 10.8%, according to the shareholding pattern as of 30 September. Sumitomo made the investment while the AT1 case was still pending.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by the Economic Times (18 October 2026, drawing on the bank's stock-exchange filings and Bloomberg), Rediff Money (15 October 2026) and The Hindu BusinessLine (17 October 2026) on the Supreme Court ruling. The bank held an analyst call on the morning of 19 October; NOT SCRIPTED has not verified the call's contents. Read the filings and reports in full for the bank's and outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Economic Times — Sumitomo-backed Yes Bank pegs AT1 bond verdict hit at Rs 5,217 crore",
+        url: "https://economictimes.indiatimes.com/news/india/banking-finance/sumitomo-backed-yes-bank-pegging-at1-hit-rs-5217-crore-pro-forma-loss-q2-profit-1080/articleshow/135026370.cms",
+        date: "2026-10-18",
+        type: "publication",
+      },
+      {
+        name: "The Economic Times — Yes Bank Q2 results",
+        url: "https://economictimes.indiatimes.com/news/india/banking-finance/yes-bank-q2-results-net-profit/articleshow/135023793.cms",
+        date: "2026-10-18",
+        type: "publication",
+      },
+      {
+        name: "Rediff Money — Supreme Court rules against Yes Bank's AT1 write-off",
+        url: "https://money.rediff.com/news/supreme-court-rules-against-yes-banks-write-off-at1-bonds",
+        date: "2026-10-15",
+        type: "publication",
+      },
+      {
+        name: "The Hindu BusinessLine — Yes Bank AT1 verdict",
+        url: "https://www.thehindubusinessline.com/markets/yes-bank-at1-verdict/article71587365.ece",
+        date: "2026-10-17",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a bank balance sheet with a large red downward adjustment line over an AT1 bond certificate motif, in deep red, charcoal and pale grey.",
+      caption:
+        "Yes Bank disclosed that the Supreme Court's AT1 ruling could turn its September-quarter profit into a ₹5,217 crore loss on a pro-forma basis.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-mea-rejects-oic-anti-india-references",
+    slug: "mea-rejects-oic-baghdad-anti-india-references",
+    type: "from-the-web",
+    category: "politics",
+    tags: [
+      "India",
+      "OIC",
+      "Pakistan",
+      "Jammu and Kashmir",
+      "MEA",
+      "Baghdad",
+      "Randhir Jaiswal",
+      "diplomacy",
+    ],
+    kicker: "New Delhi",
+    headline:
+      "India rejects 'malicious' anti-India references in OIC Baghdad resolutions, and accuses Pakistan of orchestrating them",
+    dek: "The Ministry of External Affairs said references to India in resolutions from the OIC Council of Foreign Ministers meeting in Baghdad on 17-18 October are 'malicious, biased, and false', and that the organisation has no locus standi on matters internal to India.",
+    dateline: "New Delhi",
+    publishedAt: "2026-10-21T03:30:00.000Z",
+    authorId: "a-not-scripted-desk",
+    keyPoints: [
+      "The Ministry of External Affairs on 19 October categorically rejected anti-India references in resolutions adopted at the OIC Council of Foreign Ministers meeting in Baghdad on 17-18 October.",
+      "MEA spokesperson Randhir Jaiswal said the references are 'malicious, biased, and false, and have been orchestrated by Pakistan', and that the OIC's endorsement of them raises questions about its credibility.",
+      "The MEA said the OIC has no locus standi on matters strictly internal to India, and that Jammu and Kashmir and Ladakh are integral and inalienable parts of India.",
+      "The statement contrasted economic growth in Jammu and Kashmir since the abrogation of Article 370 with what it described as violence and repression against civilian protesters in Pakistan-occupied Kashmir.",
+      "The MEA also rejected references related to Islamophobia in the resolutions as a diversion from Pakistan's own record on minority persecution and sectarian violence.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "India on Monday categorically rejected anti-India references in the resolutions of the Organisation of Islamic Cooperation's Council of Foreign Ministers meeting held in Baghdad on 17 and 18 October 2026.",
+      },
+      {
+        kind: "quote",
+        text: "The references to India are malicious, biased, and false, and have been orchestrated by Pakistan.",
+        attribution: "Ministry of External Affairs statement, 19 October 2026",
+      },
+      {
+        kind: "para",
+        text: "Ministry of External Affairs spokesperson Randhir Jaiswal said the OIC's repeated endorsement of what the ministry described as patently malicious propaganda and narratives peddled by Pakistan raises serious questions about its credibility and integrity. \"We hope its members would do better and reform this organisation,\" the statement said. \"We are disappointed that the OIC has once again allowed itself to be misused by Pakistan for its bigoted agenda.\"",
+      },
+      { kind: "subhead", text: "On Jammu and Kashmir" },
+      {
+        kind: "para",
+        text: "The MEA said that as it has stated in the past, the OIC has no locus standi whatsoever to comment on matters that are strictly internal to India. \"The Union Territories of Jammu & Kashmir and Ladakh are integral and inalienable parts of India. Politically motivated propaganda can never alter this reality,\" the statement said.",
+      },
+      {
+        kind: "para",
+        text: "The ministry said that in the years since the abrogation of Article 370, Jammu and Kashmir has seen significant economic growth and benefits accruing directly to its people through infrastructure development, tourism and connectivity. It contrasted this with what it called the situation in Pakistan-occupied Kashmir, where it said Pakistan \"has unleashed violence, repression and brutality on civilian protesters, killing scores of them, including women and children\", behind what it described as a media blackout.",
+      },
+      {
+        kind: "para",
+        text: "The only issues related to Jammu and Kashmir that remain to be addressed, the MEA said, are Pakistan vacating from areas under its illegal and forcible occupation and ceasing its continued support to cross-border terrorism.",
+      },
+      {
+        kind: "callout",
+        title: "The Islamophobia paragraph, and the diplomatic pattern",
+        text: "The MEA said other fabricated and hostile references in the OIC resolutions, including insinuations related to Islamophobia, are \"nothing but a desperate attempt by Pakistan to divert international attention from its own appalling record of minority persecution and sectarian violence, apart from governance failure and political instability\". India has issued similar rejections after previous OIC meetings; the Baghdad session is the 53rd Council of Foreign Ministers of the body.",
+      },
+      {
+        kind: "para",
+        text: "The statement was issued on 19 October, a day after the Baghdad meeting closed. The OIC, a bloc of 57 member states with collective claim to speak on Muslim-majority issues, has repeatedly adopted resolutions referencing Jammu and Kashmir that India rejects as interference in its internal affairs.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises the Ministry of External Affairs statement of 19 October 2026 as reported by the Economic Times (19 October 2026), the New Indian Express (19 October 2026) and the Asian News International wire (19 October 2026). Read those reports and the MEA statement in full for the ministry's and outlets' own accounts.",
+      },
+    ],
+    sources: [
+      {
+        name: "The Economic Times — MEA rejects 'malicious' anti-India references in OIC meeting resolutions",
+        url: "https://economictimes.indiatimes.com/news/india/mea-rejects-malicious-anti-india-references-oic-meeting-resolutions-slams-pakistan-bigoted-agenda/articleshow/135045261.cms",
+        date: "2026-10-19",
+        type: "publication",
+      },
+      {
+        name: "The New Indian Express — MEA rejects OIC's anti-India references, says grouping 'misused' by Pakistan's 'bigoted agenda'",
+        url: "https://www.newindianexpress.com/story/india/2026/oct/19/mea-rejects-oics-anti-india-references-says-grouping-misused-by-pakistans-bigoted-agenda",
+        date: "2026-10-19",
+        type: "publication",
+      },
+      {
+        name: "Asian News International — India condemns OIC's 'malicious' agenda, exposes 'desperate attempt' by Pakistan to divert attention from chaos at home",
+        url: "https://www.aninews.in/news/world/asia/india-condemns-oic8217s-malicious-agenda-exposes-desperate-attempt-by-pakistan-to-divert-attention-from-chaos-at-home20261019162640/",
+        date: "2026-10-19",
+        author: "ANI",
+        type: "wire",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a diplomatic statement document stamped REJECTED over a stylised OIC conference table, in deep green, crimson and off-white.",
+      caption:
+        "The MEA rejected anti-India references in resolutions from the OIC Council of Foreign Ministers meeting in Baghdad on 17-18 October 2026.",
+      credit: "NOT SCRIPTED illustration",
+    },
+  },
+  {
+    id: "ns-2026-10-asian-para-games-india-day5",
+    slug: "asian-para-games-2026-india-day5-golds",
+    type: "from-the-web",
+    category: "sports",
+    tags: [
+      "Asian Para Games",
+      "Aichi-Nagoya",
+      "para athletics",
+      "India",
+      "medal tally",
+      "Deepthi Jeevanji",
+      "Nishad Kumar",
+      "Sheetal Devi",
+    ],
+    kicker: "Aichi-Nagoya",
+    headline:
+      "India adds three athletics golds on Day 5 at the Asian Para Games, with a discus podium sweep and a high-jump one-two",
+    dek: "Ayush Verma, Praveen Kumar and Sachin Sarjerao Khilari won gold on 21 October, with Praveen leading a 1-2 in the high jump T64 and Sachin heading an Indian sweep of the shot put F46. After Day 5, India sits fifth with 12 golds and 47 medals overall.",
+    dateline: "Aichi-Nagoya",
+    publishedAt: "2026-10-21T12:00:00.000Z",
+    authorId: "a-rahul-nambiar",
+    keyPoints: [
+      "India won three gold medals in para athletics on Day 5 of the Aichi-Nagoya Asian Para Games: Ayush Verma, Praveen Kumar and Sachin Sarjerao Khilari.",
+      "Praveen Kumar led a 1-2 finish for India in the men's high jump T64, with Banti taking silver. Sachin led an Indian podium sweep in the men's shot put F46, with Mohd. Yasser silver and Parveen bronze.",
+      "On Day 20 October, India won 24 medals including five gold, six silver and 13 bronze, with all five golds in para athletics and three Games records plus one Asian record.",
+      "Deepthi Jeevanji won the women's 400m T20 in a Games record of 56.36s; Simran Sharma won the 200m T12 in 24.80s, also a Games record; Nishad Kumar took the men's high jump T47 at 2.04m; and Pranav Soorma threw an Asian record 11.66m in the discus F51/52/53.",
+      "Manish Narwal won silver in the men's 10m air pistol SH1 and secured a Paris 2028 Paralympics quota for India. After Day 5, India has 12 gold, 17 silver and 18 bronze, ranking fifth behind China, Uzbekistan, Japan and South Korea.",
+    ],
+    body: [
+      {
+        kind: "para",
+        text: "India added three gold medals on Day 5 of the Aichi-Nagoya Asian Para Games on Wednesday, all in para athletics, continuing a strong run at the fifth edition of the continental event, which concludes on 24 October.",
+      },
+      {
+        kind: "para",
+        text: "Ayush Verma, Praveen Kumar and Sachin Sarjerao Khilari won the golds. Praveen led a 1-2 finish for India in the men's high jump T64, with Banti securing silver. Sachin led an Indian podium sweep in the men's shot put F46, with Mohd. Yasser taking silver and Parveen bronze.",
+      },
+      { kind: "subhead", text: "The Day 2 gold rush" },
+      {
+        kind: "para",
+        text: "The day before, India won 24 medals — five gold, six silver and 13 bronze — with all five golds in para athletics and three Games records and one Asian record among them. Deepthi Jeevanji won the women's 400m T20 in a Games record of 56.36 seconds. Simran Sharma won the women's 200m T12 in 24.80 seconds, also a Games record, with teammate Tejalben Damor taking bronze. Nishad Kumar won the men's high jump T47 at 2.04 metres, a Games record. Devender Kumar took the men's discus throw F43/F44/F62/F64 at 49.71m, ahead of Rakesh and Pardeep Kumar.",
+      },
+      {
+        kind: "para",
+        text: "Pranav Soorma threw an Asian record 11.66 metres, worth 932 Raza points, to win the men's discus throw F51/52/53, with Ram Ratan Singh taking silver at 10.35m. In shooting, Manish Narwal won silver in the P1 men's 10m air pistol SH1 with a score of 233.7, and in doing so secured a Paris 2028 Paralympics quota for India. Shrishti Arora took bronze in the women's event.",
+      },
+      { kind: "subhead", text: "Archery, badminton and the medal table" },
+      {
+        kind: "para",
+        text: "In para archery, Sheetal Devi progressed through to the compound women's final, beating Aya Shinohara of Japan 145-137 in the semifinal, and Toman Kumar reached the men's compound final stage before losing to Al Xinliang of China. Harvinder Singh, the Tokyo and Paris medallist, was beaten in the recurve men's quarterfinals in a shoot-off.",
+      },
+      {
+        kind: "para",
+        text: "After Day 5, the medal table was led by China with 80 golds and 165 medals overall, ahead of Uzbekistan (21 gold), Japan (19) and South Korea (13). India stood fifth with 12 gold, 17 silver and 18 bronze, 47 medals in total, just ahead of Iran on gold count. India has fielded 168 athletes across 11 sports at the Games.",
+      },
+      {
+        kind: "callout",
+        title: "What the tally actually measures",
+        text: "The Asian Para Games medal table rewards depth across sports rather than podium density in a handful of events. India's pattern at these Games — golds concentrated in athletics and shooting, with medals also from archery, badminton, swimming, table tennis and powerlifting — is the shape of a programme that has been building since the 2018 Jakarta Games. The 2026 contingent is the largest India has sent to the event.",
+      },
+      {
+        kind: "dateline-note",
+        text: "From Around The Web: NOT SCRIPTED has written this summary. It summarises reporting published by Sportstar (The Hindu Group) in its Day 2 results list of 20 October 2026 and its Day 5 medal-tally live page of 21 October 2026, both drawing on official Games results and PCI/SAI images. Read those reports in full for the outlet's own account and the full results lists.",
+      },
+    ],
+    sources: [
+      {
+        name: "Sportstar — India at Asian Para Games 2026, October 20: Indians bag five more gold medals",
+        url: "https://sportstar.thehindu.com/other-sports/asian-para-games-2026-october-20-indian-results-list-details-medal-winners/article71604725.ece",
+        date: "2026-10-20",
+        type: "publication",
+      },
+      {
+        name: "Sportstar — Asian Para Games 2026 Medal Tally LIVE, Day 5: India wins three gold medals in athletics",
+        url: "https://sportstar.thehindu.com/other-sports/asian-para-games-2026-india-medal-tally-live-day-5-gold-silver-bronze/article71606172.ece",
+        date: "2026-10-21",
+        type: "publication",
+      },
+    ],
+    art: {
+      alt: "Original vector illustration: a para-athlete silhouette mid-throw against a rising medal-count bar chart, in saffron, white and deep blue.",
+      caption:
+        "India has 12 gold medals at the Aichi-Nagoya Asian Para Games after Day 5, with three athletics golds on 21 October.",
       credit: "NOT SCRIPTED illustration",
     },
   },
