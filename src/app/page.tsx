@@ -234,6 +234,13 @@ export default function HomePage() {
         </p>
       </section>
 
+      <p className="mb-8 max-w-3xl font-ui text-[0.95rem] leading-relaxed text-ink-2">
+        {SITE.name}, written Not Scripted, is an independent digital newsroom published from
+        Bengaluru. It covers India, Karnataka, politics, business, technology, world affairs,
+        geopolitics, science, the environment, culture, lifestyle and sport, and every story records
+        the sources behind it.
+      </p>
+
       <div className="space-y-12 sm:space-y-14">
         <BreakingPanel />
 

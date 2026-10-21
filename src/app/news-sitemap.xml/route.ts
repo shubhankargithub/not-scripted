@@ -35,6 +35,11 @@ function esc(v: string): string {
     .replace(/'/g, "&apos;");
 }
 
+/** Canonical article URL, matching the trailing-slash form used site-wide. */
+function articleUrl(slug: string): string {
+  return `${SITE.url}/article/${slug}/`;
+}
+
 export function GET() {
   // Evaluated once at build time, so the window is fixed for this build.
   const cutoff = Date.now() - WINDOW_MS;
@@ -49,7 +54,7 @@ export function GET() {
 
   const items = recent
     .map((a) => {
-      const loc = `${SITE.url}/article/${a.slug}/`;
+      const loc = articleUrl(a.slug);
       return `  <url>
     <loc>${esc(loc)}</loc>
     <news:news>

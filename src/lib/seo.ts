@@ -3,7 +3,7 @@ import type { Article, Author } from "@/content/types";
 import { PHOTOS } from "@/content/photos";
 import { NAV_DESKS, NAV_SECTIONS } from "@/content/taxonomy";
 import { widestCandidate } from "@/components/Media";
-import { SITE } from "./site";
+import { BRAND_ALIASES, SITE } from "./site";
 
 /**
  * SEO surface for the whole site.
@@ -212,7 +212,7 @@ export function organizationNode() {
     "@type": "Organization",
     "@id": ORG_ID,
     name: SITE.name,
-    alternateName: SITE.domain,
+    alternateName: [...BRAND_ALIASES],
     url: `${ORIGIN}/`,
     description: SITE.description,
     logo: {
@@ -224,6 +224,15 @@ export function organizationNode() {
     },
     image: LOGO_URL,
     sameAs: VERIFIED_SAME_AS,
+    /**
+     * E-E-A-T signals for a news publisher, each pointing at a policy page the
+     * site already publishes. Nothing here is asserted that the site does not
+     * already state in full on the linked page.
+     */
+    publishingPrinciples: abs(canonical("/editorial-standards")),
+    ethicsPolicy: abs(canonical("/editorial-standards")),
+    correctionsPolicy: abs(canonical("/corrections")),
+    diversityPolicy: abs(canonical("/about")),
     foundingDate: String(SITE.founded),
     founder: { "@id": OWNER_ID },
     parentOrganization: { "@id": CIG_ID },
@@ -260,7 +269,7 @@ export function websiteNode() {
     "@id": WEBSITE_ID,
     url: `${ORIGIN}/`,
     name: SITE.name,
-    alternateName: SITE.domain,
+    alternateName: [...BRAND_ALIASES],
     description: SITE.description,
     inLanguage: "en-IN",
     publisher: { "@id": ORG_ID },

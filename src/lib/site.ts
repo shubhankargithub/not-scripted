@@ -1,3 +1,11 @@
+/**
+ * The publication's name is set in capitals as house style, but readers,
+ * search boxes and brand queries rarely type it that way. These are the same
+ * name in the forms people actually use, declared once so the metadata and the
+ * structured-data `alternateName` fields stay in step.
+ */
+export const BRAND_ALIASES = ["Not Scripted", "NotScripted", "NotScripted.in", "notscripted.in"] as const;
+
 export const SITE = {
   name: "NOT SCRIPTED",
   shortName: "NS",

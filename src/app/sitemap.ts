@@ -3,7 +3,7 @@
 import type { MetadataRoute } from "next";
 import { getAllArticles } from "@/lib/articles";
 import { CATEGORIES } from "@/content/taxonomy";
-import { abs, canonical } from "@/lib/seo";
+import { abs, articleImage, canonical } from "@/lib/seo";
 
 interface StaticRoute {
   path: string;
@@ -54,12 +54,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // `trailingSlash: true`. Emitting the slash here keeps the sitemap and the
   // <link rel="canonical"> tags describing the same URL, which is what stops
   // the two forms being indexed as duplicates of each other.
-  const articles = all.map((a) => ({
-    url: abs(canonical(`/article/${a.slug}`)),
-    lastModified: new Date(a.updatedAt ?? a.publishedAt),
-    changeFrequency: "monthly" as const,
-    priority: a.flags?.lead ? 0.9 : 0.7,
-  }));
+  const articles = all.map((a) => {
+    const image = articleImage(a.slug);
+    return {
+      url: abs(canonical(`/article/${a.slug}`)),
+      lastModified: new Date(a.updatedAt ?? a.publishedAt),
+      changeFrequency: "monthly" as const,
+      priority: a.flags?.lead ? 0.9 : 0.7,
+      // The featured photograph, so image search can associate it with the URL.
+      // Only present when the article actually has a photo, so the sitemap never
+      // advertises an image that is not on the page.
+      ...(image ? { images: [image.url] } : {}),
+    };
+  });
 
   const sections = CATEGORIES.map((c) => ({
     url: abs(canonical(`/section/${c.slug}`)),

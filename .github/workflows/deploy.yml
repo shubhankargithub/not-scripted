@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Rebuild daily so the Google News sitemap's rolling two-day window is
+  # re-evaluated even when no new story has been pushed. Without this, entries
+  # would only age out on the next content commit.
+  schedule:
+    - cron: "17 2 * * *"
 
 permissions:
   contents: read
